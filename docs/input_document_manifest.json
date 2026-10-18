@@ -1,0 +1,17 @@
+[
+  {
+    "file": "1-SAET_Round3_Paper_Revision_Sections.docx",
+    "sha256": "a7b6b3c2bf7379155ed844bf102d1e66d098441ff5cdcb328a96fca1fea3e31d",
+    "role": "user_supplied_historical_document_not_new_run"
+  },
+  {
+    "file": "2-SAET_Round3_Report.docx",
+    "sha256": "eb76486d55fb57d4c93193c245aae934a34173c6874dbe978c14becb31f97d0c",
+    "role": "user_supplied_historical_document_not_new_run"
+  },
+  {
+    "file": "3-SAET_Round3_Analysis_and_Optimization.docx",
+    "sha256": "7a181ae0b9c46ca3ec23ff8ef204211d155e4ef594beba4afc03234762528c41",
+    "role": "user_supplied_historical_document_not_new_run"
+  }
+]

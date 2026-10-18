@@ -1,0 +1,93 @@
+{
+  "complete": true,
+  "exact_zero_verified_runs": 15,
+  "generated_utc": "2026-10-18T10:00:35.361127+00:00",
+  "invalid_cells": [],
+  "missing_cells": [],
+  "status": {
+    "baselines_final": {
+      "completed": 45,
+      "expected": 45,
+      "invalid": 0,
+      "missing": 0
+    },
+    "baselines_hpo": {
+      "completed": 36,
+      "expected": 36,
+      "invalid": 0,
+      "missing": 0
+    },
+    "baselines_selected": {
+      "completed": 3,
+      "expected": 3,
+      "invalid": 0,
+      "missing": 0
+    },
+    "data_prefixes": {
+      "completed": 18,
+      "expected": 18,
+      "invalid": 0,
+      "missing": 0
+    },
+    "deterministic_final": {
+      "completed": 6,
+      "expected": 6,
+      "invalid": 0,
+      "missing": 0
+    },
+    "targets_final": {
+      "completed": 75,
+      "expected": 75,
+      "invalid": 0,
+      "missing": 0
+    },
+    "targets_hpo": {
+      "completed": 60,
+      "expected": 60,
+      "invalid": 0,
+      "missing": 0
+    },
+    "targets_selected": {
+      "completed": 5,
+      "expected": 5,
+      "invalid": 0,
+      "missing": 0
+    },
+    "utility_historical": {
+      "completed": 12,
+      "expected": 12,
+      "invalid": 0,
+      "missing": 0
+    },
+    "utility_hpo": {
+      "completed": 73,
+      "expected": 73,
+      "invalid": 0,
+      "missing": 0
+    },
+    "utility_mechanism": {
+      "completed": 180,
+      "expected": 180,
+      "invalid": 0,
+      "missing": 0
+    },
+    "utility_primary": {
+      "completed": 105,
+      "expected": 105,
+      "invalid": 0,
+      "missing": 0
+    },
+    "utility_ridges": {
+      "completed": 3,
+      "expected": 3,
+      "invalid": 0,
+      "missing": 0
+    },
+    "utility_selected": {
+      "completed": 1,
+      "expected": 1,
+      "invalid": 0,
+      "missing": 0
+    }
+  }
+}
