@@ -342,7 +342,7 @@ def markdown_table(headers, rows):
                      ["| " + " | ".join(map(str, row)) + " |" for row in rows])
 
 
-def render_report(summary):
+def render_report(summary, selection_rows=()):
     complete = summary["complete"]
     lines = ["# 独立重建实验报告", "", f"生成时间：{summary['generated_utc']}。",
              "", "**状态：" + ("规定实验矩阵已完整运行并通过工件核验。**" if complete else
@@ -378,6 +378,14 @@ def render_report(summary):
         lines += [markdown_table(["方法", "Tail80 NDCG@20", "Recall@20", "Coverage@20", "实际运行数"],
                                  [(r["method"], number(r["ndcg20"]), number(r["recall20"]),
                                    number(r["coverage20"]), r["n_runs"]) for r in main_rows]), ""]
+        target_rows = {row["method"]: row for row in main_rows if row["method"] in TARGETS}
+        if set(target_rows) == set(TARGETS):
+            strongest = max(target_rows.values(), key=lambda row: row["ndcg20"])
+            lines += [f"本次五种目标模型中，{strongest['method']} 的 Tail80 NDCG@20 点估计最高"
+                      f"（{number(strongest['ndcg20'])}）；迁移底座按预先声明的协议固定为 activity_mean"
+                      f"（{number(target_rows['activity_mean']['ndcg20'])}）。本次实验没有检验在最强目标模型上加入迁移，"
+                      "因此没有证据表明迁移能进一步改善最强目标模型。固定非零半径机制控制的点估计属于独立探索性结果，"
+                      "应与经 HPO 选定的主策略结果分别解释，不能替代主策略的迁移增益结论。", ""]
     else:
         lines += ["尚无完成全部三个起点与规定种子的主方法，暂不报告跨起点性能均值。", ""]
     lines += ["## 源迁移增益、伤害与起点一致性", ""]
@@ -411,6 +419,14 @@ def render_report(summary):
                                  [(r["method"], number(r["mean_difference"]),
                                    f"[{number(r['ci'][0])}, {number(r['ci'][1])}]", number(r["harm"]["harm_rate"]))
                                   for r in source_pairs]), ""]
+    selected_policies = {row["method"]: json.loads(row["configuration"]) for row in selection_rows
+                         if row["group"] == "utility_selected"}
+    if focus and all(policy in selected_policies and selected_policies[policy]["radius"] == 0
+                     for policy in POLICIES[1:]):
+        lines += ["本次主策略 HPO 为 uniform、semantic、global、behavior、full、predicted_single 六种迁移策略"
+                  "均选择了 R=0（见 `hpo_selected.csv`），部署时均执行零修正。因此它们与底座相同的分数和配对区间 "
+                  "[0, 0] 来自选定的零迁移动作；这不说明学到的收益预测始终非正，也不能把该退化区间解释为"
+                  "对非零迁移的普遍无效性、无伤害性或跨数据集不确定性的保证。", ""]
     lines += ["区间按起点内部商品重采样 2,000 次（或命令行显式指定次数，见 JSON），每次起点等权平均。"
               "`paired_effects.json` 还给出整起点 bootstrap 与逐起点剔除敏感性。共享用户依赖、跨起点重复商品依赖"
               "和重叠时间窗依赖没有被商品 bootstrap 保留；只有三个开发起点，且比较属于探索性分析，"
@@ -711,7 +727,7 @@ def build_report(data_dir, results_dir, output_dir, allow_partial=False, n_boots
     write_json(output_dir / "summary.json", summary)
     path = output_dir / "REPRODUCTION_REPORT.md"
     temporary = path.with_suffix(".md.tmp")
-    temporary.write_text(render_report(summary), encoding="utf-8")
+    temporary.write_text(render_report(summary, selection_rows), encoding="utf-8")
     temporary.replace(path)
     return summary
 
