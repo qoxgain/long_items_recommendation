@@ -1,4 +1,4 @@
-# long_items_recommendation
+# long_tail_items_recommendation
 
 SAET 第三轮商品检索用户实验的独立 Python 重建工程。研究方向为 Amazon Reviews 2023 的 **Digital Music → CDs and Vinyl**。
 
