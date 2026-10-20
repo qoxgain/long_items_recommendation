@@ -1,0 +1,251 @@
+{
+  "aggregation": "paired seed means within origin, equal origin means",
+  "baseline_commit": "cea4f4fa830fa3ee87a2af0041711951b5388be4",
+  "baseline_sha256": {
+    "reports/REPRODUCTION_REPORT.md": "a19f020275f4d8060a47e11ee8f9f18593db201007d27396cb71e55cf04dafbe",
+    "reports/artifact_manifest.json": "4ca57f3521010eaba0474e80a96b82f561bc81f49826c746bee6325b6f6d1d67",
+    "requirements.txt": "d38a6d461c4288c85e9cd70d20c9f5ff39076a99e1b4533518a27035a0c867cf",
+    "saet_repro/__init__.py": "cd937e7d49f4b94c6e2d3adbab15e0be276cda613ff746e23ca27291648f9e77",
+    "saet_repro/collaborative.py": "bf81e2c8427ad6de2701506076334c004899bfce1a08c1f7102226937eea8644",
+    "saet_repro/data.py": "70829178c67fb90f45e82a169536b68f8f7875578f4293fb64576e9f07e82d30",
+    "saet_repro/evaluation.py": "f1a892cc5be6627a55845ce6b7d8dac525f00e10ae604018e32d695356f57071",
+    "saet_repro/io.py": "9ce6a0ebeb8b19e6a47be24c85bf503a882fcdf5d3188c3ec1d66a990555413a",
+    "saet_repro/statistics.py": "17d43262ee6049b8acf7d46cf086b8e4999f9649406a575b9f51bc8b1b4950c4",
+    "saet_repro/target.py": "5f591294d48057514ab2c239050a273d14908dcc54e3107395204ef2bd3cd70f",
+    "saet_repro/utility.py": "15f54ab0543245fcbdf491944b8211f73c63508d81459fcb9bb19bfaa3fe9957",
+    "scripts/summarize_results.py": "5d03275f8f336129a2e5daebac42ae76f853b66171dfb0b846b6a5180e877aa6"
+  },
+  "bootstrap_resamples": 2000,
+  "bootstrap_scope": "descriptive; stratified items and cross-origin unique-item clusters; shared-user dependence remains",
+  "bootstrap_seed": 2026,
+  "execution": {
+    "checkpoint_reuse": "verify identity and every required artifact hash; mismatch requires explicit recomputation in isolated outputs",
+    "failure_policy": "record failed/missing cells; strict summaries cannot label partial matrices complete",
+    "maximum_training_workers": 3,
+    "new_code_identity": "each stage freezes finalized module/runner/dependency hashes before execution",
+    "old_artifacts": "read-only reuse after validation",
+    "threads_per_worker": 1
+  },
+  "frozen_utc": "2026-10-19T13:13:59.269029+00:00",
+  "input_manifest_sha256": "e2cb82dd3f9e13af193a11bb2c19809f82450d6fc76c393d2e10d453fb515a9f",
+  "primary_endpoint": "tail80 macro eligible-item NDCG@20",
+  "repository": "qoxgain/long_tail_items_recommendation",
+  "seeds": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "stage_a": {
+    "new_pairs": [
+      [
+        "activity_both",
+        "activity"
+      ],
+      [
+        "activity_both",
+        "activity_decay"
+      ],
+      [
+        "activity_decay",
+        "activity"
+      ]
+    ],
+    "no_training": true,
+    "origins": [
+      2015,
+      2016,
+      2017
+    ],
+    "output": "reports/extensions_v1/stage_a",
+    "retained_pairs": [
+      [
+        "activity_both",
+        "activity_mean"
+      ],
+      [
+        "activity_decay",
+        "activity_mean"
+      ]
+    ],
+    "status": "authorized",
+    "visibility": "previously viewed development results"
+  },
+  "stage_b": {
+    "checkpoint_epochs": [
+      6,
+      20,
+      50
+    ],
+    "evaluation_frequency": "each historical epoch; selection only at declared checkpoints",
+    "extension_rule": {
+      "absolute_threshold_when_near_zero": 0.0001,
+      "extend_all_family_candidates": true,
+      "extended_max_epoch": 100,
+      "initial_max_epoch": 50,
+      "near_zero_denominator": 1e-08,
+      "relative_threshold": 0.01,
+      "trigger": "family winner at epoch50 and improvement over same configuration epoch20 meets threshold"
+    },
+    "final_origins": [
+      2015,
+      2016,
+      2017
+    ],
+    "final_trajectories": 90,
+    "grid": "unchanged twelve configurations per baseline family; aligned LightGCN uses native LightGCN grid",
+    "hpo_prefix": "cds_2015_d30",
+    "hpo_seeds": [
+      101,
+      202,
+      303
+    ],
+    "hpo_trajectories": 216,
+    "methods": [
+      "mf_bpr",
+      "lightgcn",
+      "simplex",
+      "lightgcn_user",
+      "activity_mean",
+      "activity_both"
+    ],
+    "root": "results_extensions/v1/stage_b",
+    "selection": "maximum mean across three HPO seeds; ties prefer fewer epochs then earlier grid index",
+    "status": "authorized",
+    "visibility": "exploratory development analysis"
+  },
+  "stage_c_music": {
+    "base_selection": {
+      "activity_both": {
+        "config": {
+          "batch_size": 32,
+          "decay_days": 90.0,
+          "history_cap": 50,
+          "history_temperature": 0.2,
+          "lr": 0.001,
+          "max_negative": 5,
+          "max_positive": 5,
+          "method": "activity_both",
+          "rho": 0.0,
+          "tau": 0.1
+        },
+        "epochs": 6,
+        "selection_prefix": "cds_2015_d30",
+        "selection_sha256": "ad15cadbf26aff24aff1113381fb4ed4615e915bc574de018dae5a8a94f6b969"
+      },
+      "activity_mean": {
+        "config": {
+          "batch_size": 32,
+          "decay_days": 90.0,
+          "history_cap": 50,
+          "history_temperature": 0.2,
+          "lr": 0.01,
+          "max_negative": 5,
+          "max_positive": 5,
+          "method": "activity_mean",
+          "rho": 0.0001,
+          "tau": 0.1
+        },
+        "epochs": 6,
+        "selection_prefix": "cds_2015_d30",
+        "selection_sha256": "7b7bb9da0709f69af6264244f81dba6d2e71f7e09112134848917d6919ef94dc"
+      }
+    },
+    "data_root": "data_extensions/v1/music",
+    "deployment_selection": "first origin 2018 d30 only, independently per base, then frozen for 2019/2020",
+    "deterministic_activity_evaluations": 3,
+    "final_policy_evaluations": 120,
+    "fit_days": 365,
+    "gate": "write final_query_opened.json with protocol and selection hashes before first final query evaluation",
+    "historical_target_recipe_matches_deployment": true,
+    "interpretation": "prospective within this workflow; same-domain new-time validation, not independent-domain confirmation",
+    "offset_days": [
+      270,
+      180,
+      90,
+      60,
+      30,
+      0
+    ],
+    "origin_month_day": "01-01",
+    "origins": [
+      2018,
+      2019,
+      2020
+    ],
+    "policies": [
+      "zero",
+      "uniform",
+      "semantic",
+      "full"
+    ],
+    "primary_target_pair": [
+      "activity_both/zero",
+      "activity"
+    ],
+    "primary_transfer_pair": [
+      "activity_both/full",
+      "activity_both/zero"
+    ],
+    "query_days": 30,
+    "radii": [
+      0,
+      0.01,
+      0.05,
+      0.1
+    ],
+    "ridge_alphas": [
+      0.0001,
+      0.001,
+      0.01,
+      0.1,
+      1,
+      10
+    ],
+    "root": "results_extensions/v1/stage_c_music",
+    "secondary_pairs": [
+      [
+        "activity_both/full",
+        "activity_both/uniform"
+      ],
+      [
+        "activity_both/full",
+        "activity_both/semantic"
+      ],
+      [
+        "activity_both/full",
+        "activity_mean/full"
+      ]
+    ],
+    "status": "authorized",
+    "temperatures": [
+      0.1,
+      1,
+      10
+    ],
+    "time_zone": "UTC",
+    "visibility_at_freeze": "not previously evaluated in the available workspace or supplied conversation; outside-workspace prior access is unknown"
+  },
+  "stage_c_new_domain": {
+    "early_selection_offset_days": 330,
+    "feasibility": "fit-only before any final query; minimum6000 eligible target users and16 source items",
+    "head_request_archive_bytes": {
+      "Books_metadata": 4942125770,
+      "Books_reviews": 6216820644,
+      "Movies_and_TV_metadata": 271381871,
+      "Movies_and_TV_reviews": 2396672075
+    },
+    "proposed_origins": [
+      2018,
+      2019,
+      2020
+    ],
+    "resource_note": "About13.8GB compressed inputs, excluding projections, title caches and training states; A/B/C1 prioritized on32GB filesystem. Reassess after pilot; do not claim this domain evaluated.",
+    "source": "Movies_and_TV",
+    "status": "resource-gated; not included in current mandatory completion matrix",
+    "target": "Books"
+  },
+  "starting_head": "832730b6eba97c91a795978a6366ca2ffe973026",
+  "version": "extensions_v1"
+}

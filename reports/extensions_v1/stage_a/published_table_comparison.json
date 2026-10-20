@@ -1,0 +1,74 @@
+[
+  {
+    "all_fields_match": true,
+    "max_absolute_difference": 0.0,
+    "original_sha256": "35b2ae61fb7023a1f5f25307b3caafc5fe182dbdd0fa22a5af324a066ec085fc",
+    "reproduced_sha256": "5797606d1ea5698b8a9cefb2315b14aa91e386ce87afa6d893195c3cfcb72cd7",
+    "rows": 1233,
+    "six_decimal_match": true,
+    "table": "metrics_runs"
+  },
+  {
+    "all_fields_match": true,
+    "max_absolute_difference": 0.0,
+    "original_sha256": "890351dbe08207dea0b65106606b71dff8d221699a244a4921790c65b1d65d21",
+    "reproduced_sha256": "9f7e54484ab878db95ba188bbc32c7cf1d37596401085a106a3e6f9bf67609cc",
+    "rows": 261,
+    "six_decimal_match": true,
+    "table": "metrics_by_origin"
+  },
+  {
+    "all_fields_match": true,
+    "max_absolute_difference": 0.0,
+    "original_sha256": "0025c7b934da737f2988dd5c52930e0ed711be316a1d77355298d88be2306fc1",
+    "reproduced_sha256": "693d49c5848ce8e043e1292a9ffa424d7298bba7c2119e88751950d316203198",
+    "rows": 87,
+    "six_decimal_match": true,
+    "table": "metrics_overall"
+  },
+  {
+    "all_fields_match": true,
+    "max_absolute_difference": 0.0,
+    "original_sha256": "96301b604c1e324da194afc5f3c0d1666c3338ae78cd74f1ee7781726a713b10",
+    "reproduced_sha256": "5204c1f9c740da0dec18ba4f3b350f4624b4080000548fc2fe93d6046963dcf3",
+    "rows": 18,
+    "six_decimal_match": true,
+    "table": "data_summary"
+  },
+  {
+    "all_fields_match": true,
+    "max_absolute_difference": 0.0,
+    "original_sha256": "594387ade308a193ad32dbf47b101c5cf7b23737116f3d82a92ea5ca37640d50",
+    "reproduced_sha256": "0088533224080485b0377162a1f9914093425d308fd009d0fb4007a775ec64d0",
+    "rows": 15,
+    "six_decimal_match": true,
+    "table": "hpo_selected"
+  },
+  {
+    "all_fields_match": true,
+    "max_absolute_difference": 0.0,
+    "original_sha256": "26f15a337d6c68014c74ee1cba6403ba965a4bf0fe421a1678b214d3406079c1",
+    "reproduced_sha256": "f7b662d23a275a0400a4df74b1d4850e3529f8d02d995a1f27089d1d5fca72d7",
+    "rows": 45,
+    "six_decimal_match": true,
+    "table": "utility_diagnostics"
+  },
+  {
+    "all_fields_match": true,
+    "max_absolute_difference": 0.0,
+    "original_sha256": "1f7d8e00681336c6e0bafa7cb9f32a62806466ced1e2421f12900033b183b783",
+    "reproduced_sha256": "3f98f186d091598ede07e8c495983a49746697dbc1fef5ef87d66d62ef05ea86",
+    "rows": 855,
+    "six_decimal_match": true,
+    "table": "routing_summary"
+  },
+  {
+    "all_fields_match": true,
+    "max_absolute_difference": 0.0,
+    "original_sha256": "19576172fb3cd774950f391ec99e49352bd3b232c32078d341691179e15c9f66",
+    "reproduced_sha256": "30a62006575acbb8ed2b2d398934a55fe39ed1dcd6f1851af125349ddc333553",
+    "rows": 262,
+    "six_decimal_match": true,
+    "table": "runtime_summary"
+  }
+]

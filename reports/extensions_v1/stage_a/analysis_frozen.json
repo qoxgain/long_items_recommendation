@@ -1,0 +1,35 @@
+{
+  "analysis_code_sha256": {
+    "saet_repro/extension_statistics.py": "430ed58e4c5ffaf6657b8ac9411b2b26e8e75c6c5a2da5091395891eb6874c6f",
+    "scripts/analyze_extensions.py": "090d063b340fefba6268f4cbce12f98658b392a4a57cc137e09f8449e654b29d"
+  },
+  "bootstrap_seed": 2026,
+  "data_dir": "/workspace/long_items_recommendation/data/processed",
+  "dependencies": {
+    "numpy": "2.3.5",
+    "python": "3.12.14"
+  },
+  "n_bootstrap": 2000,
+  "no_training": true,
+  "original_reports_sha256": {
+    "reports/REPRODUCTION_REPORT.md": "a19f020275f4d8060a47e11ee8f9f18593db201007d27396cb71e55cf04dafbe",
+    "reports/VALIDATION.md": "248a2c7489bdc133e41c2e3ffe17ae0ea6cf93d097293a0c176572bb35c7f7fd",
+    "reports/artifact_manifest.json": "4ca57f3521010eaba0474e80a96b82f561bc81f49826c746bee6325b6f6d1d67",
+    "reports/data_summary.csv": "96301b604c1e324da194afc5f3c0d1666c3338ae78cd74f1ee7781726a713b10",
+    "reports/historical_reference.csv": "c923fd45b160860f9753d589a769e9e670cfab44971cc090e0d53143ed8daab1",
+    "reports/hpo_selected.csv": "594387ade308a193ad32dbf47b101c5cf7b23737116f3d82a92ea5ca37640d50",
+    "reports/metrics_by_origin.csv": "890351dbe08207dea0b65106606b71dff8d221699a244a4921790c65b1d65d21",
+    "reports/metrics_overall.csv": "0025c7b934da737f2988dd5c52930e0ed711be316a1d77355298d88be2306fc1",
+    "reports/metrics_runs.csv": "35b2ae61fb7023a1f5f25307b3caafc5fe182dbdd0fa22a5af324a066ec085fc",
+    "reports/paired_effects.json": "b4e8e18fa87c262d1415913651bd5fae389abc7e8be69fec59dc545a4e11e0e7",
+    "reports/routing_summary.csv": "1f7d8e00681336c6e0bafa7cb9f32a62806466ced1e2421f12900033b183b783",
+    "reports/run_status.json": "207a0de3da885473b9b535bc340b6722356d2bd3b86543d4570126d7d5e3f640",
+    "reports/runtime_summary.csv": "19576172fb3cd774950f391ec99e49352bd3b232c32078d341691179e15c9f66",
+    "reports/summary.json": "ae993e7cc9f94b6f92fbdc418374bf8b34458cc4b0b16b0abf736c7eccf16242",
+    "reports/utility_diagnostics.csv": "26f15a337d6c68014c74ee1cba6403ba965a4bf0fe421a1678b214d3406079c1"
+  },
+  "protocol_sha256": "919bf4e2e4ac627a6aa4decef83a56220794758fbe5ca707bc4d395c3d77717b",
+  "results_dir": "/workspace/long_items_recommendation/results",
+  "stage": "A",
+  "visibility": "previously viewed development results"
+}

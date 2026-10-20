@@ -9,6 +9,7 @@ data/processed/
 data/cache/
 results/
 docs/inputs/
+docs/extension_input_manifest.json
 *.npz
 *.npy
 *.joblib
@@ -19,3 +20,9 @@ docs/inputs/
 *.tmp
 *.zip
 .sync/
+.venv
+/data
+/results
+data_extensions/
+results_extensions/
+logs_extensions/
