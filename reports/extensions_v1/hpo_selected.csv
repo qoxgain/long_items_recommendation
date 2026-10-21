@@ -1,0 +1,15 @@
+stage,method,trial,epochs,historical_score,extended_to_100,configuration,nominal_configurations,distinct_score_configurations
+b,mf_bpr,10,6,0.0051033683995311595,False,"{""batch_size"": 1024, ""embedding_dim"": 64, ""history_cap"": 50, ""history_mix"": 0.5, ""l2"": 1e-05, ""layers"": 1, ""lr"": 0.01, ""margin"": 0.9, ""method"": ""mf_bpr"", ""negative_weight"": 10.0, ""negatives"": 10}",,
+b,lightgcn,6,100,0.013512252591479255,True,"{""batch_size"": 1024, ""embedding_dim"": 64, ""history_cap"": 50, ""history_mix"": 0.5, ""l2"": 1e-05, ""layers"": 2, ""lr"": 0.001, ""margin"": 0.9, ""method"": ""lightgcn"", ""negative_weight"": 10.0, ""negatives"": 10}",,
+b,simplex,6,100,0.0033237715841350573,True,"{""batch_size"": 1024, ""embedding_dim"": 64, ""history_cap"": 50, ""history_mix"": 0.25, ""l2"": 1e-05, ""layers"": 1, ""lr"": 0.005, ""margin"": 0.9, ""method"": ""simplex"", ""negative_weight"": 10.0, ""negatives"": 10}",,
+b,lightgcn_user,11,100,0.014912743913241017,True,"{""batch_size"": 1024, ""embedding_dim"": 64, ""history_cap"": 50, ""history_mix"": 0.5, ""l2"": 0.001, ""layers"": 2, ""lr"": 0.01, ""margin"": 0.9, ""method"": ""lightgcn"", ""negative_weight"": 10.0, ""negatives"": 10}",,
+b,activity_mean,10,6,0.01857306269334134,False,"{""batch_size"": 32, ""decay_days"": 90.0, ""history_cap"": 50, ""history_temperature"": 0.2, ""lr"": 0.01, ""max_negative"": 5, ""max_positive"": 5, ""method"": ""activity_mean"", ""rho"": 0.0001, ""tau"": 0.1}",,
+b,activity_both,6,6,0.022802445279633588,False,"{""batch_size"": 32, ""decay_days"": 90.0, ""history_cap"": 50, ""history_temperature"": 0.2, ""lr"": 0.003, ""max_negative"": 5, ""max_positive"": 5, ""method"": ""activity_both"", ""rho"": 0.0001, ""tau"": 0.1}",,
+c,activity_mean/full,,6,0.030437276161803056,,"{""policy"": ""full"", ""radius"": 0.0, ""temperature"": 0.1}",37,13
+c,activity_mean/semantic,,6,0.030437276161803056,,"{""policy"": ""semantic"", ""radius"": 0.0, ""temperature"": 0.1}",37,13
+c,activity_mean/uniform,,6,0.030437276161803056,,"{""policy"": ""uniform"", ""radius"": 0.0, ""temperature"": 0.1}",37,13
+c,activity_mean/zero,,6,0.030437276161803056,,"{""policy"": ""zero"", ""radius"": 0.0, ""temperature"": 1.0}",37,13
+c,activity_both/full,,6,0.03866760502217473,,"{""policy"": ""full"", ""radius"": 0.1, ""temperature"": 0.1}",37,13
+c,activity_both/semantic,,6,0.03843582282584077,,"{""policy"": ""semantic"", ""radius"": 0.0, ""temperature"": 0.1}",37,13
+c,activity_both/uniform,,6,0.03850741357480422,,"{""policy"": ""uniform"", ""radius"": 0.05, ""temperature"": 0.1}",37,13
+c,activity_both/zero,,6,0.03843582282584077,,"{""policy"": ""zero"", ""radius"": 0.0, ""temperature"": 1.0}",37,13

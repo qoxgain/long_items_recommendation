@@ -1,0 +1,53 @@
+{
+  "dependencies": {
+    "matplotlib": "3.10.8",
+    "numpy": "2.3.5",
+    "python": "3.12.14"
+  },
+  "inputs": {
+    "artifact_manifest.json": "bf70527ce1c1bb747102c84c4fc4a8d3ce17e00190be66129d6ab525ae5840d4",
+    "historical_curves.csv": "326eb2a8a11171404f033d7b33c263f2d0fd63341dbb7f395944b574fa254a93",
+    "hpo_selected.csv": "fd088f98c05a516243664cd0d22cd8dcdbdf02ca95d9fc62405a6c72c83034b1",
+    "metrics_by_origin.csv": "a825fbe50c67908b0e3248587b89a133bc91ee178dd295851a1a67b6e40ac18f",
+    "metrics_overall.csv": "2b71d886be802b5cfa1b81405a25d3633bb942003cd5f20c995df8df6114bc62",
+    "paired_effects.csv": "e98f4bed9d44f92d5f5c0435d10b57a1e57ab2283de121926104fbbd7833fd80",
+    "summary.json": "04117fc13e039d5a17a3a359c6cd847692864bbb9541edb8845081e7b773b933"
+  },
+  "outputs": {
+    "a_target_paired_effects.csv": "6c66bf6816f59b21257c91297150d2ad5fffaf7e1893b5133995f63337cbf57d",
+    "a_target_paired_effects.pdf": "aecf6f578ee0f9ecd21541502872f8bd25deebed08d6b05946f5df8942f3890f",
+    "a_target_paired_effects.png": "c253351f20a7412bf8ae3c73abe9d794e54636b69965067a75496dbf0a8b996c",
+    "a_target_paired_effects.svg": "79dcbba3b0df5e4adfcebb6b6af04a21d9698bee997a67996a7c58a975c0d382",
+    "a_target_paired_effects.txt": "57bb082817fff48d8a6c4971f0de096729c83392c88f5d2150d5d254f5e2b646",
+    "b_final_comparison.csv": "22be96cf1427d4330b708fb6080c542c344eb04847ed032e40dd25fd14d255c6",
+    "b_final_comparison.pdf": "450ade97a080c8ea4302c9f3dd9498d1bd2ecaf656948e8865e2bbb0d5575c6d",
+    "b_final_comparison.png": "8f3b8454b8216d1668556dffee4594bdcfa98d70bc79fd755f7f2b93af42c413",
+    "b_final_comparison.svg": "46374f439a795b612fc73a2f34f53260fb0ff13db437583e955e12e7e3cedd8a",
+    "b_final_comparison.txt": "fd35e03a107cb43d5e681f4f19661ccbda63533a9fa42c31586e73e47bac8420",
+    "b_historical_convergence.csv": "f2e282ba9a2249f549dbc1cf08a7d0d96ace2f1ada2818de9c6303de09a184c0",
+    "b_historical_convergence.pdf": "64c20f675bbf5e3222fcac3ee07dffcbdbb2c2c1c478de1ee877b977bdb23d8f",
+    "b_historical_convergence.png": "94e6f4ba9fe365dc2a60e9db2f7783a59d3693c2dc173232105048909750484a",
+    "b_historical_convergence.svg": "0b6bbb968effee2a82a19eab98973853fd3fcbc18a48874d01b6d5e79c13d017",
+    "b_historical_convergence.txt": "dd64f7ce7d730e03f3e44969cc4a5cd5fda18646653184dbbfcb7fa679ecef66",
+    "c_metrics_by_origin.csv": "ea90509213f769f74b9ffdc2ad1a09375c25be64e5ee8b4e2b95ce5e8e9867ef",
+    "c_metrics_by_origin.pdf": "e83db33af2618bc76d624bb7f58bbaee8e90dd813e66ce4a19e23b3984c6d40a",
+    "c_metrics_by_origin.png": "3626e960536b78db2de9ec8c83a975733c4dbd41cdcd50ebfa2409b3ea8ea077",
+    "c_metrics_by_origin.svg": "2e8e67fbf469ba5269af0a0038535f3637b229824c74eb10dda5e7483997bdeb",
+    "c_metrics_by_origin.txt": "6c93450f7d84fe67c0532b2e5f72d9c404e75a00be5fdf5c6388dd373b621a12",
+    "c_paired_effects.csv": "d3fa31fb82d700fe9bf0adacea940ecaf244f24d5603e8aebd23f0a2faaf01e0",
+    "c_paired_effects.pdf": "5b04a0fd7cc0638041789e8e47cb8fb4984ce4518ce913eb3617b3e7bf75dc02",
+    "c_paired_effects.png": "57971707a6e6656a51def95a5ff857350a703528a5aafc2787d313259c3893ae",
+    "c_paired_effects.svg": "9b541f5ad8e579140fd066f59cf9015378cd812612fd9048b0a2cbb6872d668a",
+    "c_paired_effects.txt": "57bb082817fff48d8a6c4971f0de096729c83392c88f5d2150d5d254f5e2b646"
+  },
+  "plotting_code_sha256": "90cd89f9fe1a2e4da77d73e6ff8d8cb02dd70d67053e0c3b117ba4474f42704a",
+  "protocol_sha256": "919bf4e2e4ac627a6aa4decef83a56220794758fbe5ca707bc4d395c3d77717b",
+  "raw_user_or_item_ids": false,
+  "schema": "extensions-v1-figures",
+  "stages": [
+    "a",
+    "b",
+    "c"
+  ],
+  "strict_report_generated_utc": "2026-10-21T02:32:05.891898+00:00"
+}

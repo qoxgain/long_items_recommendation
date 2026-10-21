@@ -37,3 +37,17 @@ Wall times can differ with contention. A worker's peak RSS is its process
 high-water mark across jobs; it must not be summed or interpreted as an
 independent model memory requirement. The serial entry point remains a valid
 way to reproduce the same frozen experiment.
+
+For long jobs in a remote session, redirect output to a persistent file so a
+closed interactive output pipe cannot interrupt the training callback:
+
+```bash
+mkdir -p logs_extensions
+nohup .venv/bin/python -u scripts/run_extension_cf_parallel.py \
+  --method lightgcn_user --retry-failed \
+  > logs_extensions/cf_parallel.log 2>&1 &
+```
+
+A retry verifies the existing epoch states and retains resolved failure records.
+The completed trajectory and final-model receipts, rather than process exit or
+log messages alone, determine whether the experiment is complete.

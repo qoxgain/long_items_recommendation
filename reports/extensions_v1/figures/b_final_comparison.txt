@@ -1,0 +1,1 @@
+Five optimization seeds averaged within each origin, then three origins weighted equally. Bars are point estimates, not uncertainty intervals. The original run has no user-objective LightGCN comparator, so its grey bar is absent. These are previously viewed development origins, not independent confirmation.

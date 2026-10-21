@@ -1,0 +1,2038 @@
+[
+  {
+    "baseline": "old/mf_bpr",
+    "baseline_mean": 0.005902171543038657,
+    "bootstrap": {
+      "confidence": 0.95,
+      "interpretation": "descriptive",
+      "n_resamples": 2000,
+      "origin_weighting": "equal",
+      "seed": 2026,
+      "unit": "item within origin after seed averaging"
+    },
+    "ci": [
+      0.0,
+      0.0
+    ],
+    "cluster_sensitivity": {
+      "ci": [
+        0.0,
+        0.0
+      ],
+      "confidence": 0.95,
+      "interpretation": "descriptive sensitivity",
+      "n_resamples": 2000,
+      "n_unique_items": 480,
+      "origin_weighting": "equal in every draw",
+      "rejected_empty_origin_draws": 0,
+      "seed": 2026,
+      "unit": "unique item with all origin records after seed averaging"
+    },
+    "harm": {
+      "harm_rate": 0.0,
+      "improvement_rate": 0.0,
+      "mean_harm": 0.0,
+      "mean_improvement": 0.0,
+      "n_harmed": 0,
+      "n_improved": 0,
+      "n_unchanged": 483,
+      "pooled_harm_rate": 0.0,
+      "tolerance": 0.0,
+      "unchanged_rate": 1.0
+    },
+    "leave_one_origin_out": [
+      {
+        "mean_difference": 0.0,
+        "n_origins": 2,
+        "omitted_origin": "2015"
+      },
+      {
+        "mean_difference": 0.0,
+        "n_origins": 2,
+        "omitted_origin": "2016"
+      },
+      {
+        "mean_difference": 0.0,
+        "n_origins": 2,
+        "omitted_origin": "2017"
+      }
+    ],
+    "limitations": [
+      "Shared-user dependence is not preserved by item resampling.",
+      "Repeated-item dependence across origins and overlapping time windows is not preserved.",
+      "Few origins and exploratory model comparisons do not support confirmatory significance claims."
+    ],
+    "mean_difference": 0.0,
+    "method": "mf_bpr",
+    "method_mean": 0.005902171543038657,
+    "metric": "ndcg20",
+    "n_item_origins": 483,
+    "n_origins": 3,
+    "n_seed_pairs": 2415,
+    "n_undefined_item_origins": 0,
+    "n_undefined_seed_pairs": 0,
+    "n_unique_items": 480,
+    "n_unmatched_item_origins": 0,
+    "origin_bootstrap": {
+      "ci": [
+        0.0,
+        0.0
+      ],
+      "interpretation": "sensitivity only",
+      "unit": "whole origin"
+    },
+    "origin_consistency": {
+      "zero": 3
+    },
+    "origins": [
+      {
+        "baseline_mean": 0.008861811103592639,
+        "best_difference": 0.0,
+        "harm_rate": 0.0,
+        "improvement_rate": 0.0,
+        "mean_difference": 0.0,
+        "mean_harm": 0.0,
+        "mean_improvement": 0.0,
+        "method_mean": 0.008861811103592639,
+        "n_harmed": 0,
+        "n_improved": 0,
+        "n_items": 195,
+        "n_seed_pairs": 975,
+        "n_unchanged": 195,
+        "origin": "2015",
+        "unchanged_rate": 1.0,
+        "worst_difference": 0.0
+      },
+      {
+        "baseline_mean": 0.00611945999496333,
+        "best_difference": 0.0,
+        "harm_rate": 0.0,
+        "improvement_rate": 0.0,
+        "mean_difference": 0.0,
+        "mean_harm": 0.0,
+        "mean_improvement": 0.0,
+        "method_mean": 0.00611945999496333,
+        "n_harmed": 0,
+        "n_improved": 0,
+        "n_items": 127,
+        "n_seed_pairs": 635,
+        "n_unchanged": 127,
+        "origin": "2016",
+        "unchanged_rate": 1.0,
+        "worst_difference": 0.0
+      },
+      {
+        "baseline_mean": 0.002725243530560002,
+        "best_difference": 0.0,
+        "harm_rate": 0.0,
+        "improvement_rate": 0.0,
+        "mean_difference": 0.0,
+        "mean_harm": 0.0,
+        "mean_improvement": 0.0,
+        "method_mean": 0.002725243530560002,
+        "n_harmed": 0,
+        "n_improved": 0,
+        "n_items": 161,
+        "n_seed_pairs": 805,
+        "n_unchanged": 161,
+        "origin": "2017",
+        "unchanged_rate": 1.0,
+        "worst_difference": 0.0
+      }
+    ],
+    "relative_difference": 0.0,
+    "stage": "b",
+    "stratum": "tail80"
+  },
+  {
+    "baseline": "old/lightgcn",
+    "baseline_mean": 0.02406087184392706,
+    "bootstrap": {
+      "confidence": 0.95,
+      "interpretation": "descriptive",
+      "n_resamples": 2000,
+      "origin_weighting": "equal",
+      "seed": 2026,
+      "unit": "item within origin after seed averaging"
+    },
+    "ci": [
+      0.004201270027103127,
+      0.01680180454140488
+    ],
+    "cluster_sensitivity": {
+      "ci": [
+        0.0043756344652762305,
+        0.016710434889703404
+      ],
+      "confidence": 0.95,
+      "interpretation": "descriptive sensitivity",
+      "n_resamples": 2000,
+      "n_unique_items": 480,
+      "origin_weighting": "equal in every draw",
+      "rejected_empty_origin_draws": 0,
+      "seed": 2026,
+      "unit": "unique item with all origin records after seed averaging"
+    },
+    "harm": {
+      "harm_rate": 0.06654820321372872,
+      "improvement_rate": 0.11335430897224802,
+      "mean_harm": 0.0053383156344174515,
+      "mean_improvement": 0.015659729935839122,
+      "n_harmed": 32,
+      "n_improved": 55,
+      "n_unchanged": 396,
+      "pooled_harm_rate": 0.06625258799171843,
+      "tolerance": 0.0,
+      "unchanged_rate": 0.8200974878140234
+    },
+    "leave_one_origin_out": [
+      {
+        "mean_difference": 0.009096737252528873,
+        "n_origins": 2,
+        "omitted_origin": "2015"
+      },
+      {
+        "mean_difference": 0.00935406811854289,
+        "n_origins": 2,
+        "omitted_origin": "2016"
+      },
+      {
+        "mean_difference": 0.012513437533193249,
+        "n_origins": 2,
+        "omitted_origin": "2017"
+      }
+    ],
+    "limitations": [
+      "Shared-user dependence is not preserved by item resampling.",
+      "Repeated-item dependence across origins and overlapping time windows is not preserved.",
+      "Few origins and exploratory model comparisons do not support confirmatory significance claims."
+    ],
+    "mean_difference": 0.010321414301421672,
+    "method": "lightgcn",
+    "method_mean": 0.03438228614534873,
+    "metric": "ndcg20",
+    "n_item_origins": 483,
+    "n_origins": 3,
+    "n_seed_pairs": 2415,
+    "n_undefined_item_origins": 0,
+    "n_undefined_seed_pairs": 0,
+    "n_unique_items": 480,
+    "n_unmatched_item_origins": 0,
+    "origin_bootstrap": {
+      "ci": [
+        0.005937367837878513,
+        0.012770768399207265
+      ],
+      "interpretation": "sensitivity only",
+      "unit": "whole origin"
+    },
+    "origin_consistency": {
+      "positive": 3
+    },
+    "origins": [
+      {
+        "baseline_mean": 0.02514743857400076,
+        "best_difference": 0.5287585625783956,
+        "harm_rate": 0.06666666666666667,
+        "improvement_rate": 0.13333333333333333,
+        "mean_difference": 0.012770768399207265,
+        "mean_harm": 0.005408800279710133,
+        "mean_improvement": 0.018179568678917398,
+        "method_mean": 0.037918206973208024,
+        "n_harmed": 13,
+        "n_improved": 26,
+        "n_items": 195,
+        "n_seed_pairs": 975,
+        "n_unchanged": 156,
+        "origin": "2015",
+        "unchanged_rate": 0.8,
+        "worst_difference": -0.35115174550394407
+      },
+      {
+        "baseline_mean": 0.024954205066462985,
+        "best_difference": 0.45456007417348393,
+        "harm_rate": 0.07086614173228346,
+        "improvement_rate": 0.12598425196850394,
+        "mean_difference": 0.012256106667179233,
+        "mean_harm": 0.006028519196798333,
+        "mean_improvement": 0.01828462586397757,
+        "method_mean": 0.03721031173364222,
+        "n_harmed": 9,
+        "n_improved": 16,
+        "n_items": 127,
+        "n_seed_pairs": 635,
+        "n_unchanged": 102,
+        "origin": "2016",
+        "unchanged_rate": 0.8031496062992126,
+        "worst_difference": -0.14634131074747486
+      },
+      {
+        "baseline_mean": 0.02208097189131743,
+        "best_difference": 0.51850640640329,
+        "harm_rate": 0.062111801242236024,
+        "improvement_rate": 0.08074534161490683,
+        "mean_difference": 0.005937367837878514,
+        "mean_harm": 0.0045776274267438875,
+        "mean_improvement": 0.010514995264622401,
+        "method_mean": 0.028018339729195946,
+        "n_harmed": 10,
+        "n_improved": 13,
+        "n_items": 161,
+        "n_seed_pairs": 805,
+        "n_unchanged": 138,
+        "origin": "2017",
+        "unchanged_rate": 0.8571428571428571,
+        "worst_difference": -0.2240434157029497
+      }
+    ],
+    "relative_difference": 0.4289709187751975,
+    "stage": "b",
+    "stratum": "tail80"
+  },
+  {
+    "baseline": "old/simplex",
+    "baseline_mean": 0.003425168980668234,
+    "bootstrap": {
+      "confidence": 0.95,
+      "interpretation": "descriptive",
+      "n_resamples": 2000,
+      "origin_weighting": "equal",
+      "seed": 2026,
+      "unit": "item within origin after seed averaging"
+    },
+    "ci": [
+      0.009925025711841262,
+      0.028212242663640644
+    ],
+    "cluster_sensitivity": {
+      "ci": [
+        0.010659899217921664,
+        0.028946512458329642
+      ],
+      "confidence": 0.95,
+      "interpretation": "descriptive sensitivity",
+      "n_resamples": 2000,
+      "n_unique_items": 480,
+      "origin_weighting": "equal in every draw",
+      "rejected_empty_origin_draws": 0,
+      "seed": 2026,
+      "unit": "unique item with all origin records after seed averaging"
+    },
+    "harm": {
+      "harm_rate": 0.014711622585638332,
+      "improvement_rate": 0.07172539887363578,
+      "mean_harm": 0.0010031034516908822,
+      "mean_improvement": 0.019690514629949994,
+      "n_harmed": 7,
+      "n_improved": 33,
+      "n_unchanged": 443,
+      "pooled_harm_rate": 0.014492753623188406,
+      "tolerance": 0.0,
+      "unchanged_rate": 0.9135629785407259
+    },
+    "leave_one_origin_out": [
+      {
+        "mean_difference": 0.01833508283648693,
+        "n_origins": 2,
+        "omitted_origin": "2015"
+      },
+      {
+        "mean_difference": 0.018070073712585705,
+        "n_origins": 2,
+        "omitted_origin": "2016"
+      },
+      {
+        "mean_difference": 0.0196570769857047,
+        "n_origins": 2,
+        "omitted_origin": "2017"
+      }
+    ],
+    "limitations": [
+      "Shared-user dependence is not preserved by item resampling.",
+      "Repeated-item dependence across origins and overlapping time windows is not preserved.",
+      "Few origins and exploratory model comparisons do not support confirmatory significance claims."
+    ],
+    "mean_difference": 0.018687411178259113,
+    "method": "simplex",
+    "method_mean": 0.022112580158927347,
+    "metric": "ndcg20",
+    "n_item_origins": 483,
+    "n_origins": 3,
+    "n_seed_pairs": 2415,
+    "n_undefined_item_origins": 0,
+    "n_undefined_seed_pairs": 0,
+    "n_unique_items": 480,
+    "n_unmatched_item_origins": 0,
+    "origin_bootstrap": {
+      "ci": [
+        0.016748079563367935,
+        0.01992208610960593
+      ],
+      "interpretation": "sensitivity only",
+      "unit": "whole origin"
+    },
+    "origin_consistency": {
+      "positive": 3
+    },
+    "origins": [
+      {
+        "baseline_mean": 0.002391785320186987,
+        "best_difference": 0.9261859507142916,
+        "harm_rate": 0.020512820512820513,
+        "improvement_rate": 0.046153846153846156,
+        "mean_difference": 0.01939206786180347,
+        "mean_harm": 0.0017629164045301067,
+        "mean_improvement": 0.02115498426633358,
+        "method_mean": 0.021783853181990456,
+        "n_harmed": 4,
+        "n_improved": 9,
+        "n_items": 195,
+        "n_seed_pairs": 975,
+        "n_unchanged": 182,
+        "origin": "2015",
+        "unchanged_rate": 0.9333333333333333,
+        "worst_difference": -0.1261859507142915
+      },
+      {
+        "baseline_mean": 0.0074031591283586565,
+        "best_difference": 0.8861353116146786,
+        "harm_rate": 0.023622047244094488,
+        "improvement_rate": 0.09448818897637795,
+        "mean_difference": 0.01992208610960593,
+        "mean_harm": 0.0012463939505425398,
+        "mean_improvement": 0.02116848006014847,
+        "method_mean": 0.027325245237964587,
+        "n_harmed": 3,
+        "n_improved": 12,
+        "n_items": 127,
+        "n_seed_pairs": 635,
+        "n_unchanged": 112,
+        "origin": "2016",
+        "unchanged_rate": 0.8818897637795275,
+        "worst_difference": -0.10494451329268709
+      },
+      {
+        "baseline_mean": 0.0004805624934590579,
+        "best_difference": 0.9261859507142916,
+        "harm_rate": 0.0,
+        "improvement_rate": 0.07453416149068323,
+        "mean_difference": 0.016748079563367935,
+        "mean_harm": 0.0,
+        "mean_improvement": 0.016748079563367935,
+        "method_mean": 0.01722864205682699,
+        "n_harmed": 0,
+        "n_improved": 12,
+        "n_items": 161,
+        "n_seed_pairs": 805,
+        "n_unchanged": 149,
+        "origin": "2017",
+        "unchanged_rate": 0.9254658385093167,
+        "worst_difference": 0.0
+      }
+    ],
+    "relative_difference": 5.455909265712576,
+    "stage": "b",
+    "stratum": "tail80"
+  },
+  {
+    "baseline": "old/activity_mean",
+    "baseline_mean": 0.032206384248562925,
+    "bootstrap": {
+      "confidence": 0.95,
+      "interpretation": "descriptive",
+      "n_resamples": 2000,
+      "origin_weighting": "equal",
+      "seed": 2026,
+      "unit": "item within origin after seed averaging"
+    },
+    "ci": [
+      0.0,
+      0.0
+    ],
+    "cluster_sensitivity": {
+      "ci": [
+        0.0,
+        0.0
+      ],
+      "confidence": 0.95,
+      "interpretation": "descriptive sensitivity",
+      "n_resamples": 2000,
+      "n_unique_items": 480,
+      "origin_weighting": "equal in every draw",
+      "rejected_empty_origin_draws": 0,
+      "seed": 2026,
+      "unit": "unique item with all origin records after seed averaging"
+    },
+    "harm": {
+      "harm_rate": 0.0,
+      "improvement_rate": 0.0,
+      "mean_harm": 0.0,
+      "mean_improvement": 0.0,
+      "n_harmed": 0,
+      "n_improved": 0,
+      "n_unchanged": 483,
+      "pooled_harm_rate": 0.0,
+      "tolerance": 0.0,
+      "unchanged_rate": 1.0
+    },
+    "leave_one_origin_out": [
+      {
+        "mean_difference": 0.0,
+        "n_origins": 2,
+        "omitted_origin": "2015"
+      },
+      {
+        "mean_difference": 0.0,
+        "n_origins": 2,
+        "omitted_origin": "2016"
+      },
+      {
+        "mean_difference": 0.0,
+        "n_origins": 2,
+        "omitted_origin": "2017"
+      }
+    ],
+    "limitations": [
+      "Shared-user dependence is not preserved by item resampling.",
+      "Repeated-item dependence across origins and overlapping time windows is not preserved.",
+      "Few origins and exploratory model comparisons do not support confirmatory significance claims."
+    ],
+    "mean_difference": 0.0,
+    "method": "activity_mean",
+    "method_mean": 0.032206384248562925,
+    "metric": "ndcg20",
+    "n_item_origins": 483,
+    "n_origins": 3,
+    "n_seed_pairs": 2415,
+    "n_undefined_item_origins": 0,
+    "n_undefined_seed_pairs": 0,
+    "n_unique_items": 480,
+    "n_unmatched_item_origins": 0,
+    "origin_bootstrap": {
+      "ci": [
+        0.0,
+        0.0
+      ],
+      "interpretation": "sensitivity only",
+      "unit": "whole origin"
+    },
+    "origin_consistency": {
+      "zero": 3
+    },
+    "origins": [
+      {
+        "baseline_mean": 0.03701883507276403,
+        "best_difference": 0.0,
+        "harm_rate": 0.0,
+        "improvement_rate": 0.0,
+        "mean_difference": 0.0,
+        "mean_harm": 0.0,
+        "mean_improvement": 0.0,
+        "method_mean": 0.03701883507276403,
+        "n_harmed": 0,
+        "n_improved": 0,
+        "n_items": 195,
+        "n_seed_pairs": 975,
+        "n_unchanged": 195,
+        "origin": "2015",
+        "unchanged_rate": 1.0,
+        "worst_difference": 0.0
+      },
+      {
+        "baseline_mean": 0.039637269767311925,
+        "best_difference": 0.0,
+        "harm_rate": 0.0,
+        "improvement_rate": 0.0,
+        "mean_difference": 0.0,
+        "mean_harm": 0.0,
+        "mean_improvement": 0.0,
+        "method_mean": 0.039637269767311925,
+        "n_harmed": 0,
+        "n_improved": 0,
+        "n_items": 127,
+        "n_seed_pairs": 635,
+        "n_unchanged": 127,
+        "origin": "2016",
+        "unchanged_rate": 1.0,
+        "worst_difference": 0.0
+      },
+      {
+        "baseline_mean": 0.01996304790561281,
+        "best_difference": 0.0,
+        "harm_rate": 0.0,
+        "improvement_rate": 0.0,
+        "mean_difference": 0.0,
+        "mean_harm": 0.0,
+        "mean_improvement": 0.0,
+        "method_mean": 0.01996304790561281,
+        "n_harmed": 0,
+        "n_improved": 0,
+        "n_items": 161,
+        "n_seed_pairs": 805,
+        "n_unchanged": 161,
+        "origin": "2017",
+        "unchanged_rate": 1.0,
+        "worst_difference": 0.0
+      }
+    ],
+    "relative_difference": 0.0,
+    "stage": "b",
+    "stratum": "tail80"
+  },
+  {
+    "baseline": "old/activity_both",
+    "baseline_mean": 0.0361497707411314,
+    "bootstrap": {
+      "confidence": 0.95,
+      "interpretation": "descriptive",
+      "n_resamples": 2000,
+      "origin_weighting": "equal",
+      "seed": 2026,
+      "unit": "item within origin after seed averaging"
+    },
+    "ci": [
+      -0.0032570737618828585,
+      0.0005843697914228387
+    ],
+    "cluster_sensitivity": {
+      "ci": [
+        -0.0034012570987922612,
+        0.0005119607442065191
+      ],
+      "confidence": 0.95,
+      "interpretation": "descriptive sensitivity",
+      "n_resamples": 2000,
+      "n_unique_items": 480,
+      "origin_weighting": "equal in every draw",
+      "rejected_empty_origin_draws": 0,
+      "seed": 2026,
+      "unit": "unique item with all origin records after seed averaging"
+    },
+    "harm": {
+      "harm_rate": 0.055616375712233296,
+      "improvement_rate": 0.07298067674651036,
+      "mean_harm": 0.0035817162881786337,
+      "mean_improvement": 0.0022098446617067075,
+      "n_harmed": 27,
+      "n_improved": 32,
+      "n_unchanged": 424,
+      "pooled_harm_rate": 0.055900621118012424,
+      "tolerance": 0.0,
+      "unchanged_rate": 0.8714029475412564
+    },
+    "leave_one_origin_out": [
+      {
+        "mean_difference": -0.002135650486773226,
+        "n_origins": 2,
+        "omitted_origin": "2015"
+      },
+      {
+        "mean_difference": -0.002513663183252953,
+        "n_origins": 2,
+        "omitted_origin": "2016"
+      },
+      {
+        "mean_difference": 0.0005336987906104033,
+        "n_origins": 2,
+        "omitted_origin": "2017"
+      }
+    ],
+    "limitations": [
+      "Shared-user dependence is not preserved by item resampling.",
+      "Repeated-item dependence across origins and overlapping time windows is not preserved.",
+      "Few origins and exploratory model comparisons do not support confirmatory significance claims."
+    ],
+    "mean_difference": -0.0013718716264719255,
+    "method": "activity_both",
+    "method_mean": 0.03477789911465947,
+    "metric": "ndcg20",
+    "n_item_origins": 483,
+    "n_origins": 3,
+    "n_seed_pairs": 2415,
+    "n_undefined_item_origins": 0,
+    "n_undefined_seed_pairs": 0,
+    "n_unique_items": 480,
+    "n_unmatched_item_origins": 0,
+    "origin_bootstrap": {
+      "ci": [
+        -0.0051830124606365826,
+        0.0009117114870901299
+      ],
+      "interpretation": "sensitivity only",
+      "unit": "whole origin"
+    },
+    "origin_consistency": {
+      "negative": 1,
+      "positive": 2
+    },
+    "origins": [
+      {
+        "baseline_mean": 0.034643082202640174,
+        "best_difference": 0.14048594928934957,
+        "harm_rate": 0.05128205128205128,
+        "improvement_rate": 0.046153846153846156,
+        "mean_difference": 0.0001556860941306768,
+        "mean_harm": 0.0021426416331291514,
+        "mean_improvement": 0.002298327727259828,
+        "method_mean": 0.03479876829677086,
+        "n_harmed": 10,
+        "n_improved": 9,
+        "n_items": 195,
+        "n_seed_pairs": 975,
+        "n_unchanged": 176,
+        "origin": "2015",
+        "unchanged_rate": 0.9025641025641026,
+        "worst_difference": -0.14397438441059915
+      },
+      {
+        "baseline_mean": 0.04650009772427493,
+        "best_difference": 0.10509993821755108,
+        "harm_rate": 0.047244094488188976,
+        "improvement_rate": 0.14173228346456693,
+        "mean_difference": 0.0009117114870901299,
+        "mean_harm": 0.002893205339372797,
+        "mean_improvement": 0.0038049168264629265,
+        "method_mean": 0.04741180921136506,
+        "n_harmed": 6,
+        "n_improved": 18,
+        "n_items": 127,
+        "n_seed_pairs": 635,
+        "n_unchanged": 103,
+        "origin": "2016",
+        "unchanged_rate": 0.8110236220472441,
+        "worst_difference": -0.10701190174973822
+      },
+      {
+        "baseline_mean": 0.027306132296479067,
+        "best_difference": 0.047081782673327646,
+        "harm_rate": 0.06832298136645963,
+        "improvement_rate": 0.031055900621118012,
+        "mean_difference": -0.0051830124606365826,
+        "mean_harm": 0.005709301892033951,
+        "mean_improvement": 0.0005262894313973689,
+        "method_mean": 0.022123119835842486,
+        "n_harmed": 11,
+        "n_improved": 5,
+        "n_items": 161,
+        "n_seed_pairs": 805,
+        "n_unchanged": 145,
+        "origin": "2017",
+        "unchanged_rate": 0.9006211180124224,
+        "worst_difference": -0.16331879109596165
+      }
+    ],
+    "relative_difference": -0.03794966325778113,
+    "stage": "b",
+    "stratum": "tail80"
+  },
+  {
+    "baseline": "lightgcn",
+    "baseline_mean": 0.03438228614534873,
+    "bootstrap": {
+      "confidence": 0.95,
+      "interpretation": "descriptive",
+      "n_resamples": 2000,
+      "origin_weighting": "equal",
+      "seed": 2026,
+      "unit": "item within origin after seed averaging"
+    },
+    "ci": [
+      0.0012393391835286295,
+      0.015188357131362129
+    ],
+    "cluster_sensitivity": {
+      "ci": [
+        0.0012720594834134784,
+        0.01612435444733857
+      ],
+      "confidence": 0.95,
+      "interpretation": "descriptive sensitivity",
+      "n_resamples": 2000,
+      "n_unique_items": 480,
+      "origin_weighting": "equal in every draw",
+      "rejected_empty_origin_draws": 0,
+      "seed": 2026,
+      "unit": "unique item with all origin records after seed averaging"
+    },
+    "harm": {
+      "harm_rate": 0.0860270392622327,
+      "improvement_rate": 0.10083421846516677,
+      "mean_harm": 0.007499365153131629,
+      "mean_improvement": 0.015277964676941093,
+      "n_harmed": 42,
+      "n_improved": 48,
+      "n_unchanged": 393,
+      "pooled_harm_rate": 0.08695652173913043,
+      "tolerance": 0.0,
+      "unchanged_rate": 0.8131387422726005
+    },
+    "leave_one_origin_out": [
+      {
+        "mean_difference": 0.009003324634062625,
+        "n_origins": 2,
+        "omitted_origin": "2015"
+      },
+      {
+        "mean_difference": 0.00579382628906697,
+        "n_origins": 2,
+        "omitted_origin": "2016"
+      },
+      {
+        "mean_difference": 0.008538647648298798,
+        "n_origins": 2,
+        "omitted_origin": "2017"
+      }
+    ],
+    "limitations": [
+      "Shared-user dependence is not preserved by item resampling.",
+      "Repeated-item dependence across origins and overlapping time windows is not preserved.",
+      "Few origins and exploratory model comparisons do not support confirmatory significance claims."
+    ],
+    "mean_difference": 0.007778599523809465,
+    "method": "lightgcn_user",
+    "method_mean": 0.04216088566915819,
+    "metric": "ndcg20",
+    "n_item_origins": 483,
+    "n_origins": 3,
+    "n_seed_pairs": 2415,
+    "n_undefined_item_origins": 0,
+    "n_undefined_seed_pairs": 0,
+    "n_unique_items": 480,
+    "n_unmatched_item_origins": 0,
+    "origin_bootstrap": {
+      "ci": [
+        0.005329149303303142,
+        0.011748145993294453
+      ],
+      "interpretation": "sensitivity only",
+      "unit": "whole origin"
+    },
+    "origin_consistency": {
+      "positive": 3
+    },
+    "origins": [
+      {
+        "baseline_mean": 0.037918206973208024,
+        "best_difference": 0.47365604370685277,
+        "harm_rate": 0.1076923076923077,
+        "improvement_rate": 0.09743589743589744,
+        "mean_difference": 0.005329149303303143,
+        "mean_harm": 0.008024819007261612,
+        "mean_improvement": 0.013353968310564757,
+        "method_mean": 0.043247356276511176,
+        "n_harmed": 21,
+        "n_improved": 19,
+        "n_items": 195,
+        "n_seed_pairs": 975,
+        "n_unchanged": 155,
+        "origin": "2015",
+        "unchanged_rate": 0.7948717948717948,
+        "worst_difference": -0.22227062322935726
+      },
+      {
+        "baseline_mean": 0.03721031173364222,
+        "best_difference": 0.8055358418369643,
+        "harm_rate": 0.09448818897637795,
+        "improvement_rate": 0.11811023622047244,
+        "mean_difference": 0.011748145993294453,
+        "mean_harm": 0.00970171201267548,
+        "mean_improvement": 0.021449858005969935,
+        "method_mean": 0.048958457726936674,
+        "n_harmed": 12,
+        "n_improved": 15,
+        "n_items": 127,
+        "n_seed_pairs": 635,
+        "n_unchanged": 100,
+        "origin": "2016",
+        "unchanged_rate": 0.7874015748031497,
+        "worst_difference": -0.23757224631370769
+      },
+      {
+        "baseline_mean": 0.028018339729195946,
+        "best_difference": 0.32585155597208215,
+        "harm_rate": 0.055900621118012424,
+        "improvement_rate": 0.08695652173913043,
+        "mean_difference": 0.006258503274830798,
+        "mean_harm": 0.004771564439457796,
+        "mean_improvement": 0.011030067714288593,
+        "method_mean": 0.03427684300402674,
+        "n_harmed": 9,
+        "n_improved": 14,
+        "n_items": 161,
+        "n_seed_pairs": 805,
+        "n_unchanged": 138,
+        "origin": "2017",
+        "unchanged_rate": 0.8571428571428571,
+        "worst_difference": -0.2
+      }
+    ],
+    "relative_difference": 0.2262385779388251,
+    "stage": "b",
+    "stratum": "tail80"
+  },
+  {
+    "baseline": "activity_mean",
+    "baseline_mean": 0.032206384248562925,
+    "bootstrap": {
+      "confidence": 0.95,
+      "interpretation": "descriptive",
+      "n_resamples": 2000,
+      "origin_weighting": "equal",
+      "seed": 2026,
+      "unit": "item within origin after seed averaging"
+    },
+    "ci": [
+      -0.005398056788298362,
+      0.010180191204588672
+    ],
+    "cluster_sensitivity": {
+      "ci": [
+        -0.005661673275750629,
+        0.010381918749378001
+      ],
+      "confidence": 0.95,
+      "interpretation": "descriptive sensitivity",
+      "n_resamples": 2000,
+      "n_unique_items": 480,
+      "origin_weighting": "equal in every draw",
+      "rejected_empty_origin_draws": 0,
+      "seed": 2026,
+      "unit": "unique item with all origin records after seed averaging"
+    },
+    "harm": {
+      "harm_rate": 0.09156522658747923,
+      "improvement_rate": 0.08778543150333634,
+      "mean_harm": 0.012320630079828518,
+      "mean_improvement": 0.014892144945925058,
+      "n_harmed": 43,
+      "n_improved": 41,
+      "n_unchanged": 399,
+      "pooled_harm_rate": 0.08902691511387163,
+      "tolerance": 0.0,
+      "unchanged_rate": 0.8206493419091845
+    },
+    "leave_one_origin_out": [
+      {
+        "mean_difference": 0.0049673056871414045,
+        "n_origins": 2,
+        "omitted_origin": "2015"
+      },
+      {
+        "mean_difference": -2.9997422881755794e-05,
+        "n_origins": 2,
+        "omitted_origin": "2016"
+      },
+      {
+        "mean_difference": 0.0027772363340299797,
+        "n_origins": 2,
+        "omitted_origin": "2017"
+      }
+    ],
+    "limitations": [
+      "Shared-user dependence is not preserved by item resampling.",
+      "Repeated-item dependence across origins and overlapping time windows is not preserved.",
+      "Few origins and exploratory model comparisons do not support confirmatory significance claims."
+    ],
+    "mean_difference": 0.0025715148660965426,
+    "method": "activity_both",
+    "method_mean": 0.03477789911465947,
+    "metric": "ndcg20",
+    "n_item_origins": 483,
+    "n_origins": 3,
+    "n_seed_pairs": 2415,
+    "n_undefined_item_origins": 0,
+    "n_undefined_seed_pairs": 0,
+    "n_unique_items": 480,
+    "n_unmatched_item_origins": 0,
+    "origin_bootstrap": {
+      "ci": [
+        -0.002220066775993181,
+        0.007774539444053141
+      ],
+      "interpretation": "sensitivity only",
+      "unit": "whole origin"
+    },
+    "origin_consistency": {
+      "negative": 1,
+      "positive": 2
+    },
+    "origins": [
+      {
+        "baseline_mean": 0.03701883507276403,
+        "best_difference": 0.32753840665375666,
+        "harm_rate": 0.08205128205128205,
+        "improvement_rate": 0.07692307692307693,
+        "mean_difference": -0.002220066775993181,
+        "mean_harm": 0.012084645980612436,
+        "mean_improvement": 0.009864579204619256,
+        "method_mean": 0.03479876829677086,
+        "n_harmed": 16,
+        "n_improved": 15,
+        "n_items": 195,
+        "n_seed_pairs": 975,
+        "n_unchanged": 164,
+        "origin": "2015",
+        "unchanged_rate": 0.841025641025641,
+        "worst_difference": -0.3552187444040868
+      },
+      {
+        "baseline_mean": 0.039637269767311925,
+        "best_difference": 0.3991432890288201,
+        "harm_rate": 0.11811023622047244,
+        "improvement_rate": 0.11811023622047244,
+        "mean_difference": 0.00777453944405314,
+        "mean_harm": 0.015185723227996089,
+        "mean_improvement": 0.022960262672049227,
+        "method_mean": 0.04741180921136506,
+        "n_harmed": 15,
+        "n_improved": 15,
+        "n_items": 127,
+        "n_seed_pairs": 635,
+        "n_unchanged": 97,
+        "origin": "2016",
+        "unchanged_rate": 0.7637795275590551,
+        "worst_difference": -0.465669369243271
+      },
+      {
+        "baseline_mean": 0.01996304790561281,
+        "best_difference": 0.3259601349754756,
+        "harm_rate": 0.07453416149068323,
+        "improvement_rate": 0.06832298136645963,
+        "mean_difference": 0.0021600719302296693,
+        "mean_harm": 0.009691521030877025,
+        "mean_improvement": 0.011851592961106694,
+        "method_mean": 0.022123119835842486,
+        "n_harmed": 12,
+        "n_improved": 11,
+        "n_items": 161,
+        "n_seed_pairs": 805,
+        "n_unchanged": 138,
+        "origin": "2017",
+        "unchanged_rate": 0.8571428571428571,
+        "worst_difference": -0.7561278920557367
+      }
+    ],
+    "relative_difference": 0.0798448793956523,
+    "stage": "b",
+    "stratum": "tail80"
+  },
+  {
+    "baseline": "old/activity",
+    "baseline_mean": 0.03316162184524149,
+    "bootstrap": {
+      "confidence": 0.95,
+      "interpretation": "descriptive",
+      "n_resamples": 2000,
+      "origin_weighting": "equal",
+      "seed": 2026,
+      "unit": "item within origin after seed averaging"
+    },
+    "ci": [
+      -0.00799927153955538,
+      0.010914090800013177
+    ],
+    "cluster_sensitivity": {
+      "ci": [
+        -0.00826073958672125,
+        0.011334024206428962
+      ],
+      "confidence": 0.95,
+      "interpretation": "descriptive sensitivity",
+      "n_resamples": 2000,
+      "n_unique_items": 480,
+      "origin_weighting": "equal in every draw",
+      "rejected_empty_origin_draws": 0,
+      "seed": 2026,
+      "unit": "unique item with all origin records after seed averaging"
+    },
+    "harm": {
+      "harm_rate": 0.0742499160849041,
+      "improvement_rate": 0.08793215229367234,
+      "mean_harm": 0.016995584231581335,
+      "mean_improvement": 0.018611861500999312,
+      "n_harmed": 36,
+      "n_improved": 40,
+      "n_unchanged": 407,
+      "pooled_harm_rate": 0.07453416149068323,
+      "tolerance": 0.0,
+      "unchanged_rate": 0.8378179316214235
+    },
+    "leave_one_origin_out": [
+      {
+        "mean_difference": 0.002575739700518831,
+        "n_origins": 2,
+        "omitted_origin": "2015"
+      },
+      {
+        "mean_difference": -0.01141336344473032,
+        "n_origins": 2,
+        "omitted_origin": "2016"
+      },
+      {
+        "mean_difference": 0.01368645555246543,
+        "n_origins": 2,
+        "omitted_origin": "2017"
+      }
+    ],
+    "limitations": [
+      "Shared-user dependence is not preserved by item resampling.",
+      "Repeated-item dependence across origins and overlapping time windows is not preserved.",
+      "Few origins and exploratory model comparisons do not support confirmatory significance claims."
+    ],
+    "mean_difference": 0.0016162772694179803,
+    "method": "activity_both",
+    "method_mean": 0.03477789911465947,
+    "metric": "ndcg20",
+    "n_item_origins": 483,
+    "n_origins": 3,
+    "n_seed_pairs": 2415,
+    "n_undefined_item_origins": 0,
+    "n_undefined_seed_pairs": 0,
+    "n_unique_items": 480,
+    "n_unmatched_item_origins": 0,
+    "origin_bootstrap": {
+      "ci": [
+        -0.022524079296676918,
+        0.02767555869771458
+      ],
+      "interpretation": "sensitivity only",
+      "unit": "whole origin"
+    },
+    "origin_consistency": {
+      "negative": 2,
+      "positive": 1
+    },
+    "origins": [
+      {
+        "baseline_mean": 0.03510141588955458,
+        "best_difference": 0.5693234419266069,
+        "harm_rate": 0.05128205128205128,
+        "improvement_rate": 0.07692307692307693,
+        "mean_difference": -0.00030264759278372214,
+        "mean_harm": 0.016758784371032974,
+        "mean_improvement": 0.01645613677824925,
+        "method_mean": 0.03479876829677086,
+        "n_harmed": 10,
+        "n_improved": 15,
+        "n_items": 195,
+        "n_seed_pairs": 975,
+        "n_unchanged": 170,
+        "origin": "2015",
+        "unchanged_rate": 0.8717948717948718,
+        "worst_difference": -0.6309297535714575
+      },
+      {
+        "baseline_mean": 0.01973625051365049,
+        "best_difference": 0.4702231788278666,
+        "harm_rate": 0.047244094488188976,
+        "improvement_rate": 0.14960629921259844,
+        "mean_difference": 0.02767555869771458,
+        "mean_harm": 0.006160081882735961,
+        "mean_improvement": 0.03383564058045054,
+        "method_mean": 0.04741180921136506,
+        "n_harmed": 6,
+        "n_improved": 19,
+        "n_items": 127,
+        "n_seed_pairs": 635,
+        "n_unchanged": 102,
+        "origin": "2016",
+        "unchanged_rate": 0.8031496062992126,
+        "worst_difference": -0.31546487678572877
+      },
+      {
+        "baseline_mean": 0.0446471991325194,
+        "best_difference": 0.2811996874016201,
+        "harm_rate": 0.12422360248447205,
+        "improvement_rate": 0.037267080745341616,
+        "mean_difference": -0.022524079296676918,
+        "mean_harm": 0.028067886440975066,
+        "mean_improvement": 0.005543807144298146,
+        "method_mean": 0.022123119835842486,
+        "n_harmed": 20,
+        "n_improved": 6,
+        "n_items": 161,
+        "n_seed_pairs": 805,
+        "n_unchanged": 135,
+        "origin": "2017",
+        "unchanged_rate": 0.8385093167701864,
+        "worst_difference": -0.5
+      }
+    ],
+    "relative_difference": 0.04873939148576074,
+    "stage": "b",
+    "stratum": "tail80"
+  },
+  {
+    "baseline": "activity_both/zero",
+    "baseline_mean": 0.024020504795035275,
+    "bootstrap": {
+      "confidence": 0.95,
+      "interpretation": "descriptive",
+      "n_resamples": 2000,
+      "origin_weighting": "equal",
+      "seed": 2026,
+      "unit": "item within origin after seed averaging"
+    },
+    "ci": [
+      -0.0002123818200717503,
+      0.0006469004832438634
+    ],
+    "cluster_sensitivity": {
+      "ci": [
+        -0.00019182403023420083,
+        0.0006529255604948324
+      ],
+      "confidence": 0.95,
+      "interpretation": "descriptive sensitivity",
+      "n_resamples": 2000,
+      "n_unique_items": 449,
+      "origin_weighting": "equal in every draw",
+      "rejected_empty_origin_draws": 0,
+      "seed": 2026,
+      "unit": "unique item with all origin records after seed averaging"
+    },
+    "harm": {
+      "harm_rate": 0.022904586325405586,
+      "improvement_rate": 0.02851942152158404,
+      "mean_harm": 0.00022144789225100783,
+      "mean_improvement": 0.0004239026196004105,
+      "n_harmed": 9,
+      "n_improved": 12,
+      "n_unchanged": 430,
+      "pooled_harm_rate": 0.019955654101995565,
+      "tolerance": 0.0,
+      "unchanged_rate": 0.9485759921530104
+    },
+    "leave_one_origin_out": [
+      {
+        "mean_difference": 0.00041031473163769634,
+        "n_origins": 2,
+        "omitted_origin": "2018"
+      },
+      {
+        "mean_difference": -3.961100552095488e-05,
+        "n_origins": 2,
+        "omitted_origin": "2019"
+      },
+      {
+        "mean_difference": 0.0002366604559314666,
+        "n_origins": 2,
+        "omitted_origin": "2020"
+      }
+    ],
+    "limitations": [
+      "Shared-user dependence is not preserved by item resampling.",
+      "Repeated-item dependence across origins and overlapping time windows is not preserved.",
+      "Few origins and exploratory model comparisons do not support confirmatory significance claims."
+    ],
+    "mean_difference": 0.0002024547273494027,
+    "method": "activity_both/full",
+    "method_mean": 0.02422295952238468,
+    "metric": "ndcg20",
+    "n_item_origins": 451,
+    "n_origins": 3,
+    "n_seed_pairs": 2255,
+    "n_undefined_item_origins": 0,
+    "n_undefined_seed_pairs": 0,
+    "n_unique_items": 449,
+    "n_unmatched_item_origins": 0,
+    "origin_bootstrap": {
+      "ci": [
+        -0.0002132652812271846,
+        0.0006865861930901177
+      ],
+      "interpretation": "sensitivity only",
+      "unit": "whole origin"
+    },
+    "origin_consistency": {
+      "negative": 1,
+      "positive": 2
+    },
+    "origins": [
+      {
+        "baseline_mean": 0.025500322050168056,
+        "best_difference": 0.026185950714291507,
+        "harm_rate": 0.03007518796992481,
+        "improvement_rate": 0.015037593984962405,
+        "mean_difference": -0.0002132652812271846,
+        "mean_harm": 0.0004370219881731426,
+        "mean_improvement": 0.00022375670694595802,
+        "method_mean": 0.025287056768940868,
+        "n_harmed": 4,
+        "n_improved": 2,
+        "n_items": 133,
+        "n_seed_pairs": 665,
+        "n_unchanged": 127,
+        "origin": "2018",
+        "unchanged_rate": 0.9548872180451128,
+        "worst_difference": -0.04893010842364521
+      },
+      {
+        "baseline_mean": 0.029979939890452157,
+        "best_difference": 0.0455340497393906,
+        "harm_rate": 0.03361344537815126,
+        "improvement_rate": 0.05042016806722689,
+        "mean_difference": 0.0006865861930901178,
+        "mean_harm": 0.0002171489441911794,
+        "mean_improvement": 0.0009037351372812971,
+        "method_mean": 0.030666526083542273,
+        "n_harmed": 4,
+        "n_improved": 6,
+        "n_items": 119,
+        "n_seed_pairs": 595,
+        "n_unchanged": 109,
+        "origin": "2019",
+        "unchanged_rate": 0.9159663865546218,
+        "worst_difference": -0.01605584217036249
+      },
+      {
+        "baseline_mean": 0.016581252444485616,
+        "best_difference": 0.016548259888787997,
+        "harm_rate": 0.005025125628140704,
+        "improvement_rate": 0.020100502512562814,
+        "mean_difference": 0.00013404327018527485,
+        "mean_harm": 1.0172744388701517e-05,
+        "mean_improvement": 0.00014421601457397637,
+        "method_mean": 0.016715295714670893,
+        "n_harmed": 1,
+        "n_improved": 4,
+        "n_items": 199,
+        "n_seed_pairs": 995,
+        "n_unchanged": 194,
+        "origin": "2020",
+        "unchanged_rate": 0.9748743718592965,
+        "worst_difference": -0.002024376133351602
+      }
+    ],
+    "relative_difference": 0.008428412686449765,
+    "stage": "c",
+    "stratum": "tail80"
+  },
+  {
+    "baseline": "activity",
+    "baseline_mean": 0.020207241857479418,
+    "bootstrap": {
+      "confidence": 0.95,
+      "interpretation": "descriptive",
+      "n_resamples": 2000,
+      "origin_weighting": "equal",
+      "seed": 2026,
+      "unit": "item within origin after seed averaging"
+    },
+    "ci": [
+      -0.007287428282454999,
+      0.01375997843334873
+    ],
+    "cluster_sensitivity": {
+      "ci": [
+        -0.007465497399180087,
+        0.013704038105317059
+      ],
+      "confidence": 0.95,
+      "interpretation": "descriptive sensitivity",
+      "n_resamples": 2000,
+      "n_unique_items": 449,
+      "origin_weighting": "equal in every draw",
+      "rejected_empty_origin_draws": 0,
+      "seed": 2026,
+      "unit": "unique item with all origin records after seed averaging"
+    },
+    "harm": {
+      "harm_rate": 0.03599747224994202,
+      "improvement_rate": 0.05837828387107289,
+      "mean_harm": 0.011574076804658622,
+      "mean_improvement": 0.015387339742214482,
+      "n_harmed": 16,
+      "n_improved": 26,
+      "n_unchanged": 409,
+      "pooled_harm_rate": 0.03547671840354767,
+      "tolerance": 0.0,
+      "unchanged_rate": 0.905624243878985
+    },
+    "leave_one_origin_out": [
+      {
+        "mean_difference": 0.010015576981834137,
+        "n_origins": 2,
+        "omitted_origin": "2018"
+      },
+      {
+        "mean_difference": -0.0009958382106070988,
+        "n_origins": 2,
+        "omitted_origin": "2019"
+      },
+      {
+        "mean_difference": 0.00242005004144054,
+        "n_origins": 2,
+        "omitted_origin": "2020"
+      }
+    ],
+    "limitations": [
+      "Shared-user dependence is not preserved by item resampling.",
+      "Repeated-item dependence across origins and overlapping time windows is not preserved.",
+      "Few origins and exploratory model comparisons do not support confirmatory significance claims."
+    ],
+    "mean_difference": 0.0038132629375558593,
+    "method": "activity_both/zero",
+    "method_mean": 0.024020504795035275,
+    "metric": "ndcg20",
+    "n_item_origins": 451,
+    "n_origins": 3,
+    "n_seed_pairs": 2255,
+    "n_undefined_item_origins": 0,
+    "n_undefined_seed_pairs": 0,
+    "n_unique_items": 449,
+    "n_unmatched_item_origins": 0,
+    "origin_bootstrap": {
+      "ci": [
+        -0.008591365151000695,
+        0.013431465233881773
+      ],
+      "interpretation": "sensitivity only",
+      "unit": "whole origin"
+    },
+    "origin_consistency": {
+      "negative": 1,
+      "positive": 2
+    },
+    "origins": [
+      {
+        "baseline_mean": 0.03409168720116875,
+        "best_difference": 0.5123212623289701,
+        "harm_rate": 0.05263157894736842,
+        "improvement_rate": 0.05263157894736842,
+        "mean_difference": -0.008591365151000695,
+        "mean_harm": 0.020966543304387325,
+        "mean_improvement": 0.01237517815338663,
+        "method_mean": 0.025500322050168056,
+        "n_harmed": 7,
+        "n_improved": 7,
+        "n_items": 133,
+        "n_seed_pairs": 665,
+        "n_unchanged": 119,
+        "origin": "2018",
+        "unchanged_rate": 0.8947368421052632,
+        "worst_difference": -1.0
+      },
+      {
+        "baseline_mean": 0.01654847465657038,
+        "best_difference": 0.5226294385530916,
+        "harm_rate": 0.025210084033613446,
+        "improvement_rate": 0.06722689075630252,
+        "mean_difference": 0.013431465233881775,
+        "mean_harm": 0.005547299054245106,
+        "mean_improvement": 0.018978764288126882,
+        "method_mean": 0.029979939890452157,
+        "n_harmed": 3,
+        "n_improved": 8,
+        "n_items": 119,
+        "n_seed_pairs": 595,
+        "n_unchanged": 108,
+        "origin": "2019",
+        "unchanged_rate": 0.907563025210084,
+        "worst_difference": -0.4003429972753917
+      },
+      {
+        "baseline_mean": 0.00998156371469912,
+        "best_difference": 0.38039097893147994,
+        "harm_rate": 0.03015075376884422,
+        "improvement_rate": 0.05527638190954774,
+        "mean_difference": 0.006599688729786497,
+        "mean_harm": 0.008208388055343433,
+        "mean_improvement": 0.01480807678512993,
+        "method_mean": 0.016581252444485616,
+        "n_harmed": 6,
+        "n_improved": 11,
+        "n_items": 199,
+        "n_seed_pairs": 995,
+        "n_unchanged": 182,
+        "origin": "2020",
+        "unchanged_rate": 0.914572864321608,
+        "worst_difference": -0.3729699734481696
+      }
+    ],
+    "relative_difference": 0.18870773975244104,
+    "stage": "c",
+    "stratum": "tail80"
+  },
+  {
+    "baseline": "activity_both/uniform",
+    "baseline_mean": 0.0237824086711473,
+    "bootstrap": {
+      "confidence": 0.95,
+      "interpretation": "descriptive",
+      "n_resamples": 2000,
+      "origin_weighting": "equal",
+      "seed": 2026,
+      "unit": "item within origin after seed averaging"
+    },
+    "ci": [
+      3.489562400401853e-05,
+      0.000988155199368931
+    ],
+    "cluster_sensitivity": {
+      "ci": [
+        1.3515724081202224e-05,
+        0.0009510788341389075
+      ],
+      "confidence": 0.95,
+      "interpretation": "descriptive sensitivity",
+      "n_resamples": 2000,
+      "n_unique_items": 449,
+      "origin_weighting": "equal in every draw",
+      "rejected_empty_origin_draws": 0,
+      "seed": 2026,
+      "unit": "unique item with all origin records after seed averaging"
+    },
+    "harm": {
+      "harm_rate": 0.027634857169527422,
+      "improvement_rate": 0.03132054196976331,
+      "mean_harm": 0.00019233172416430828,
+      "mean_improvement": 0.0006328825754016863,
+      "n_harmed": 12,
+      "n_improved": 13,
+      "n_unchanged": 426,
+      "pooled_harm_rate": 0.026607538802660754,
+      "tolerance": 0.0,
+      "unchanged_rate": 0.9410446008607093
+    },
+    "leave_one_origin_out": [
+      {
+        "mean_difference": 0.0006496523876654576,
+        "n_origins": 2,
+        "omitted_origin": "2018"
+      },
+      {
+        "mean_difference": 0.0002632598450136274,
+        "n_origins": 2,
+        "omitted_origin": "2019"
+      },
+      {
+        "mean_difference": 0.00040874032103304904,
+        "n_origins": 2,
+        "omitted_origin": "2020"
+      }
+    ],
+    "limitations": [
+      "Shared-user dependence is not preserved by item resampling.",
+      "Repeated-item dependence across origins and overlapping time windows is not preserved.",
+      "Few origins and exploratory model comparisons do not support confirmatory significance claims."
+    ],
+    "mean_difference": 0.000440550851237378,
+    "method": "activity_both/full",
+    "method_mean": 0.02422295952238468,
+    "metric": "ndcg20",
+    "n_item_origins": 451,
+    "n_origins": 3,
+    "n_seed_pairs": 2255,
+    "n_undefined_item_origins": 0,
+    "n_undefined_seed_pairs": 0,
+    "n_unique_items": 449,
+    "n_unmatched_item_origins": 0,
+    "origin_bootstrap": {
+      "ci": [
+        2.234777838121877e-05,
+        0.0007951328636848793
+      ],
+      "interpretation": "sensitivity only",
+      "unit": "whole origin"
+    },
+    "origin_consistency": {
+      "positive": 3
+    },
+    "origins": [
+      {
+        "baseline_mean": 0.02526470899055965,
+        "best_difference": 0.026185950714291507,
+        "harm_rate": 0.03759398496240601,
+        "improvement_rate": 0.015037593984962405,
+        "mean_difference": 2.234777838121877e-05,
+        "mean_harm": 0.00022692857754696126,
+        "mean_improvement": 0.00024927635592818004,
+        "method_mean": 0.025287056768940868,
+        "n_harmed": 5,
+        "n_improved": 2,
+        "n_items": 133,
+        "n_seed_pairs": 665,
+        "n_unchanged": 126,
+        "origin": "2018",
+        "unchanged_rate": 0.9473684210526315,
+        "worst_difference": -0.009939230900423373
+      },
+      {
+        "baseline_mean": 0.029871393219857396,
+        "best_difference": 0.0455340497393906,
+        "harm_rate": 0.025210084033613446,
+        "improvement_rate": 0.058823529411764705,
+        "mean_difference": 0.0007951328636848793,
+        "mean_harm": 0.00024894907676313057,
+        "mean_improvement": 0.00104408194044801,
+        "method_mean": 0.030666526083542273,
+        "n_harmed": 3,
+        "n_improved": 7,
+        "n_items": 119,
+        "n_seed_pairs": 595,
+        "n_unchanged": 109,
+        "origin": "2019",
+        "unchanged_rate": 0.9159663865546218,
+        "worst_difference": -0.01605584217036249
+      },
+      {
+        "baseline_mean": 0.016211123803024856,
+        "best_difference": 0.06682402741903418,
+        "harm_rate": 0.020100502512562814,
+        "improvement_rate": 0.020100502512562814,
+        "mean_difference": 0.000504171911646036,
+        "mean_harm": 0.00010111751818283304,
+        "mean_improvement": 0.000605289429828869,
+        "method_mean": 0.016715295714670893,
+        "n_harmed": 4,
+        "n_improved": 4,
+        "n_items": 199,
+        "n_seed_pairs": 995,
+        "n_unchanged": 191,
+        "origin": "2020",
+        "unchanged_rate": 0.9597989949748744,
+        "worst_difference": -0.012373588001140823
+      }
+    ],
+    "relative_difference": 0.018524231810542056,
+    "stage": "c",
+    "stratum": "tail80"
+  },
+  {
+    "baseline": "activity_both/semantic",
+    "baseline_mean": 0.024020504795035275,
+    "bootstrap": {
+      "confidence": 0.95,
+      "interpretation": "descriptive",
+      "n_resamples": 2000,
+      "origin_weighting": "equal",
+      "seed": 2026,
+      "unit": "item within origin after seed averaging"
+    },
+    "ci": [
+      -0.0002123818200717503,
+      0.0006469004832438634
+    ],
+    "cluster_sensitivity": {
+      "ci": [
+        -0.00019182403023420083,
+        0.0006529255604948324
+      ],
+      "confidence": 0.95,
+      "interpretation": "descriptive sensitivity",
+      "n_resamples": 2000,
+      "n_unique_items": 449,
+      "origin_weighting": "equal in every draw",
+      "rejected_empty_origin_draws": 0,
+      "seed": 2026,
+      "unit": "unique item with all origin records after seed averaging"
+    },
+    "harm": {
+      "harm_rate": 0.022904586325405586,
+      "improvement_rate": 0.02851942152158404,
+      "mean_harm": 0.00022144789225100783,
+      "mean_improvement": 0.0004239026196004105,
+      "n_harmed": 9,
+      "n_improved": 12,
+      "n_unchanged": 430,
+      "pooled_harm_rate": 0.019955654101995565,
+      "tolerance": 0.0,
+      "unchanged_rate": 0.9485759921530104
+    },
+    "leave_one_origin_out": [
+      {
+        "mean_difference": 0.00041031473163769634,
+        "n_origins": 2,
+        "omitted_origin": "2018"
+      },
+      {
+        "mean_difference": -3.961100552095488e-05,
+        "n_origins": 2,
+        "omitted_origin": "2019"
+      },
+      {
+        "mean_difference": 0.0002366604559314666,
+        "n_origins": 2,
+        "omitted_origin": "2020"
+      }
+    ],
+    "limitations": [
+      "Shared-user dependence is not preserved by item resampling.",
+      "Repeated-item dependence across origins and overlapping time windows is not preserved.",
+      "Few origins and exploratory model comparisons do not support confirmatory significance claims."
+    ],
+    "mean_difference": 0.0002024547273494027,
+    "method": "activity_both/full",
+    "method_mean": 0.02422295952238468,
+    "metric": "ndcg20",
+    "n_item_origins": 451,
+    "n_origins": 3,
+    "n_seed_pairs": 2255,
+    "n_undefined_item_origins": 0,
+    "n_undefined_seed_pairs": 0,
+    "n_unique_items": 449,
+    "n_unmatched_item_origins": 0,
+    "origin_bootstrap": {
+      "ci": [
+        -0.0002132652812271846,
+        0.0006865861930901177
+      ],
+      "interpretation": "sensitivity only",
+      "unit": "whole origin"
+    },
+    "origin_consistency": {
+      "negative": 1,
+      "positive": 2
+    },
+    "origins": [
+      {
+        "baseline_mean": 0.025500322050168056,
+        "best_difference": 0.026185950714291507,
+        "harm_rate": 0.03007518796992481,
+        "improvement_rate": 0.015037593984962405,
+        "mean_difference": -0.0002132652812271846,
+        "mean_harm": 0.0004370219881731426,
+        "mean_improvement": 0.00022375670694595802,
+        "method_mean": 0.025287056768940868,
+        "n_harmed": 4,
+        "n_improved": 2,
+        "n_items": 133,
+        "n_seed_pairs": 665,
+        "n_unchanged": 127,
+        "origin": "2018",
+        "unchanged_rate": 0.9548872180451128,
+        "worst_difference": -0.04893010842364521
+      },
+      {
+        "baseline_mean": 0.029979939890452157,
+        "best_difference": 0.0455340497393906,
+        "harm_rate": 0.03361344537815126,
+        "improvement_rate": 0.05042016806722689,
+        "mean_difference": 0.0006865861930901178,
+        "mean_harm": 0.0002171489441911794,
+        "mean_improvement": 0.0009037351372812971,
+        "method_mean": 0.030666526083542273,
+        "n_harmed": 4,
+        "n_improved": 6,
+        "n_items": 119,
+        "n_seed_pairs": 595,
+        "n_unchanged": 109,
+        "origin": "2019",
+        "unchanged_rate": 0.9159663865546218,
+        "worst_difference": -0.01605584217036249
+      },
+      {
+        "baseline_mean": 0.016581252444485616,
+        "best_difference": 0.016548259888787997,
+        "harm_rate": 0.005025125628140704,
+        "improvement_rate": 0.020100502512562814,
+        "mean_difference": 0.00013404327018527485,
+        "mean_harm": 1.0172744388701517e-05,
+        "mean_improvement": 0.00014421601457397637,
+        "method_mean": 0.016715295714670893,
+        "n_harmed": 1,
+        "n_improved": 4,
+        "n_items": 199,
+        "n_seed_pairs": 995,
+        "n_unchanged": 194,
+        "origin": "2020",
+        "unchanged_rate": 0.9748743718592965,
+        "worst_difference": -0.002024376133351602
+      }
+    ],
+    "relative_difference": 0.008428412686449765,
+    "stage": "c",
+    "stratum": "tail80"
+  },
+  {
+    "baseline": "activity_mean/full",
+    "baseline_mean": 0.017820481025114653,
+    "bootstrap": {
+      "confidence": 0.95,
+      "interpretation": "descriptive",
+      "n_resamples": 2000,
+      "origin_weighting": "equal",
+      "seed": 2026,
+      "unit": "item within origin after seed averaging"
+    },
+    "ci": [
+      -0.001132869342115729,
+      0.015263444302204741
+    ],
+    "cluster_sensitivity": {
+      "ci": [
+        -0.001236616310790988,
+        0.014905186505086977
+      ],
+      "confidence": 0.95,
+      "interpretation": "descriptive sensitivity",
+      "n_resamples": 2000,
+      "n_unique_items": 449,
+      "origin_weighting": "equal in every draw",
+      "rejected_empty_origin_draws": 0,
+      "seed": 2026,
+      "unit": "unique item with all origin records after seed averaging"
+    },
+    "harm": {
+      "harm_rate": 0.056395792911187216,
+      "improvement_rate": 0.05725220529894052,
+      "mean_harm": 0.007755680699109639,
+      "mean_improvement": 0.014158159196379666,
+      "n_harmed": 24,
+      "n_improved": 26,
+      "n_unchanged": 401,
+      "pooled_harm_rate": 0.05321507760532151,
+      "tolerance": 0.0,
+      "unchanged_rate": 0.8863520017898723
+    },
+    "leave_one_origin_out": [
+      {
+        "mean_difference": 0.008287148677503964,
+        "n_origins": 2,
+        "omitted_origin": "2018"
+      },
+      {
+        "mean_difference": 0.005450520698561687,
+        "n_origins": 2,
+        "omitted_origin": "2019"
+      },
+      {
+        "mean_difference": 0.005469766115744432,
+        "n_origins": 2,
+        "omitted_origin": "2020"
+      }
+    ],
+    "limitations": [
+      "Shared-user dependence is not preserved by item resampling.",
+      "Repeated-item dependence across origins and overlapping time windows is not preserved.",
+      "Few origins and exploratory model comparisons do not support confirmatory significance claims."
+    ],
+    "mean_difference": 0.006402478497270027,
+    "method": "activity_both/full",
+    "method_mean": 0.02422295952238468,
+    "metric": "ndcg20",
+    "n_item_origins": 451,
+    "n_origins": 3,
+    "n_seed_pairs": 2255,
+    "n_undefined_item_origins": 0,
+    "n_undefined_seed_pairs": 0,
+    "n_unique_items": 449,
+    "n_unmatched_item_origins": 0,
+    "origin_bootstrap": {
+      "ci": [
+        0.002633138136802157,
+        0.008306394094686708
+      ],
+      "interpretation": "sensitivity only",
+      "unit": "whole origin"
+    },
+    "origin_consistency": {
+      "positive": 3
+    },
+    "origins": [
+      {
+        "baseline_mean": 0.02265391863213871,
+        "best_difference": 0.5056406852643891,
+        "harm_rate": 0.07518796992481203,
+        "improvement_rate": 0.05263157894736842,
+        "mean_difference": 0.002633138136802157,
+        "mean_harm": 0.011347524186684452,
+        "mean_improvement": 0.01398066232348661,
+        "method_mean": 0.025287056768940868,
+        "n_harmed": 10,
+        "n_improved": 7,
+        "n_items": 133,
+        "n_seed_pairs": 665,
+        "n_unchanged": 116,
+        "origin": "2018",
+        "unchanged_rate": 0.8721804511278195,
+        "worst_difference": -0.3377631289747435
+      },
+      {
+        "baseline_mean": 0.02236013198885557,
+        "best_difference": 0.7546264037375547,
+        "harm_rate": 0.058823529411764705,
+        "improvement_rate": 0.058823529411764705,
+        "mean_difference": 0.008306394094686708,
+        "mean_harm": 0.007200090873042747,
+        "mean_improvement": 0.015506484967729455,
+        "method_mean": 0.030666526083542273,
+        "n_harmed": 7,
+        "n_improved": 7,
+        "n_items": 119,
+        "n_seed_pairs": 595,
+        "n_unchanged": 105,
+        "origin": "2019",
+        "unchanged_rate": 0.8823529411764706,
+        "worst_difference": -0.20112941355879163
+      },
+      {
+        "baseline_mean": 0.008447392454349674,
+        "best_difference": 0.38039097893147994,
+        "harm_rate": 0.035175879396984924,
+        "improvement_rate": 0.06030150753768844,
+        "mean_difference": 0.008267903260321218,
+        "mean_harm": 0.004719427037601717,
+        "mean_improvement": 0.012987330297922933,
+        "method_mean": 0.016715295714670893,
+        "n_harmed": 7,
+        "n_improved": 12,
+        "n_items": 199,
+        "n_seed_pairs": 995,
+        "n_unchanged": 180,
+        "origin": "2020",
+        "unchanged_rate": 0.9045226130653267,
+        "worst_difference": -0.28688984549453317
+      }
+    ],
+    "relative_difference": 0.35927641281101924,
+    "stage": "c",
+    "stratum": "tail80"
+  },
+  {
+    "baseline": "activity_mean/zero",
+    "baseline_mean": 0.017820481025114653,
+    "bootstrap": {
+      "confidence": 0.95,
+      "interpretation": "descriptive",
+      "n_resamples": 2000,
+      "origin_weighting": "equal",
+      "seed": 2026,
+      "unit": "item within origin after seed averaging"
+    },
+    "ci": [
+      0.0,
+      0.0
+    ],
+    "cluster_sensitivity": {
+      "ci": [
+        0.0,
+        0.0
+      ],
+      "confidence": 0.95,
+      "interpretation": "descriptive sensitivity",
+      "n_resamples": 2000,
+      "n_unique_items": 449,
+      "origin_weighting": "equal in every draw",
+      "rejected_empty_origin_draws": 0,
+      "seed": 2026,
+      "unit": "unique item with all origin records after seed averaging"
+    },
+    "harm": {
+      "harm_rate": 0.0,
+      "improvement_rate": 0.0,
+      "mean_harm": 0.0,
+      "mean_improvement": 0.0,
+      "n_harmed": 0,
+      "n_improved": 0,
+      "n_unchanged": 451,
+      "pooled_harm_rate": 0.0,
+      "tolerance": 0.0,
+      "unchanged_rate": 1.0
+    },
+    "leave_one_origin_out": [
+      {
+        "mean_difference": 0.0,
+        "n_origins": 2,
+        "omitted_origin": "2018"
+      },
+      {
+        "mean_difference": 0.0,
+        "n_origins": 2,
+        "omitted_origin": "2019"
+      },
+      {
+        "mean_difference": 0.0,
+        "n_origins": 2,
+        "omitted_origin": "2020"
+      }
+    ],
+    "limitations": [
+      "Shared-user dependence is not preserved by item resampling.",
+      "Repeated-item dependence across origins and overlapping time windows is not preserved.",
+      "Few origins and exploratory model comparisons do not support confirmatory significance claims."
+    ],
+    "mean_difference": 0.0,
+    "method": "activity_mean/full",
+    "method_mean": 0.017820481025114653,
+    "metric": "ndcg20",
+    "n_item_origins": 451,
+    "n_origins": 3,
+    "n_seed_pairs": 2255,
+    "n_undefined_item_origins": 0,
+    "n_undefined_seed_pairs": 0,
+    "n_unique_items": 449,
+    "n_unmatched_item_origins": 0,
+    "origin_bootstrap": {
+      "ci": [
+        0.0,
+        0.0
+      ],
+      "interpretation": "sensitivity only",
+      "unit": "whole origin"
+    },
+    "origin_consistency": {
+      "zero": 3
+    },
+    "origins": [
+      {
+        "baseline_mean": 0.02265391863213871,
+        "best_difference": 0.0,
+        "harm_rate": 0.0,
+        "improvement_rate": 0.0,
+        "mean_difference": 0.0,
+        "mean_harm": 0.0,
+        "mean_improvement": 0.0,
+        "method_mean": 0.02265391863213871,
+        "n_harmed": 0,
+        "n_improved": 0,
+        "n_items": 133,
+        "n_seed_pairs": 665,
+        "n_unchanged": 133,
+        "origin": "2018",
+        "unchanged_rate": 1.0,
+        "worst_difference": 0.0
+      },
+      {
+        "baseline_mean": 0.02236013198885557,
+        "best_difference": 0.0,
+        "harm_rate": 0.0,
+        "improvement_rate": 0.0,
+        "mean_difference": 0.0,
+        "mean_harm": 0.0,
+        "mean_improvement": 0.0,
+        "method_mean": 0.02236013198885557,
+        "n_harmed": 0,
+        "n_improved": 0,
+        "n_items": 119,
+        "n_seed_pairs": 595,
+        "n_unchanged": 119,
+        "origin": "2019",
+        "unchanged_rate": 1.0,
+        "worst_difference": 0.0
+      },
+      {
+        "baseline_mean": 0.008447392454349674,
+        "best_difference": 0.0,
+        "harm_rate": 0.0,
+        "improvement_rate": 0.0,
+        "mean_difference": 0.0,
+        "mean_harm": 0.0,
+        "mean_improvement": 0.0,
+        "method_mean": 0.008447392454349674,
+        "n_harmed": 0,
+        "n_improved": 0,
+        "n_items": 199,
+        "n_seed_pairs": 995,
+        "n_unchanged": 199,
+        "origin": "2020",
+        "unchanged_rate": 1.0,
+        "worst_difference": 0.0
+      }
+    ],
+    "relative_difference": 0.0,
+    "stage": "c",
+    "stratum": "tail80"
+  }
+]

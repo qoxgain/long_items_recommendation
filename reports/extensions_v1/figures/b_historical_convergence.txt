@@ -1,0 +1,1 @@
+Grey curves: all 12 configurations. Blue: historically selected configuration; shading: ±1 optimization-seed SD, not a confidence interval. Diamond: selected checkpoint. All curves use seeds 101/202/303. The same prespecified rule chooses 6/20/50 epochs, extending all family trajectories to 100 only when triggered. No final-query metric selects a curve or checkpoint.

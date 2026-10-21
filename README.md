@@ -1,18 +1,20 @@
 # long_tail_items_recommendation
 
-SAET 第三轮商品检索用户实验的独立 Python 重建工程。研究方向为 Amazon Reviews 2023 的 **Digital Music → CDs and Vinyl**。
+长尾商品检索用户的 Python 实验工程，包含 SAET 第三轮独立重建及后续补充实验。研究方向为 Amazon Reviews 2023 的 **Digital Music → CDs and Vinyl**。
 
 原实验代码、模型和逐商品输出已无法恢复。本工程根据三份用户提供的论文/报告及协议记录重新实现，不是原代码镜像。旧报告的数值仅记录于 [historical_reference.csv](reports/historical_reference.csv)，不能作为本次运行结果。具体重建假设见 [RECONSTRUCTION_SCOPE.md](docs/RECONSTRUCTION_SCOPE.md)。
 
 原重建实验已完成：18 个时间前缀、3 个正式起点、5 个优化种子，411 个正式评估单元，另有 169 个历史选参评估和 12 个收益标注模型。原结果见 [重建实验报告](reports/REPRODUCTION_REPORT.md)，完成清单见 [run_status.json](reports/run_status.json)。该轮 58 项测试通过；后续补充实验单独记录如下。
 
-新运行 Tail80 I-NDCG@20 的跨起点均值：活动基线 0.033162，活动＋平均历史 0.032206，时间衰减＋商品条件化历史 0.036150，LightGCN 0.024061。历史选参为全部主迁移策略选中零修正，完整收益策略与冻结底座同为 0.032206；本轮未测得主迁移策略增益。固定非零强度的机制对照单独报告，不能代替主结果。
+原重建运行 Tail80 I-NDCG@20 的跨起点均值：活动基线 0.033162，活动＋平均历史 0.032206，时间衰减＋商品条件化历史 0.036150，LightGCN 0.024061。历史选参为全部主迁移策略选中零修正，完整收益策略与冻结底座同为 0.032206；该轮未测得主迁移策略增益。固定非零强度的机制对照单独报告，不能代替主结果。
 
 ## 补充实验 extensions_v1
 
-本轮使用[冻结协议](configs/extensions_v1.json)，保留原重建结果。A 已完成旧材料统计与机制复核；C 已完成 2018–2020 新时间验证；B 的六模型收敛与任务方向对照正在完成最后一个模型族。未完成矩阵不会生成正式联合报告。完整代码测试已通过 261 项（2026-10-21）。
+本轮使用[冻结协议](configs/extensions_v1.json)，保留原重建结果。A 的旧材料统计与机制复核、B 的六模型预算选择与任务方向对照、C1–C2 的 2018–2020 新时间验证均已完成；联合严格汇总无缺失、失败或无效单元。完整代码测试已通过 261 项（2026-10-21）。
 
+- [最终联合报告](reports/extensions_v1/REPORT_ZH.md)、[完整性清单](reports/extensions_v1/summary.json)、[论文表格更新说明](reports/extensions_v1/MANUSCRIPT_RESULT_PATCH.md)、[英文结果与讨论段落](reports/extensions_v1/MANUSCRIPT_INSERTS_EN.md)、[五组图表及数据](reports/extensions_v1/figures/figure_manifest_abc.json)。
 - [A 阶段严格报告](reports/extensions_v1/stage_a_summary/REPORT_ZH.md)：复核 411 个旧评价，五项目标配对的两种描述性 95% 区间均跨零。
+- B 完成 216 条历史选参训练轨迹和 90 个正式模型。历史预算与配置选择后，LightGCN 为 0.034382，SimpleX 为 0.022113；用户检索目标 LightGCN 为 0.042161，相对常规 LightGCN 的差为 0.007779，商品簇描述性 95% 区间为 [0.001272, 0.016124]。两种目标分别选参，不能把差值解释为固定配置下的纯损失效应；旧六轮与新结果也同时涉及预算和选参过程变化。
 - [C 阶段严格报告](reports/extensions_v1/stage_c_summary/REPORT_ZH.md)：24 个历史收益折、74 个历史部署选择记录、120 个策略评价和 3 个活动评价全部核验。组合历史底座的完整收益修正为 0.024223，零修正为 0.024021；主差值 0.000202 的区间跨零，尚未建立稳定迁移收益。
 - [执行范围](docs/EXTENSIONS_V1_PLAN.md)、[CF 收敛对照](docs/extensions_cf.md)、[目标模型收敛](docs/extensions_target.md)、[新时间迁移](docs/extensions_transfer.md)、[严格汇总](docs/extensions_reporting.md)。
 
@@ -25,11 +27,12 @@ python scripts/run_extensions.py --stage b --pilot
 python scripts/run_extensions.py --stage b
 python scripts/run_extensions.py --stage c
 python scripts/summarize_extensions.py
+python scripts/plot_extensions.py
 ```
 
 各入口支持断点恢复；独立阶段可分别执行。B 在 12 配置、3 个历史种子上比较 6/20/50 轮，并按预先固定规则决定是否将全族延长到 100 轮。C 使用旧开发阶段冻结的底座，不随 B 的最终结果调整。A/B 是旧开发起点上的探索；C 是同领域新时间验证。Movies and TV → Books 尚未运行，不提供独立领域结论。未完成时仅可用 `--allow-partial --output-dir reports/extensions_v1/progress` 生成标明状态的进度快照。
 
-## 模型与协议
+## 原重建实验的模型与协议
 
 - 目标模型：无界线性偏好、活动＋平均历史、时间衰减历史、商品条件化历史、二者组合。
 - 常见对照：用户活动计数、语义余弦、MF-BPR、LightGCN、SimpleX。
@@ -79,7 +82,7 @@ python scripts/summarize_results.py --output-dir reports/local_reproduction
 
 下载器从 [Amazon Reviews 2023 官方数据](https://amazon-reviews-2023.github.io/) 获取完整类别评分与标题元数据，保存来源、行数和 SHA256。前缀构建不截取下载流，不使用未来活动筛选用户。每个前缀独立建立词表/SVD，当前标题元数据的历史性限制在协议中说明。
 
-数据、特征缓存、检查点及逐商品预测保存在本地 `data/`、`results/`，不作为普通 Git 文件提交。GitHub 保存可运行源代码、固定协议、测试和聚合结果。运行过程可以从完整工件恢复，未完成记录不能算作已完成实验。
+数据、特征缓存、检查点及逐商品预测保存在本地 `data/`、`results/` 和补充实验的 `data_extensions/`、`results_extensions/`，不作为普通 Git 文件提交。GitHub 保存可运行源代码、固定协议、测试、聚合结果和图表。运行过程可以从完整工件恢复，未完成记录不能算作已完成实验。
 
 ## 结果解释
 
