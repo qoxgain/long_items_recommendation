@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "matplotlib": "3.10.8",
+    "numpy": "2.3.5",
+    "python": "3.12.14"
+  },
+  "inputs": {
+    "artifact_manifest.json": "fb7dbf824fce1a8e0d33c985c8c3857b08bd3c7def918f6e606ce6e056ccec02",
+    "metrics_by_origin.csv": "9b1e5ac2c6eccf80e937d041bffb96b99d0d5fe73d59f30f74f835d8874668b2",
+    "paired_effects.csv": "a41443191fd561391202a0f98056c738a5b16e92f13f32eacf347c293abf1612",
+    "summary.json": "2c223a198e7b74addfa6d2d7ba7c011f0a9698672b50323dc26430c87286ba33"
+  },
+  "outputs": {
+    "c_metrics_by_origin.csv": "ea90509213f769f74b9ffdc2ad1a09375c25be64e5ee8b4e2b95ce5e8e9867ef",
+    "c_metrics_by_origin.pdf": "85ee36f2bc0c45fb4167ac960c517d1640415bb48ded98c2e8b96896227545f9",
+    "c_metrics_by_origin.png": "3626e960536b78db2de9ec8c83a975733c4dbd41cdcd50ebfa2409b3ea8ea077",
+    "c_metrics_by_origin.svg": "8290d3f9925269eef6d5071f5e6f98617dd9944c593af089891961643b41f8b1",
+    "c_metrics_by_origin.txt": "6c93450f7d84fe67c0532b2e5f72d9c404e75a00be5fdf5c6388dd373b621a12",
+    "c_paired_effects.csv": "a41443191fd561391202a0f98056c738a5b16e92f13f32eacf347c293abf1612",
+    "c_paired_effects.pdf": "60b1eafba997a7378ef010880108fdb711ab5b0a01302f01c5a36631789317c6",
+    "c_paired_effects.png": "57971707a6e6656a51def95a5ff857350a703528a5aafc2787d313259c3893ae",
+    "c_paired_effects.svg": "900f59245edf0726b06236366fb31b0234384a1985d316011140061e0de74372",
+    "c_paired_effects.txt": "57bb082817fff48d8a6c4971f0de096729c83392c88f5d2150d5d254f5e2b646"
+  },
+  "plotting_code_sha256": "90cd89f9fe1a2e4da77d73e6ff8d8cb02dd70d67053e0c3b117ba4474f42704a",
+  "protocol_sha256": "919bf4e2e4ac627a6aa4decef83a56220794758fbe5ca707bc4d395c3d77717b",
+  "raw_user_or_item_ids": false,
+  "schema": "extensions-v1-figures",
+  "stages": [
+    "c"
+  ],
+  "strict_report_generated_utc": "2026-10-20T12:00:07.857722+00:00"
+}

@@ -1,0 +1,9 @@
+stage,method,configuration,epochs,historical_score,nominal_configurations,distinct_score_configurations
+c,activity_mean/full,"{""policy"": ""full"", ""radius"": 0.0, ""temperature"": 0.1}",6,0.030437276161803056,37,13
+c,activity_mean/semantic,"{""policy"": ""semantic"", ""radius"": 0.0, ""temperature"": 0.1}",6,0.030437276161803056,37,13
+c,activity_mean/uniform,"{""policy"": ""uniform"", ""radius"": 0.0, ""temperature"": 0.1}",6,0.030437276161803056,37,13
+c,activity_mean/zero,"{""policy"": ""zero"", ""radius"": 0.0, ""temperature"": 1.0}",6,0.030437276161803056,37,13
+c,activity_both/full,"{""policy"": ""full"", ""radius"": 0.1, ""temperature"": 0.1}",6,0.03866760502217473,37,13
+c,activity_both/semantic,"{""policy"": ""semantic"", ""radius"": 0.0, ""temperature"": 0.1}",6,0.03843582282584077,37,13
+c,activity_both/uniform,"{""policy"": ""uniform"", ""radius"": 0.05, ""temperature"": 0.1}",6,0.03850741357480422,37,13
+c,activity_both/zero,"{""policy"": ""zero"", ""radius"": 0.0, ""temperature"": 1.0}",6,0.03843582282584077,37,13

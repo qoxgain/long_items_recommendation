@@ -1,0 +1,3427 @@
+{
+  "artifacts": [
+    {
+      "path": "data_extensions/v1/music/cds_2018_d0.npz",
+      "sha256": "53e8b93da344d306898c43092ff34f85157be5c22a3e0bdd40b6f095512600a4"
+    },
+    {
+      "path": "data_extensions/v1/music/cds_2018_d180.npz",
+      "sha256": "f04d1ccd4beeff04028b0147eb64bb5a490a2f5fa367fa2828a11d0034e399f2"
+    },
+    {
+      "path": "data_extensions/v1/music/cds_2018_d270.npz",
+      "sha256": "257efd0c51dea171d74fcb0bddf397d91b604cd36698c6a0627b17e83bebca52"
+    },
+    {
+      "path": "data_extensions/v1/music/cds_2018_d60.npz",
+      "sha256": "fdb3fb177f03be99797d3043c798d9db6dac0459d0827ade99ec2350cecdb096"
+    },
+    {
+      "path": "data_extensions/v1/music/cds_2018_d90.npz",
+      "sha256": "a4009f0c29fcf9a81bbd69f5879b8e441303f542308ef0e8f4157552e9ac25c5"
+    },
+    {
+      "path": "data_extensions/v1/music/cds_2019_d0.npz",
+      "sha256": "764441cf40055cb89a7c1cf4fbc278bcc0416736a13186dfc25b250409f0dc8d"
+    },
+    {
+      "path": "data_extensions/v1/music/cds_2019_d180.npz",
+      "sha256": "374dc60e3bd0c2c38283ed8917bc29c92158ff1cfc59b84f669714e36d7a7491"
+    },
+    {
+      "path": "data_extensions/v1/music/cds_2019_d270.npz",
+      "sha256": "90503537ff5d0005ca7c2c0f815f3e6336f91a9d7c69b1a64d3adac2dc64506a"
+    },
+    {
+      "path": "data_extensions/v1/music/cds_2019_d60.npz",
+      "sha256": "692f7eed145d96e7ef6b686c240f08fce2481daf3d27c6ba52839bec71081430"
+    },
+    {
+      "path": "data_extensions/v1/music/cds_2019_d90.npz",
+      "sha256": "224a5cc162eba2df1e7b6ab69bcf932a35089e72fa24571c7ba648722c1a88a6"
+    },
+    {
+      "path": "data_extensions/v1/music/cds_2020_d0.npz",
+      "sha256": "f9b02c51c45c7abb0903d39d2bfa151bab56b5b7c561c4eb6311f0d2bb4cfaa5"
+    },
+    {
+      "path": "data_extensions/v1/music/cds_2020_d180.npz",
+      "sha256": "15e8332e77964c7128a60ea4a73eba7cdf6c3630fd011dba571e89b94c71d329"
+    },
+    {
+      "path": "data_extensions/v1/music/cds_2020_d270.npz",
+      "sha256": "b2d9e556f93687c767ce458af7f8125b2ac8d982ab06b30cdd482ef2a1234ac2"
+    },
+    {
+      "path": "data_extensions/v1/music/cds_2020_d60.npz",
+      "sha256": "aed4ec98be1ed1ad420cbabb1fb77a85d101cc0f9a90bc3d01059441523350f0"
+    },
+    {
+      "path": "data_extensions/v1/music/cds_2020_d90.npz",
+      "sha256": "a70dff82c07d0dc51370c63554360db240f26f34123af0fc968e394a2052e8e9"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity/final/cds_2018_d0/seed_0/result.json",
+      "sha256": "eb6fad2272a5da06a5bf19b3b981c6a7145bebc9a52d98990f5c27d785fafc61"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity/final/cds_2018_d0/seed_0/test.npz",
+      "sha256": "707bad4c0ecbec534a4879f8eea234f80a3ae437961e8c9fdc134b2ad1359a23"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity/final/cds_2019_d0/seed_0/result.json",
+      "sha256": "c571238f977b5bedb3a9dc3bd8ac8f3cf5a2f5d05af5b3c3765f392cd9ba79cb"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity/final/cds_2019_d0/seed_0/test.npz",
+      "sha256": "868ec8eec50b7705428b2e125174282c067750048e5f36ffd01167e13a2d8d5c"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity/final/cds_2020_d0/seed_0/result.json",
+      "sha256": "82db45936a9d4ac33daf3e1ef27258094eaeeb4f00bb96fc0153a11ccc89a2ad"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity/final/cds_2020_d0/seed_0/test.npz",
+      "sha256": "7c7ae0ad47de82a803fa4df88ffbb45e466465d9306c6fdca59fcf5b27d18250"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_11/canonical_test.npz",
+      "sha256": "f1db3592139968c95c4824efe2ea8ed382e1237cdc7fea3ed2cc32db7fb93dab"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_11/full/result.json",
+      "sha256": "ff4adfb832cf1d775837ded96c0f1b05577878826b6d34aa6f0da0cab24936f7"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_11/full/routing.npz",
+      "sha256": "ffa4f2df23fccc8f6738568e2f991b2258cd229bb05f8465ba1823dd54341f36"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_11/full/test.npz",
+      "sha256": "de3cb01983d9a7ee89abe70a95ff4d82e34fa5b0dafaa711de70c77f0e2b4bef"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_11/model.npz",
+      "sha256": "4b8a623849a6897261f85837867a42de243e9e9f8f9c0641dcfdbce502d37ec1"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_11/semantic/result.json",
+      "sha256": "e1e785618bf220cf847b51c01241e8042c6a5b8bbe32f98711f610db238a9928"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_11/semantic/routing.npz",
+      "sha256": "f90f82ae27a47124c313fcf179f2f3c7a4a4333c0944ba69ae1c647ddaecfdc4"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_11/semantic/test.npz",
+      "sha256": "f1db3592139968c95c4824efe2ea8ed382e1237cdc7fea3ed2cc32db7fb93dab"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_11/source_activity.npz",
+      "sha256": "8d83a43f9fe37bf62a412ef627fcb36addcfe534d66828b188d794bd80c744dd"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_11/training.json",
+      "sha256": "fcc19dd7d1759be3e2156be1fed29b2f54d467e09ecfd0d8fb08f5be623d4a61"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_11/uniform/result.json",
+      "sha256": "f8f40899cde8990a2e21574346f87caa1ffc8854f4a9c3045dbd46765d8eda85"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_11/uniform/routing.npz",
+      "sha256": "650600b31b217dfefc20b813f6d74caebc944c7d28a21d26793b564ae9dba6f9"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_11/uniform/test.npz",
+      "sha256": "fdfa8287d2f9a824b04c5e5259aaa7e9ff8bb5af1423ec47b48498e0969a7a73"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_11/zero/result.json",
+      "sha256": "1e6518f8529f3a696192a92274acd37b8b9d13154e1c0eb582afaabf18823982"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_11/zero/routing.npz",
+      "sha256": "f90f82ae27a47124c313fcf179f2f3c7a4a4333c0944ba69ae1c647ddaecfdc4"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_11/zero/test.npz",
+      "sha256": "f1db3592139968c95c4824efe2ea8ed382e1237cdc7fea3ed2cc32db7fb93dab"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_22/canonical_test.npz",
+      "sha256": "c638bdf2a7c9c263d15c50217dafcc741a0e3c0c6b8cb495bbe8a039490fb3a7"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_22/full/result.json",
+      "sha256": "0304ab57360170d35849f4c89b5e8bae6d655329b356a510db4e8921eb08abff"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_22/full/routing.npz",
+      "sha256": "b520d65d0f33fca8671176d9f599059736022029446da67d96634ade1ffc49fe"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_22/full/test.npz",
+      "sha256": "9284dfa36d55e788df2d72d99f503ea9fe64bed34231bd6609425b335fa96581"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_22/model.npz",
+      "sha256": "312ace0d151c0497759823a1de70d6b00474e00d9fa4db2c7868f388b6849bd9"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_22/semantic/result.json",
+      "sha256": "fb54cf3c8cb52f558452f0b7961518f56542583f3536bbe123e6cb90a8866d86"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_22/semantic/routing.npz",
+      "sha256": "f90f82ae27a47124c313fcf179f2f3c7a4a4333c0944ba69ae1c647ddaecfdc4"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_22/semantic/test.npz",
+      "sha256": "c638bdf2a7c9c263d15c50217dafcc741a0e3c0c6b8cb495bbe8a039490fb3a7"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_22/source_activity.npz",
+      "sha256": "39cfbdeb21da9ee4a34f77e2ad77a5f60827cf27043169897d58372d4701207b"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_22/training.json",
+      "sha256": "c94357be9370788c2aae11697fd40800837cf4142bc0cce30d67940c5c3e5417"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_22/uniform/result.json",
+      "sha256": "9a10fec906c466587d472405c2a146e29d2e974ba194b2cf5e0ac0f079c46f2f"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_22/uniform/routing.npz",
+      "sha256": "922bf5fdb2c7676e8560d2d4e62cb7ffe041be4fe2c7dcbc55592ea2ed8c8c38"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_22/uniform/test.npz",
+      "sha256": "f7389dfd1c118d6eff57aeb0159b5deb1cd7daac62f6b5700cc1eb49ca162d06"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_22/zero/result.json",
+      "sha256": "04c5eaba9eed018249be1b292dce97bfe262822c9835a2dbce91b83c3cdfd49f"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_22/zero/routing.npz",
+      "sha256": "f90f82ae27a47124c313fcf179f2f3c7a4a4333c0944ba69ae1c647ddaecfdc4"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_22/zero/test.npz",
+      "sha256": "c638bdf2a7c9c263d15c50217dafcc741a0e3c0c6b8cb495bbe8a039490fb3a7"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_33/canonical_test.npz",
+      "sha256": "6a44f1a3304e8467ad605f38147f2e369abbbc4734a3d7ce17f34fad434ba24c"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_33/full/result.json",
+      "sha256": "062914c1f6ed8a81ca853f77d37160fa886aac4476092739629a051a90934ca5"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_33/full/routing.npz",
+      "sha256": "861a3719f6a240990ae44ec71b7fc404fbde09065ab8e1839b38c3aea47315be"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_33/full/test.npz",
+      "sha256": "7c64bd86dfca8952a5e65c7f95c5b7fe1f60603b83f398f6b158795ac93516f0"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_33/model.npz",
+      "sha256": "3b9c84666108075a7a28093685e5b2afeddc7655984c48896e915e362845b2bd"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_33/semantic/result.json",
+      "sha256": "c767fcb8e2f2db75ebcd482bd15310a4e16378a13426b4d68998bc8b01d48a50"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_33/semantic/routing.npz",
+      "sha256": "f90f82ae27a47124c313fcf179f2f3c7a4a4333c0944ba69ae1c647ddaecfdc4"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_33/semantic/test.npz",
+      "sha256": "6a44f1a3304e8467ad605f38147f2e369abbbc4734a3d7ce17f34fad434ba24c"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_33/source_activity.npz",
+      "sha256": "2532118115bc8087e6e4698c63b092691b6fcfdfc557594e04780d49b4ccb85b"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_33/training.json",
+      "sha256": "7eb47751224bfd23becec11f6aee3d593b9abaaef68a571237a341835049190d"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_33/uniform/result.json",
+      "sha256": "26898b89c4f5397072f8d1c7c99f2f0b9f70c16f19949c1359f0807560f292de"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_33/uniform/routing.npz",
+      "sha256": "23971d38d54dbd81040097cda2112aec89fb40e0affcb303374028fb0f9e7459"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_33/uniform/test.npz",
+      "sha256": "6f50cf32e99d4b83de86218ac057fd376bec352c9ff1a0e0be7e4daead134b8b"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_33/zero/result.json",
+      "sha256": "0aaf6e37b4053624665f94fd13bfc143510e8ade862544a430afcd3ae45b469a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_33/zero/routing.npz",
+      "sha256": "f90f82ae27a47124c313fcf179f2f3c7a4a4333c0944ba69ae1c647ddaecfdc4"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_33/zero/test.npz",
+      "sha256": "6a44f1a3304e8467ad605f38147f2e369abbbc4734a3d7ce17f34fad434ba24c"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_44/canonical_test.npz",
+      "sha256": "6a1b5364278f99f6927eee09db83f8eea9bdd26646ac0d994b39b5b7b607e62b"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_44/full/result.json",
+      "sha256": "58281855e716683080936469527cf3b2bd1dfcbdd0e14c7acf66c02f736617e1"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_44/full/routing.npz",
+      "sha256": "7b2e05b1d7b3b8a9fcc31f84fb90493f194d9a2ab579ea690683c40f84f55657"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_44/full/test.npz",
+      "sha256": "3f92a9ca08decaf83c01416493693e458ade775600876f4c44a34d924824906d"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_44/model.npz",
+      "sha256": "1a030c768a25e823df7adef79c062d4c768670a038856bd0a658bdcb66d33a97"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_44/semantic/result.json",
+      "sha256": "ead8f806c87e642dd8d383fad58d71124d1ed1d5e8cb4e9cffe4409ef2045cb6"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_44/semantic/routing.npz",
+      "sha256": "f90f82ae27a47124c313fcf179f2f3c7a4a4333c0944ba69ae1c647ddaecfdc4"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_44/semantic/test.npz",
+      "sha256": "6a1b5364278f99f6927eee09db83f8eea9bdd26646ac0d994b39b5b7b607e62b"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_44/source_activity.npz",
+      "sha256": "a0217ddad28806e4f412e342bdd7c4567a48c673aed2b64972563ef84702b2a3"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_44/training.json",
+      "sha256": "fa829aec2fd8f2cc319d3ed2d195d36e657298d308b4f3b14fd3521ad34c036d"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_44/uniform/result.json",
+      "sha256": "b6265b11890bfcc491537cb659af1deb241b741499aa9e466a089c2df2277659"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_44/uniform/routing.npz",
+      "sha256": "703d18415180ad6797050df325c3130075fd28723f523ccacb0da655c2583fc6"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_44/uniform/test.npz",
+      "sha256": "1d11ad883b77b57c0ca636df8003eae9416cc4917564051e165fdc41f258919f"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_44/zero/result.json",
+      "sha256": "4363118564b2334dc66cd251ecb6b0faf4e3ee90e38818b640c491a89859e528"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_44/zero/routing.npz",
+      "sha256": "f90f82ae27a47124c313fcf179f2f3c7a4a4333c0944ba69ae1c647ddaecfdc4"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_44/zero/test.npz",
+      "sha256": "6a1b5364278f99f6927eee09db83f8eea9bdd26646ac0d994b39b5b7b607e62b"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_55/canonical_test.npz",
+      "sha256": "8b892d97aca6fdd931f72af934f40eb1ddf4c198bd00a364061fce01b0df3b7b"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_55/full/result.json",
+      "sha256": "58eaaa76d5e0822edb58d9260c91e8bfc7ada7121e70da1d58d6755d6d685d14"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_55/full/routing.npz",
+      "sha256": "65f78f08946215daa438ea9bc2de84e4b3510160bb2902aa6d74ec7415567f39"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_55/full/test.npz",
+      "sha256": "2961e2362555fdcabe724e49c7b59a17fc3dd2624b0175999dae23030ed47129"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_55/model.npz",
+      "sha256": "818860f253499e8af8e40e1083bcdb4e856efdb6955df83a8eeebb90fe79a9e8"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_55/semantic/result.json",
+      "sha256": "6fb755dda94e6abf9aa5a6d5f6adcb2864139b7fb281efc9a97087a68919ccf9"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_55/semantic/routing.npz",
+      "sha256": "f90f82ae27a47124c313fcf179f2f3c7a4a4333c0944ba69ae1c647ddaecfdc4"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_55/semantic/test.npz",
+      "sha256": "8b892d97aca6fdd931f72af934f40eb1ddf4c198bd00a364061fce01b0df3b7b"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_55/source_activity.npz",
+      "sha256": "215690efb3e21390fc6798c1f21faf3935509fa5ce2514c050e79c22e3e3f9d4"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_55/training.json",
+      "sha256": "8cf69936511816b68ce37573f9b2d34e4a1c30624ab99a62bfc42f35851b5d13"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_55/uniform/result.json",
+      "sha256": "da4872e6e341b90925f948f10fd06328de87b2782fbf35d42561e8b7400f171e"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_55/uniform/routing.npz",
+      "sha256": "a1e0450a291f1ae27fa28f7ee835d139eec2d30875dd98b732258f45f776c934"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_55/uniform/test.npz",
+      "sha256": "fd09ce186a1734f2c77c09def310946ff2f4f83ad39a5e98494ffda4fb311da1"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_55/zero/result.json",
+      "sha256": "c8a0363c2d7a03f5f612e2b8f4f0d28ac3e3332e5f9968c7695f8aa35b8876af"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_55/zero/routing.npz",
+      "sha256": "f90f82ae27a47124c313fcf179f2f3c7a4a4333c0944ba69ae1c647ddaecfdc4"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2018_d0/seed_55/zero/test.npz",
+      "sha256": "8b892d97aca6fdd931f72af934f40eb1ddf4c198bd00a364061fce01b0df3b7b"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_11/canonical_test.npz",
+      "sha256": "3ac2fa06bcdac5699773aa3becb376a702562e353e2e287a2b046ccd2247b6c3"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_11/full/result.json",
+      "sha256": "cc00b3c9b1504c2ccaf3f8f66fc377585cfa75c4af757ad77f96ddb2d36a03b6"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_11/full/routing.npz",
+      "sha256": "c989000f0df027ff64b684cdfc812f3aa060a40479b66d78ed479f9f702ed84d"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_11/full/test.npz",
+      "sha256": "8751b857da506b42eb320605bcd098d43c0221b43f352f670c6089cc992eadd3"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_11/model.npz",
+      "sha256": "0acf3d9a8c41ffb76ae9b8736e5578d44ecb6060b5820328c312692ee0bd3558"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_11/semantic/result.json",
+      "sha256": "2da4f9547651bd5365dfa6feb65370bf6b022d2411514ba4c7612ae4d2cbc1dc"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_11/semantic/routing.npz",
+      "sha256": "7984d9d539857dd787a8868dd38ed7c199edafaacc929558a548a0e0e73f2dde"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_11/semantic/test.npz",
+      "sha256": "3ac2fa06bcdac5699773aa3becb376a702562e353e2e287a2b046ccd2247b6c3"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_11/source_activity.npz",
+      "sha256": "978daea1699730411bff92d64b307941fbe6bc02ba6034f6cbc6d05dd10f9dcb"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_11/training.json",
+      "sha256": "c276a993bb68294d3d6db96b115b164cef4cac59e79bc6715170fb0e56b4357c"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_11/uniform/result.json",
+      "sha256": "ec84e6c2028adbc04e0738c9ec99b60aab92de0a6eb4a7dd50b7f0e0a73f8253"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_11/uniform/routing.npz",
+      "sha256": "37996482f740472db7ff94ab1d4033c1ad693d062380800c8db8bf10063820ae"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_11/uniform/test.npz",
+      "sha256": "3cc414faddfed02c70302ad21e2e35ba750e01618013ee13c7aa2fa857f70b4f"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_11/zero/result.json",
+      "sha256": "d0cbc9387096c9665b60cd940d45d705415fd050675e8440bcf3d4362f3dc7d3"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_11/zero/routing.npz",
+      "sha256": "7984d9d539857dd787a8868dd38ed7c199edafaacc929558a548a0e0e73f2dde"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_11/zero/test.npz",
+      "sha256": "3ac2fa06bcdac5699773aa3becb376a702562e353e2e287a2b046ccd2247b6c3"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_22/canonical_test.npz",
+      "sha256": "8c6e02e4bf844a3d9ac425ee49b6faba21c3683b6cc152140c025d761742c058"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_22/full/result.json",
+      "sha256": "4f91ff5ff21717c8add09e43aadd8ade2f72ba8cc32e4b9afd6f735dcb0a74e4"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_22/full/routing.npz",
+      "sha256": "bfd43f5b763dddd03070bdcb0a9c90fc790decbaf376c0ed141881aea8b91ab6"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_22/full/test.npz",
+      "sha256": "1ba2a13588d62dba996d854208d00ebd1768455b232d54b296be42e5f2f50c80"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_22/model.npz",
+      "sha256": "dd102982e99796d1661368d2e1366f6bc5042cee434dc560fa852a1320c2fb10"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_22/semantic/result.json",
+      "sha256": "aac42629c45d0f5759775fd856cab10150e1919f853486018492a1d80da67fc9"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_22/semantic/routing.npz",
+      "sha256": "7984d9d539857dd787a8868dd38ed7c199edafaacc929558a548a0e0e73f2dde"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_22/semantic/test.npz",
+      "sha256": "8c6e02e4bf844a3d9ac425ee49b6faba21c3683b6cc152140c025d761742c058"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_22/source_activity.npz",
+      "sha256": "be3313e147a2a23b6be67e94b518aae916d381b2cd281dcda8cfe6df5a91590e"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_22/training.json",
+      "sha256": "372e08a968a304d2ed899bbfb008f58659fa4d6561710eb79e93c289c8d4364c"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_22/uniform/result.json",
+      "sha256": "b9c3be2f1bfb2b79f07e10d10e2da8a1da8b507646cddfff6468f8bbedabc0d6"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_22/uniform/routing.npz",
+      "sha256": "4fa4ea9544a4c3f951f25db227c6103c0ae8438ff52ccafe8a075ee7b2fabf68"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_22/uniform/test.npz",
+      "sha256": "8e030e310c95e5009178dbba80aa2b88312e0f4229b8dbb8c4a091347ec2db13"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_22/zero/result.json",
+      "sha256": "ed943c3a830f45736652d49604a9b7906e2e856bf856f936693ff1c4346147d6"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_22/zero/routing.npz",
+      "sha256": "7984d9d539857dd787a8868dd38ed7c199edafaacc929558a548a0e0e73f2dde"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_22/zero/test.npz",
+      "sha256": "8c6e02e4bf844a3d9ac425ee49b6faba21c3683b6cc152140c025d761742c058"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_33/canonical_test.npz",
+      "sha256": "be6064a9d48eb5a6fe146829cd2c3520d49664ccf7733427004a612f380466e2"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_33/full/result.json",
+      "sha256": "b0e582372f3915ddd19ffbe74dd814401b9ef8d21c62f0914cc5b8873f926c5a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_33/full/routing.npz",
+      "sha256": "7df842f16a8b1d84ffa283dd02e84eba0baa84b7f8e290bb73681c201e63c4d8"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_33/full/test.npz",
+      "sha256": "1f6c99c5ff17a9c4cc76914cec86362ae68d276aca2319f26d7c22f44880a23a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_33/model.npz",
+      "sha256": "335a94e686ef611efcaacbf5be8abd3ddec352c8de525f31d1bfc1e5a55b61a6"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_33/semantic/result.json",
+      "sha256": "dc1bbb574a4904f2bcef3bbd0d9c73dad40f0e82709dfca0e6e48e68469d7063"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_33/semantic/routing.npz",
+      "sha256": "7984d9d539857dd787a8868dd38ed7c199edafaacc929558a548a0e0e73f2dde"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_33/semantic/test.npz",
+      "sha256": "be6064a9d48eb5a6fe146829cd2c3520d49664ccf7733427004a612f380466e2"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_33/source_activity.npz",
+      "sha256": "266c43933c240417b66917a0e66fb36113c5276a01b2fffb00e25271d25742e4"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_33/training.json",
+      "sha256": "e781592b63fe141dca21af6d55527db1a21b1557f9199c2de4094dfdfb077e51"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_33/uniform/result.json",
+      "sha256": "94ee4ec17d7d0a1ccca77f60073458bd12ce322e093d098fd9102e10ab9e17ec"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_33/uniform/routing.npz",
+      "sha256": "8d19cefbd0354fa8ca469f92853d11a62f676530cd32710378c2d4da67f323cf"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_33/uniform/test.npz",
+      "sha256": "aecb91e581d6e84f025441c709f1a9adcb8d988344de883c9b54bb506c1aa8c7"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_33/zero/result.json",
+      "sha256": "20b6552e11745f21b33fc28f6731281efdcd3bf1f6f4548fad8b1c0dfab360b6"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_33/zero/routing.npz",
+      "sha256": "7984d9d539857dd787a8868dd38ed7c199edafaacc929558a548a0e0e73f2dde"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_33/zero/test.npz",
+      "sha256": "be6064a9d48eb5a6fe146829cd2c3520d49664ccf7733427004a612f380466e2"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_44/canonical_test.npz",
+      "sha256": "9d2cb16d573c7a32eeedc765244f7c7f2aed6679c20b2b0f03f9994bbc6e29ae"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_44/full/result.json",
+      "sha256": "bc8a20300ca1f4cb1fe73ececcfb88fce0ca706c8039c53ad3364d9cd0655605"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_44/full/routing.npz",
+      "sha256": "3537ffc77b1b82533e2acdf00b1169ca3b19639f1ed5ba26f74cfff8e0e846fd"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_44/full/test.npz",
+      "sha256": "29f680f71a135d2974e003ed108d05b7705d9069717f5ab8857cb10650b9f460"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_44/model.npz",
+      "sha256": "de29e07f79f26e26ca2051e6562ad95ea10e68f5d99fbff1375481d32237875a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_44/semantic/result.json",
+      "sha256": "0a55385592622aab7349a28bef3996b2db1826cd833709ca3ba11cc6f8799206"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_44/semantic/routing.npz",
+      "sha256": "7984d9d539857dd787a8868dd38ed7c199edafaacc929558a548a0e0e73f2dde"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_44/semantic/test.npz",
+      "sha256": "9d2cb16d573c7a32eeedc765244f7c7f2aed6679c20b2b0f03f9994bbc6e29ae"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_44/source_activity.npz",
+      "sha256": "872186a80cf666a870d5c3b2125c146f4b2b5f06af99e1f352f167491edcc17b"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_44/training.json",
+      "sha256": "8fb013c9ceb3f2ed4beae74792fa9d00beb3454ed817daf60c96406fd9fe387c"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_44/uniform/result.json",
+      "sha256": "9569d64cbcd8706429a6e842d378578f89033de321d50bc5422494b458a0d751"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_44/uniform/routing.npz",
+      "sha256": "f7383a8736bcf8f7262dd1568a99ff11d663197892fc40b0b15a4063ffe9a38e"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_44/uniform/test.npz",
+      "sha256": "8f9a204360da73722a7b05137e2a5979186b58ea5e1ee0a56669995f947de577"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_44/zero/result.json",
+      "sha256": "ec34736ef9040026c21d83d8c2ea587f26daaa36ea34467d68fb3990d7fca56f"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_44/zero/routing.npz",
+      "sha256": "7984d9d539857dd787a8868dd38ed7c199edafaacc929558a548a0e0e73f2dde"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_44/zero/test.npz",
+      "sha256": "9d2cb16d573c7a32eeedc765244f7c7f2aed6679c20b2b0f03f9994bbc6e29ae"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_55/canonical_test.npz",
+      "sha256": "d503a6e72d49d678b950f962468ed8ca86f4d386c889644383042876148c9e4a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_55/full/result.json",
+      "sha256": "c15cd99e2ca5ce228fe9fd036b0836df3be2697d49dc2a95f6e62cd7cde9c4ab"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_55/full/routing.npz",
+      "sha256": "a188f208d22f13467be887b5ca2d6191f4d3d37241f8f134078f25dba9e9db42"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_55/full/test.npz",
+      "sha256": "3aaec9893fb4c810a4eb6f1482b4c6cf1998f80f7da1cc0e609dfbbe82465af2"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_55/model.npz",
+      "sha256": "4c3b30523f828d55d34b3c494c4ff64abe9708f2fd6273dc58eb69721b57c30a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_55/semantic/result.json",
+      "sha256": "26eb31cdcb8ef3d45d7ed1c9fa7134d3c6bd1e3c34b834a30557cf1c1bf3456a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_55/semantic/routing.npz",
+      "sha256": "7984d9d539857dd787a8868dd38ed7c199edafaacc929558a548a0e0e73f2dde"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_55/semantic/test.npz",
+      "sha256": "d503a6e72d49d678b950f962468ed8ca86f4d386c889644383042876148c9e4a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_55/source_activity.npz",
+      "sha256": "dddb7d47708f11902a6dcbb5b8106d76e2dd9cfd261040d47a4b2ce1f24c111c"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_55/training.json",
+      "sha256": "a31e35f00a39964af2fe7c142d3ac941507e92b5932c4a155279cadd770c5877"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_55/uniform/result.json",
+      "sha256": "caf4e0dec96a9f487c792cc50c296cdb2f81a8b3fbe787f7dd928cd0062f3f43"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_55/uniform/routing.npz",
+      "sha256": "3f47601058a1a89f80638c9c1d35e61dd90c6dc1aca4344ea77bf3c566fa9343"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_55/uniform/test.npz",
+      "sha256": "62c8e88544898ef5e9a431d1d771161b0050f856f762df59064391b0506711f4"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_55/zero/result.json",
+      "sha256": "a54b3b707a1711b18ea2f81ef9263deca69beb1b3929d51cf05444792431fbc6"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_55/zero/routing.npz",
+      "sha256": "7984d9d539857dd787a8868dd38ed7c199edafaacc929558a548a0e0e73f2dde"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2019_d0/seed_55/zero/test.npz",
+      "sha256": "d503a6e72d49d678b950f962468ed8ca86f4d386c889644383042876148c9e4a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_11/canonical_test.npz",
+      "sha256": "f30c87f7bcf31a14bfa3f721eb06d830b0adc68ec2fb042c313f83e5505aa6b0"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_11/full/result.json",
+      "sha256": "2d136fb74812e3e5484ee7a779944d3c238396045abfb69fa254a77b36d2f6de"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_11/full/routing.npz",
+      "sha256": "18f6db5cbe5a554e657d08b6b06615df0af1d80df6597c6198138b36e14f0e3c"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_11/full/test.npz",
+      "sha256": "f01f9beff5e9d903bb72dbce8f6a295e48fcf8224a9d51c32727abccb45842d3"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_11/model.npz",
+      "sha256": "f5a5ff31b30f7384d2ac40d5db4fdfb41bbb2fcb77be060e06e99b057747da55"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_11/semantic/result.json",
+      "sha256": "a4fe3c0e951b5668947f6d7a0b2971b583f9ee766d7602a1cddc89aec3944f41"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_11/semantic/routing.npz",
+      "sha256": "ff2d79310c911ab71686ee000d63a7ffffb9e5ce6048f10402cd4f34b04fc76a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_11/semantic/test.npz",
+      "sha256": "f30c87f7bcf31a14bfa3f721eb06d830b0adc68ec2fb042c313f83e5505aa6b0"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_11/source_activity.npz",
+      "sha256": "c9ee6ac942e72ad77b7bc66b526e1904aa33a92a94527dc611dabea5e2f4f2e8"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_11/training.json",
+      "sha256": "907b04355a57b3311300e6350e41d35ee7ce6d54215b39738395b47e9e64bdb3"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_11/uniform/result.json",
+      "sha256": "476c50ff8823e0d553c1efa2f2f40334b675a9108894768d3aec79dc798e10bb"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_11/uniform/routing.npz",
+      "sha256": "d020b4b083f3325f733a725fd6b5df6ca151650910cd2582ffd55e6919f7d894"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_11/uniform/test.npz",
+      "sha256": "bd03b32665f940e68cb9c42dcdf41ae901941900301a5dac07226da8170482ea"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_11/zero/result.json",
+      "sha256": "2a281035f770b4eb91cb8c94baaf4c677492d2101e018b4aee2984880a695351"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_11/zero/routing.npz",
+      "sha256": "ff2d79310c911ab71686ee000d63a7ffffb9e5ce6048f10402cd4f34b04fc76a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_11/zero/test.npz",
+      "sha256": "f30c87f7bcf31a14bfa3f721eb06d830b0adc68ec2fb042c313f83e5505aa6b0"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_22/canonical_test.npz",
+      "sha256": "4738c3797e7c8b5fdb914d76de372771efe39675adc2ae8639447d466896ed12"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_22/full/result.json",
+      "sha256": "9b5df35d55a07a4ef80202bef74b405562941a5726646efa7eaf696eb9273ad1"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_22/full/routing.npz",
+      "sha256": "156a8e5cac38a9a6142004a7045e7d6016ded87ae14df217fbc1b37f9ed5626e"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_22/full/test.npz",
+      "sha256": "e0aea98143c558b7bce15d4d2cecdbeb81f6e59820014aa9851ec42f5bad47c5"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_22/model.npz",
+      "sha256": "9f2a8c90c9422952e1e82884426465c40aa9ad737a21bedf07ce0efa6ff3ecd9"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_22/semantic/result.json",
+      "sha256": "1be636d74b4fbb18cce77ce5dcbb34a5f910a9ce0547ba974c2822acbc9936ea"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_22/semantic/routing.npz",
+      "sha256": "ff2d79310c911ab71686ee000d63a7ffffb9e5ce6048f10402cd4f34b04fc76a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_22/semantic/test.npz",
+      "sha256": "4738c3797e7c8b5fdb914d76de372771efe39675adc2ae8639447d466896ed12"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_22/source_activity.npz",
+      "sha256": "f40e17061369beb2468bb85bb3579ad63613401b548e6a67f6097fdcf53c37ed"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_22/training.json",
+      "sha256": "d18d142da3e1260070977f06179d8299b0d50439bf3cbe9f28378cd50b04cd8d"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_22/uniform/result.json",
+      "sha256": "c9e69c1e623b663c6f0b29f920182122e45e33901ff655d716ff48f11542f5fd"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_22/uniform/routing.npz",
+      "sha256": "9992d1913e1b13fef70eb0d958fed7054ba709ef68df98febf9c77f2f58b41e7"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_22/uniform/test.npz",
+      "sha256": "057729db458b2f9059840a00641ac6bb6c2f667d11744d366e4ed8f4c20acadd"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_22/zero/result.json",
+      "sha256": "7ef2234516db248eac7c03a10eb073a50b971bf622aee23a4bffffe7a9803ebe"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_22/zero/routing.npz",
+      "sha256": "ff2d79310c911ab71686ee000d63a7ffffb9e5ce6048f10402cd4f34b04fc76a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_22/zero/test.npz",
+      "sha256": "4738c3797e7c8b5fdb914d76de372771efe39675adc2ae8639447d466896ed12"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_33/canonical_test.npz",
+      "sha256": "053856d5b52aa5fccb1593d96b9fe856c6c81ec53ffd89fc0e7e1234e4d8665a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_33/full/result.json",
+      "sha256": "e691febf14645ace41f9eb515c24380faa0be3b77836decd6aa813edb7f706a5"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_33/full/routing.npz",
+      "sha256": "8d7763763d5cbf1797ddfbfacb2a04bb97dee7e0f255ef5e5d7c1a49859d0a12"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_33/full/test.npz",
+      "sha256": "444935a0854639e43e2976062a45f180c53e46526b11b322541b9839fdc34379"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_33/model.npz",
+      "sha256": "9649d4ec48fad0818c0e5080d975f3b346f0d459fffdd5ce3d0714096588818b"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_33/semantic/result.json",
+      "sha256": "5200e2fc6a49d06a80198c366156ff4bac101b48c8b0984edf7d12f998ca938f"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_33/semantic/routing.npz",
+      "sha256": "ff2d79310c911ab71686ee000d63a7ffffb9e5ce6048f10402cd4f34b04fc76a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_33/semantic/test.npz",
+      "sha256": "053856d5b52aa5fccb1593d96b9fe856c6c81ec53ffd89fc0e7e1234e4d8665a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_33/source_activity.npz",
+      "sha256": "e1170353ac5b760b2c5aa2330188b6544b874102d4fa4cfcf65323c1b1e4ee5f"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_33/training.json",
+      "sha256": "cefb921d80a4f6874e762f97fa5f7b08eee94996deffe310fc389d202092cd5b"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_33/uniform/result.json",
+      "sha256": "a7832167a5e98e37bf61ecc69c59837ee60d78a460b25058984fef948de47f8d"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_33/uniform/routing.npz",
+      "sha256": "8dd421b6edbacdc304a03f35bac2df6ef57a2ec65e723f30d00dff6721c594e3"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_33/uniform/test.npz",
+      "sha256": "91212fbff1c917fb8d5162dfc4449eb4763aa857aea849768f195532e92f48ac"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_33/zero/result.json",
+      "sha256": "6c817d742e332245ae0d5599ba32ca23aa2abc8c8e4b7859cf71ca5c7355fd5a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_33/zero/routing.npz",
+      "sha256": "ff2d79310c911ab71686ee000d63a7ffffb9e5ce6048f10402cd4f34b04fc76a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_33/zero/test.npz",
+      "sha256": "053856d5b52aa5fccb1593d96b9fe856c6c81ec53ffd89fc0e7e1234e4d8665a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_44/canonical_test.npz",
+      "sha256": "7121bd34e64279e3defbb69a25c5724d43c09d7a1b30b018a36d8d46b82f03e2"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_44/full/result.json",
+      "sha256": "fb7a27670d1ab0aaa6a492af0a8c9b3178429305b1f591dd53474e63250c4647"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_44/full/routing.npz",
+      "sha256": "6afa0153b1b3e32f8e691f3174475bbbc086d21f3fe7f24064186f1f16562e5e"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_44/full/test.npz",
+      "sha256": "c2aad7ca99254dc74f65a8e011c2e48a63b505a47075f3169d1328a2a374900d"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_44/model.npz",
+      "sha256": "c9757409232bc28e3eba2a61e8da521d7369807947850a798cfb9f087c34db8c"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_44/semantic/result.json",
+      "sha256": "e4cedce8e7de2c32a5899076e94f9aa67c1e5aa1c46f1f437ce973a3d63b4f1d"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_44/semantic/routing.npz",
+      "sha256": "ff2d79310c911ab71686ee000d63a7ffffb9e5ce6048f10402cd4f34b04fc76a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_44/semantic/test.npz",
+      "sha256": "7121bd34e64279e3defbb69a25c5724d43c09d7a1b30b018a36d8d46b82f03e2"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_44/source_activity.npz",
+      "sha256": "782aa942414e23a1720d1335763cd062e22e1f1e4ba54373e594eed7e835e96f"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_44/training.json",
+      "sha256": "58928386090cd00c460e254042eb38b590a8df6bb71d35fa4fd1bf582204ecb1"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_44/uniform/result.json",
+      "sha256": "c5904a5a372efefb2e944e3c6aa64683729e076d425ea756c146a6737070a2dc"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_44/uniform/routing.npz",
+      "sha256": "8008866964be14accdb52d6105f7d18c4409c0a703175a8f51a06b79657cd9e2"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_44/uniform/test.npz",
+      "sha256": "614d9f7eaae20a7f2dd0b8d99fdfe54be47b0ddfdd306d04ad123fb9f79ecf03"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_44/zero/result.json",
+      "sha256": "de633a8fd222c7da72f8dc51add4ceb6b9c4238ea1ccb1f9f668f8e47dfcf532"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_44/zero/routing.npz",
+      "sha256": "ff2d79310c911ab71686ee000d63a7ffffb9e5ce6048f10402cd4f34b04fc76a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_44/zero/test.npz",
+      "sha256": "7121bd34e64279e3defbb69a25c5724d43c09d7a1b30b018a36d8d46b82f03e2"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_55/canonical_test.npz",
+      "sha256": "a5394e6e9211400b68bc83a199b3e987f1340e3ac22513080453916db1310838"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_55/full/result.json",
+      "sha256": "b42dbfa4a6802f9f6fa978505c2c8b9e37f715a5f87b7e49ddbf4e02b0de7e17"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_55/full/routing.npz",
+      "sha256": "759dc1632ef15cf7d764a3cd4229e02f6a52c2a10265e96c7137ead06feac4ae"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_55/full/test.npz",
+      "sha256": "71180d9cb6fb0a8a98cc94223aa5d67bd466b463574e17025c10918ee1a40858"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_55/model.npz",
+      "sha256": "c0815c41e069e13b0c2b216f4fbfb263795b78cea606777915dad9c0a214115e"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_55/semantic/result.json",
+      "sha256": "241f93dab057ca2734e0cc7974bba9b9e8d744abead4114dfb1e833a9f3ff414"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_55/semantic/routing.npz",
+      "sha256": "ff2d79310c911ab71686ee000d63a7ffffb9e5ce6048f10402cd4f34b04fc76a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_55/semantic/test.npz",
+      "sha256": "a5394e6e9211400b68bc83a199b3e987f1340e3ac22513080453916db1310838"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_55/source_activity.npz",
+      "sha256": "7bc344c1b7da00f2393d9b2f47bdbbfc9e90f7203c43d927d932229c6158fc0c"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_55/training.json",
+      "sha256": "44bb05c7bd044a7fe235ef6fc0100b9fd62e5f74501db1b2bee178d9db45f84d"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_55/uniform/result.json",
+      "sha256": "9ea0b66353f0e67a3712b1d1029c71bf7d13ce6e5480cfbb6f5c9949e7e19adf"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_55/uniform/routing.npz",
+      "sha256": "7c27a6377e579da0b3522823321a955e6afdaf561b115399bee6afc683481685"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_55/uniform/test.npz",
+      "sha256": "d519cba5dc035d0fa1fdac34b5da3d37db05c07b74f31425ca11ecea18550015"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_55/zero/result.json",
+      "sha256": "8e627fac12c2645ef790ed6aff3a18ce9862b7f32b6c6b0dc1a7b13fce977b03"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_55/zero/routing.npz",
+      "sha256": "ff2d79310c911ab71686ee000d63a7ffffb9e5ce6048f10402cd4f34b04fc76a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/final/cds_2020_d0/seed_55/zero/test.npz",
+      "sha256": "a5394e6e9211400b68bc83a199b3e987f1340e3ac22513080453916db1310838"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2018/d180/labels.npz",
+      "sha256": "cbdbda62450971e86bc1606f55e9acf36f53a264c4cceca19364c3fab6884406"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2018/d180/model.npz",
+      "sha256": "f8a7277eec2819666dacf654295bb8054e9fb1e9afb9f3346316888b75eae902"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2018/d180/source_activity.npz",
+      "sha256": "4d8e9274223d60c85d817f9681c73f29ceb9b943896dae786d71ec848225f982"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2018/d180/training.json",
+      "sha256": "83e56e6a81d3cd759fd8f599fa1d26a955701873c65d3d554798296e11e223cd"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2018/d270/labels.npz",
+      "sha256": "169146b1696a23c1c520e60cbe5547c37b66370d6f0905f38de852ee48dae260"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2018/d270/model.npz",
+      "sha256": "92567c6e75328ffcc2f5541b0dfe6f4064cc6779e9ffc06ae41727e982dd5954"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2018/d270/source_activity.npz",
+      "sha256": "6d01cf7a1eb04bc00b845e73140677597245532a469d03d1e4ea3e950801e086"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2018/d270/training.json",
+      "sha256": "7ce4b25e1d2ae47634e29ba78d58cfe449ae421c118beda5207cb40ceee004f9"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2018/d60/labels.npz",
+      "sha256": "f4e000387162b3cb11154cbef7d6dea823c7e9677ffca648957be20511b6fceb"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2018/d60/model.npz",
+      "sha256": "f4936f3fc5cba48aab5671a1e8ae01e2c96c02a69a3c97d8e05487e6f2ba29e2"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2018/d60/source_activity.npz",
+      "sha256": "1092919f9ded2834f254efb9c63e87719f729ecf1f4bb38981370ba209afe61a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2018/d60/training.json",
+      "sha256": "359cd9717dcf7df5f521ea7b4c95f0f80b80165763460a301ab7f724ca47fc7c"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2018/d90/labels.npz",
+      "sha256": "f6d804cea2c8133be314879f95a5387e772f23383697e64243965977c5097524"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2018/d90/model.npz",
+      "sha256": "10233a086169aae5e022c7fcddb3a6404a3a0a5ab33258b15ead10c14647da9b"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2018/d90/source_activity.npz",
+      "sha256": "4ec43e0db42d64931356b2edfd9c5ca6cc51f2c55f1bf09e768a91fe95451169"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2018/d90/training.json",
+      "sha256": "ad4b6de62cf6a802fd2772db984c4743f9f81a7fb50a22630d0a1ce8e681e33b"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2018/ridges/behavior.npz",
+      "sha256": "86e5b664e5b38923708b658bfcf6df6aeb162fca72dba15e93958c4d3cb05803"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2018/ridges/full.npz",
+      "sha256": "51bfa9762b42c1c08379e86212a7de8d86a50b78262eb5636f55b75eafb0e8f5"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2018/ridges/global.npz",
+      "sha256": "9cc0f4468301393ba6b55a2a2894d51c42e1b25e9d9bdcb4fee4da41b6c71646"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2018/ridges/selected.json",
+      "sha256": "6501ea7a7bee6be9b02897cde566fbd80904915855561cb0177bc8424c2bb3d0"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2018/ridges/semantic.npz",
+      "sha256": "4459cdfd2fe204d00cbbf123ab7379499e7974d4a63e6436a926091d22760239"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2019/d180/labels.npz",
+      "sha256": "7d56a890dc27df0947a9b9f77fc37f797a1bb8fe99c41b5ecea08ed07b39ca69"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2019/d180/model.npz",
+      "sha256": "e354bbd4258a4bc5f4e04f1d31f759300461971c73bcb9b469d36316bae43290"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2019/d180/source_activity.npz",
+      "sha256": "4af7938f160aaed596a1ad43e144db01d550497d04ccb5de0cd791689380d878"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2019/d180/training.json",
+      "sha256": "71fcae6bac1568fc42ae544df6463199d47d9e0a7d7b52079f34be1e3bd4cbb8"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2019/d270/labels.npz",
+      "sha256": "2ee8f159ad163c4731550521d46f0696fa772233212b5fb731ae239e6e5089af"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2019/d270/model.npz",
+      "sha256": "739e4dc6889b9761990ea99720bba43d23abb17548a3e5c7beab6087076a1519"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2019/d270/source_activity.npz",
+      "sha256": "971be41e92aa0954a2e9855a45f32eac8bd1da6465b739c89396c26af7532998"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2019/d270/training.json",
+      "sha256": "a4756308a6e41642fd8ec9f86c63652a8370f2c29f73dca075c68f4d82e0025a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2019/d60/labels.npz",
+      "sha256": "b95d5d59141775afc87164d31da934c4171589b1f42b266521aa3fd89fe91ee3"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2019/d60/model.npz",
+      "sha256": "44f4243ee3b1d6579c8784dd3c3a352c4da7ef96b22e2cea66dbc42c5ff78dbe"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2019/d60/source_activity.npz",
+      "sha256": "5c082624177f5540dea01d36a941be838052db7cb91ed6a95c1e3fdd9ed04983"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2019/d60/training.json",
+      "sha256": "ca23c30e25d0c92619d55e5ec00b2dd3c89a868161ef1eaee587bd8a7134b90e"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2019/d90/labels.npz",
+      "sha256": "0354fc3dd1201a7012a7129d0c1a8ebdfd17d91bcaebddf49bd531fa7ea318e4"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2019/d90/model.npz",
+      "sha256": "e2a9b97806c6c0c7906f16d1799d9333d912fc44aa414332ca7ccfd06103b36f"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2019/d90/source_activity.npz",
+      "sha256": "d855f59404328f57e724c4e4bba5ad693f89ebdb2bf4d6f0ae508b25d38b52f8"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2019/d90/training.json",
+      "sha256": "c6e50fa8d462986768af5c649e25146f5f1bf65109442b0ddf8ef40855a6f5e2"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2019/ridges/behavior.npz",
+      "sha256": "6af73dff95ed1f94dc232f83276016cb11d8552584ab1060b7dcc339a3bbe6b3"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2019/ridges/full.npz",
+      "sha256": "2a529323a512bf50b13b0818c1108a554ef5d48774d238b0c5a2ae7043ea1dbc"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2019/ridges/global.npz",
+      "sha256": "06e09aef78767a02845dd0523f5a5579f95727c31d3bb8b32280f951fae2fc4a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2019/ridges/selected.json",
+      "sha256": "ccc509730af0462a52b63ef072603667331013cf0a655322ed05d01608fb8e10"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2019/ridges/semantic.npz",
+      "sha256": "c2b753764b83aefc83d924ef56452b6da49780d33323367dddb4ba190f06a9d3"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2020/d180/labels.npz",
+      "sha256": "ada75d30d05b411c6ec8aaec4e0df002071d2283ef1d08d9cdeff043909f23a5"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2020/d180/model.npz",
+      "sha256": "4b62b091eb97a117c757ddff6059260cd76686b6ca91902ed2bbe834fc05b2f7"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2020/d180/source_activity.npz",
+      "sha256": "35093625611be3d9f20144e2c23f3a29cc7d6ef50e42000c6290987c081d3953"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2020/d180/training.json",
+      "sha256": "63c16e4f4733984853c23ee513b6dbcf827078ff071024a6df6c7ba616c09199"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2020/d270/labels.npz",
+      "sha256": "950f9ee56412d35f2512c5b391f399497e92dd1c7fcb8eff4fb9b146e4fdc244"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2020/d270/model.npz",
+      "sha256": "688be2e20323b3da24a40f5ca664a946a647379c3464904f49bcbbbd2ada2d2c"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2020/d270/source_activity.npz",
+      "sha256": "57c188e64789c214ba379f99ecd7b86518946fd92934628bde2cb9ca7137e5ff"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2020/d270/training.json",
+      "sha256": "9fc89c56d644ff93bb9cefc1aa27d159b2d38809bd3bf191be2e9643de709f9c"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2020/d60/labels.npz",
+      "sha256": "59bac52f18380e19a508e54969f583cd67d15b3a1415d6b8aa49ac98021b8358"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2020/d60/model.npz",
+      "sha256": "64d1b73a0386061976859425eb5744d989cf6e4dfb9c78e0ceb9db7d0db84278"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2020/d60/source_activity.npz",
+      "sha256": "322295ccd3a05876275feedb6e6e2e95c4ed6175868cc93c7b3442fee858bc1b"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2020/d60/training.json",
+      "sha256": "7ac4d0c5ce8a4c8b7c97e14208d7029cf0e80297095093c5ed0b0bf123b70f23"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2020/d90/labels.npz",
+      "sha256": "4bc821706ce5d1a526d1bc86391b7e182899e459fa97791645a2475efdead02d"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2020/d90/model.npz",
+      "sha256": "d719c30c1229674a669ab08ec3357831e63b7c2b480ca5ba02a82e89068d1a66"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2020/d90/source_activity.npz",
+      "sha256": "5179f626446606e27f23e05bc5a9fe829cd9ba2e75cf5ec0693ae17441f8c640"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2020/d90/training.json",
+      "sha256": "086d16a196d28d04901c0967f67968f6ef483d9b38d72fa56122d13774c591e7"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2020/ridges/behavior.npz",
+      "sha256": "07f5431a2048ce6aaae0c978cdb9cb5a2d58de5321f687907b28d87dc822d130"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2020/ridges/full.npz",
+      "sha256": "eeb0cc80768b4ccf2d19b934819dcd9e6e8f9b3433a3b37b7d2301187710aefc"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2020/ridges/global.npz",
+      "sha256": "8073168cd70edfb9e84f2c759e056f54ea338a2897aff149bd109afa1435dd49"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2020/ridges/selected.json",
+      "sha256": "f726968cff45dfbe24da70cdfd54dceefb1bc82b1c2811457f331421c3d58f24"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/historical/cds_2020/ridges/semantic.npz",
+      "sha256": "e9a4e3694a8934d3d3edebe1c09ca86821f56c2071d016ff82de143f5f71afc4"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/full_00.json",
+      "sha256": "781d14e14acd3f893f4727799d36145470529a3008612fec26701e4675aacb76"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/full_00.npz",
+      "sha256": "ce51077197ed8f2de69d7192675a79cb1a1503059961f7698d6586d74f84f048"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/full_00.routing.npz",
+      "sha256": "d45eac64be763c0d87c7b753f636afda8b41f5d303232cbf279330b5ff21ea43"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/full_01.json",
+      "sha256": "ac7e87c6b403be9f7ce3d563753e887d61c10798a661f0e2555e7b3641acc76a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/full_01.npz",
+      "sha256": "ce51077197ed8f2de69d7192675a79cb1a1503059961f7698d6586d74f84f048"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/full_01.routing.npz",
+      "sha256": "d45eac64be763c0d87c7b753f636afda8b41f5d303232cbf279330b5ff21ea43"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/full_02.json",
+      "sha256": "f8f71096916f05d91519ae3475a518d0166fadc1af1c769b309d685e572a1f2a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/full_02.npz",
+      "sha256": "ce51077197ed8f2de69d7192675a79cb1a1503059961f7698d6586d74f84f048"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/full_02.routing.npz",
+      "sha256": "d45eac64be763c0d87c7b753f636afda8b41f5d303232cbf279330b5ff21ea43"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/full_03.json",
+      "sha256": "8d0e525ad114c8bfb386c729ac307530369a4fde7e75269ab90970b16d33d714"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/full_03.npz",
+      "sha256": "5d25f41ec64a46b9c310432b342fbe8e3eb2a0d5ea9b7dcf01671af17a30e910"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/full_03.routing.npz",
+      "sha256": "e2dffbf6861f9c5fd78fe8c0441838d3023bee69f07b71a9b0b3937a5feb08f7"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/full_04.json",
+      "sha256": "0778758a4582f5eb1a10ab74b8d4506ba94d69f627835ec6f53e763f3a864782"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/full_04.npz",
+      "sha256": "2c42a84876541ae667918530260ebd625669ee756c716509e509f50d048a633a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/full_04.routing.npz",
+      "sha256": "4661a69b2aad1b530257ad269a25918ec20ef9e98bb17feb4b866d11112282e8"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/full_05.json",
+      "sha256": "1db1716901c20b0a374e8cb1075f535e3dd4832b4c874e4672c5455d54563338"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/full_05.npz",
+      "sha256": "47d43169683d5a818b8979863144b37815a6626f7136906d480f904ac4b0a7f2"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/full_05.routing.npz",
+      "sha256": "12c0848e25d579d9efd0eb3b1fa202509d668546407928a850af10d7cfdb6fbe"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/full_06.json",
+      "sha256": "60bc395e98fa425af9b58f5edda55058e3fa3acfc31bb65a1d79f1b9ce0eb78a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/full_06.npz",
+      "sha256": "a4c8c7cbdb791d1d248cef709a460987a750a33e3bb1d2af9afda2e31f150835"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/full_06.routing.npz",
+      "sha256": "71d55a9ecb2079bb4a8b0cba7f47112c4376084d6718fb0dbd198aa061bd8c2c"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/full_07.json",
+      "sha256": "f7928df6211207fa22b5aad696051eeb0dc573bec32977f9123ce37e8881c196"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/full_07.npz",
+      "sha256": "264d469ea24fe26dde3e7f65ec9d5ef1024e630314cc0a329167435b815ccfc2"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/full_07.routing.npz",
+      "sha256": "41747b8caed7ae92478734663a0cc36dacf202b5dc72f1c3dd21aa184ef33c24"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/full_08.json",
+      "sha256": "cfecf90778b13389f54557f4ef70dc0d2b100579c6d2881ba7da9fd3d848d9cb"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/full_08.npz",
+      "sha256": "237aaef03c9f14ddeb54a09a87e82b118431549b35fc645fea5330ddee209b86"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/full_08.routing.npz",
+      "sha256": "2d9eeeec7454aa033a184ccd59711630ca1acddb94384082510bf885f39f7d8e"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/full_09.json",
+      "sha256": "1ec08350865efa67f7410cfc36395f526f11e52999799e2d0f0d2872a3a15064"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/full_09.npz",
+      "sha256": "901d9c95c21e19ea9aeee29c81c9735b6bf56bd03772d0adc2e7693c1f248617"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/full_09.routing.npz",
+      "sha256": "6ad83951baaa007c0da04a27dbc6cf37ceba1c18e95982f9308152340dd4dec1"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/full_10.json",
+      "sha256": "b51b55b7826c9af1e510b790040cf18b6d0bc76e99fa008cd36ab6cb2fd1febf"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/full_10.npz",
+      "sha256": "1f0f15b940e7d85704b6dd8d1e3758cc30980ef2a41262965b8d2d8132a4f6a7"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/full_10.routing.npz",
+      "sha256": "f3eec940302ec6ad6da6b98c70aedcd17f39d6f8b5dbeb11c0bb923fffceda30"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/full_11.json",
+      "sha256": "9eec690d8a6622f4ea81a67bf459d543e2236b7efadf02706158355e8f72c11e"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/full_11.npz",
+      "sha256": "84463782b14cff8f2b5da1498f1a7caf5534590fe734846b6e6e7b974de569a2"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/full_11.routing.npz",
+      "sha256": "95eacd34373e6ad6c38b3abbef1ce9fe8978d0121ba6be9745fb78a0c853668a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/semantic_00.json",
+      "sha256": "7acf60812aab8d8742df902c8a0ca97fb60c289209d6b3c24435ddbd12bba878"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/semantic_00.npz",
+      "sha256": "ce51077197ed8f2de69d7192675a79cb1a1503059961f7698d6586d74f84f048"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/semantic_00.routing.npz",
+      "sha256": "d45eac64be763c0d87c7b753f636afda8b41f5d303232cbf279330b5ff21ea43"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/semantic_01.json",
+      "sha256": "9b94e7d4428a526428bf5e0f68b4aa977d1493434e34feea7befded71bd898ab"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/semantic_01.npz",
+      "sha256": "ce51077197ed8f2de69d7192675a79cb1a1503059961f7698d6586d74f84f048"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/semantic_01.routing.npz",
+      "sha256": "d45eac64be763c0d87c7b753f636afda8b41f5d303232cbf279330b5ff21ea43"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/semantic_02.json",
+      "sha256": "060ade4d92669608e6181458cb01a2584a1fb04ac624371b5c605027fe2f9ab0"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/semantic_02.npz",
+      "sha256": "ce51077197ed8f2de69d7192675a79cb1a1503059961f7698d6586d74f84f048"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/semantic_02.routing.npz",
+      "sha256": "d45eac64be763c0d87c7b753f636afda8b41f5d303232cbf279330b5ff21ea43"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/semantic_03.json",
+      "sha256": "63da7d33d1e098b22d1fda126a54b8bc9e31fd4aeb7e3515257d8e7edee13db5"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/semantic_03.npz",
+      "sha256": "ce51077197ed8f2de69d7192675a79cb1a1503059961f7698d6586d74f84f048"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/semantic_03.routing.npz",
+      "sha256": "d45eac64be763c0d87c7b753f636afda8b41f5d303232cbf279330b5ff21ea43"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/semantic_04.json",
+      "sha256": "e0b119302ca3bb60378ed9421fe7291e7517886171006530f4e92712f47550f4"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/semantic_04.npz",
+      "sha256": "ce51077197ed8f2de69d7192675a79cb1a1503059961f7698d6586d74f84f048"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/semantic_04.routing.npz",
+      "sha256": "d45eac64be763c0d87c7b753f636afda8b41f5d303232cbf279330b5ff21ea43"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/semantic_05.json",
+      "sha256": "dc259262b08b8a541ceb5e0bb4f333f2741d9a9b26d46be161611f9828643058"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/semantic_05.npz",
+      "sha256": "ce51077197ed8f2de69d7192675a79cb1a1503059961f7698d6586d74f84f048"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/semantic_05.routing.npz",
+      "sha256": "d45eac64be763c0d87c7b753f636afda8b41f5d303232cbf279330b5ff21ea43"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/semantic_06.json",
+      "sha256": "85d0e4335fc96cd5dfc22195a2b6f673be08cc519659eef0ce30a662730d05d6"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/semantic_06.npz",
+      "sha256": "ce51077197ed8f2de69d7192675a79cb1a1503059961f7698d6586d74f84f048"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/semantic_06.routing.npz",
+      "sha256": "d45eac64be763c0d87c7b753f636afda8b41f5d303232cbf279330b5ff21ea43"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/semantic_07.json",
+      "sha256": "baee1ed819d4032c8edc13a18e9a0e01acb49e913f235184fcbcbd2f7a2b8d79"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/semantic_07.npz",
+      "sha256": "ce51077197ed8f2de69d7192675a79cb1a1503059961f7698d6586d74f84f048"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/semantic_07.routing.npz",
+      "sha256": "d45eac64be763c0d87c7b753f636afda8b41f5d303232cbf279330b5ff21ea43"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/semantic_08.json",
+      "sha256": "7c0d395eb95dd65df450f220e0cd7e15a37d3eee596c55df4574be1afb00486c"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/semantic_08.npz",
+      "sha256": "ce51077197ed8f2de69d7192675a79cb1a1503059961f7698d6586d74f84f048"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/semantic_08.routing.npz",
+      "sha256": "d45eac64be763c0d87c7b753f636afda8b41f5d303232cbf279330b5ff21ea43"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/semantic_09.json",
+      "sha256": "5170382adf06fd5b23b937991725ec503355f390cb26351801421afbdcf7896b"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/semantic_09.npz",
+      "sha256": "ce51077197ed8f2de69d7192675a79cb1a1503059961f7698d6586d74f84f048"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/semantic_09.routing.npz",
+      "sha256": "d45eac64be763c0d87c7b753f636afda8b41f5d303232cbf279330b5ff21ea43"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/semantic_10.json",
+      "sha256": "456c9a70dd22b06ba66b7488981b083b922bade0d201ba0b4561cd58d657dfa1"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/semantic_10.npz",
+      "sha256": "ce51077197ed8f2de69d7192675a79cb1a1503059961f7698d6586d74f84f048"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/semantic_10.routing.npz",
+      "sha256": "d45eac64be763c0d87c7b753f636afda8b41f5d303232cbf279330b5ff21ea43"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/semantic_11.json",
+      "sha256": "6ea7e46d00f6b3d95e948f3f4b3128d780c4f922102108baae26af4ce5c24de3"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/semantic_11.npz",
+      "sha256": "ce51077197ed8f2de69d7192675a79cb1a1503059961f7698d6586d74f84f048"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/semantic_11.routing.npz",
+      "sha256": "d45eac64be763c0d87c7b753f636afda8b41f5d303232cbf279330b5ff21ea43"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/uniform_00.json",
+      "sha256": "b3d370f4fc6c86a8e6cfd74d8cf359d8df97f315a231c889123dd0f7306e1d8a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/uniform_00.npz",
+      "sha256": "ce51077197ed8f2de69d7192675a79cb1a1503059961f7698d6586d74f84f048"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/uniform_00.routing.npz",
+      "sha256": "d45eac64be763c0d87c7b753f636afda8b41f5d303232cbf279330b5ff21ea43"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/uniform_01.json",
+      "sha256": "84c907f0e95672178db4eb3ab87a57eb2b1aafe62f15e2b991916b5716664d0f"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/uniform_01.npz",
+      "sha256": "ce51077197ed8f2de69d7192675a79cb1a1503059961f7698d6586d74f84f048"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/uniform_01.routing.npz",
+      "sha256": "d45eac64be763c0d87c7b753f636afda8b41f5d303232cbf279330b5ff21ea43"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/uniform_02.json",
+      "sha256": "84a514aac7c9224f9efd581dc756aeaa8d403175045846c4cd77cbc02f64df85"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/uniform_02.npz",
+      "sha256": "ce51077197ed8f2de69d7192675a79cb1a1503059961f7698d6586d74f84f048"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/uniform_02.routing.npz",
+      "sha256": "d45eac64be763c0d87c7b753f636afda8b41f5d303232cbf279330b5ff21ea43"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/uniform_03.json",
+      "sha256": "6662d7037f7fc45014a220a0d5ed714b1b17eb463c9183a1c79f6e033c6d7fba"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/uniform_03.npz",
+      "sha256": "9e2baee346a1f44cac7264e82aa90f6dfcf6b9ece64356db0559f2ffff1a7cd5"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/uniform_03.routing.npz",
+      "sha256": "711dbefff46b404ad5c1d443286f1e8a37eac20c4776a0c2f7056ff5f7681eb1"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/uniform_04.json",
+      "sha256": "0e5ad65bd21924857bac83001ac76efbc2b9dad13eff4aa7725e823adef46257"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/uniform_04.npz",
+      "sha256": "9e2baee346a1f44cac7264e82aa90f6dfcf6b9ece64356db0559f2ffff1a7cd5"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/uniform_04.routing.npz",
+      "sha256": "711dbefff46b404ad5c1d443286f1e8a37eac20c4776a0c2f7056ff5f7681eb1"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/uniform_05.json",
+      "sha256": "442083ed99ef94323d96e1d4ee012b13af0547b4b8295db8518c9b47550b32d7"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/uniform_05.npz",
+      "sha256": "9e2baee346a1f44cac7264e82aa90f6dfcf6b9ece64356db0559f2ffff1a7cd5"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/uniform_05.routing.npz",
+      "sha256": "711dbefff46b404ad5c1d443286f1e8a37eac20c4776a0c2f7056ff5f7681eb1"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/uniform_06.json",
+      "sha256": "5995738906640a289c89cb907671a69503cf459425e0ba7abeb7dea2b87149a7"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/uniform_06.npz",
+      "sha256": "8e4c3d3b47f25fef0e6713627cf6c26a3c54078af3f255d8e19a55ec72b13d48"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/uniform_06.routing.npz",
+      "sha256": "509fc6ff2f9f9ddd9ba2aab458aa438abd75e1d4ff8f1156032c0e7d670a93aa"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/uniform_07.json",
+      "sha256": "e095d1e0aab1c7bf2983e1e59e6cc35079fa417f2c8eff7c90f4428e31f64299"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/uniform_07.npz",
+      "sha256": "8e4c3d3b47f25fef0e6713627cf6c26a3c54078af3f255d8e19a55ec72b13d48"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/uniform_07.routing.npz",
+      "sha256": "509fc6ff2f9f9ddd9ba2aab458aa438abd75e1d4ff8f1156032c0e7d670a93aa"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/uniform_08.json",
+      "sha256": "1e3d0b6070b9b188dd78e4ae58b219d8024285922f966bf1c340bb5e2b42f041"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/uniform_08.npz",
+      "sha256": "8e4c3d3b47f25fef0e6713627cf6c26a3c54078af3f255d8e19a55ec72b13d48"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/uniform_08.routing.npz",
+      "sha256": "509fc6ff2f9f9ddd9ba2aab458aa438abd75e1d4ff8f1156032c0e7d670a93aa"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/uniform_09.json",
+      "sha256": "6e34ab18406c6da1fb7407f604530892a5d4cba44ae0f04fd381fd5fdd49521b"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/uniform_09.npz",
+      "sha256": "f5c25a9f35f62d4a461db6bbe829618d4491fe85c55665cb81e88a76b27c9f13"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/uniform_09.routing.npz",
+      "sha256": "38d986b0d577eefe809274ef6bb93f7264d4d9f6549e98b2812bcec79e25cb25"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/uniform_10.json",
+      "sha256": "ec8f33d3600abf81aa9d685d1b305edd0811077ef03f9f429b79a3c7c390a383"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/uniform_10.npz",
+      "sha256": "f5c25a9f35f62d4a461db6bbe829618d4491fe85c55665cb81e88a76b27c9f13"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/uniform_10.routing.npz",
+      "sha256": "38d986b0d577eefe809274ef6bb93f7264d4d9f6549e98b2812bcec79e25cb25"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/uniform_11.json",
+      "sha256": "1877c1566c3127f3e2093db3a877c7f7f6e3b59e6adff91d0af657676f0e2a84"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/uniform_11.npz",
+      "sha256": "f5c25a9f35f62d4a461db6bbe829618d4491fe85c55665cb81e88a76b27c9f13"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/uniform_11.routing.npz",
+      "sha256": "38d986b0d577eefe809274ef6bb93f7264d4d9f6549e98b2812bcec79e25cb25"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/zero.json",
+      "sha256": "36f30f2beaa041aea1700dc291ea978235fff41dcc9f4e7d5ce685e3b98a5bf3"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/zero.npz",
+      "sha256": "ce51077197ed8f2de69d7192675a79cb1a1503059961f7698d6586d74f84f048"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/search/zero.routing.npz",
+      "sha256": "d45eac64be763c0d87c7b753f636afda8b41f5d303232cbf279330b5ff21ea43"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_both/hpo/cds_2018_d30/selected.json",
+      "sha256": "63d1c04405e8a2fde431d04e3f0e4b5e5ac672819e9954f1fcfc82127fd20f04"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_11/canonical_test.npz",
+      "sha256": "58b26c7edfb03e1fb25858ce50aea559b1dbaf24b813cfaf6b42c9539d65a7f0"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_11/full/result.json",
+      "sha256": "837b0f311e4175f40a31cd3cea6355feffb392d6bf5d64bae7ea641754fc50c4"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_11/full/routing.npz",
+      "sha256": "f90f82ae27a47124c313fcf179f2f3c7a4a4333c0944ba69ae1c647ddaecfdc4"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_11/full/test.npz",
+      "sha256": "58b26c7edfb03e1fb25858ce50aea559b1dbaf24b813cfaf6b42c9539d65a7f0"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_11/model.npz",
+      "sha256": "00649e1e5b6b038284a4831924d4224a0ddd2cac2ed69714fd464de720be5b11"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_11/semantic/result.json",
+      "sha256": "88d3887448bddc7f918e0f907b10b2c6b80cfea9a24b35ca0275660bec8ae76a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_11/semantic/routing.npz",
+      "sha256": "f90f82ae27a47124c313fcf179f2f3c7a4a4333c0944ba69ae1c647ddaecfdc4"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_11/semantic/test.npz",
+      "sha256": "58b26c7edfb03e1fb25858ce50aea559b1dbaf24b813cfaf6b42c9539d65a7f0"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_11/source_activity.npz",
+      "sha256": "4a7a92cb8a5b2d110aea84762ebbbcd396bfc3e821f608482e5b3da65cf79cb7"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_11/training.json",
+      "sha256": "ab5841fece18329163d696c8449681850014676fd711b6b0d8c2547ac325d452"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_11/uniform/result.json",
+      "sha256": "f10a2fd65f594fe9867b439c8160411a0311a2fa4ebc8b48008859ea33e16ad4"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_11/uniform/routing.npz",
+      "sha256": "f90f82ae27a47124c313fcf179f2f3c7a4a4333c0944ba69ae1c647ddaecfdc4"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_11/uniform/test.npz",
+      "sha256": "58b26c7edfb03e1fb25858ce50aea559b1dbaf24b813cfaf6b42c9539d65a7f0"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_11/zero/result.json",
+      "sha256": "e61e747bf12effb65eb8034aa1318206c0a58159f29cfd371273917dbf7bbf06"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_11/zero/routing.npz",
+      "sha256": "f90f82ae27a47124c313fcf179f2f3c7a4a4333c0944ba69ae1c647ddaecfdc4"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_11/zero/test.npz",
+      "sha256": "58b26c7edfb03e1fb25858ce50aea559b1dbaf24b813cfaf6b42c9539d65a7f0"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_22/canonical_test.npz",
+      "sha256": "d702419010be18366d03db595a48342b1dae8c2d1620839eea5e21b441ef38b1"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_22/full/result.json",
+      "sha256": "0626ce8ecf952b208ed151f4c134cdc51d0d46898af16a2e728f679c4487d889"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_22/full/routing.npz",
+      "sha256": "f90f82ae27a47124c313fcf179f2f3c7a4a4333c0944ba69ae1c647ddaecfdc4"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_22/full/test.npz",
+      "sha256": "d702419010be18366d03db595a48342b1dae8c2d1620839eea5e21b441ef38b1"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_22/model.npz",
+      "sha256": "30b473f33d753bd33b404f1a885c81d87763562b61f70e4711f028e91a6f2995"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_22/semantic/result.json",
+      "sha256": "404016083f2bf33ef47d5a70aca3b0916e87e1d54ddccb990887ecd3a0b4774f"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_22/semantic/routing.npz",
+      "sha256": "f90f82ae27a47124c313fcf179f2f3c7a4a4333c0944ba69ae1c647ddaecfdc4"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_22/semantic/test.npz",
+      "sha256": "d702419010be18366d03db595a48342b1dae8c2d1620839eea5e21b441ef38b1"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_22/source_activity.npz",
+      "sha256": "6dd0ac7367b805bf7e178c0c0468f9e9177ea8a2999d6fa9b725c390746759b2"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_22/training.json",
+      "sha256": "c2b17a4896f2f8bf7c9a634ed46fe95edd9e3f5d374a3bbf14d2a72f2ff920b0"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_22/uniform/result.json",
+      "sha256": "d7dda40611268edced08bf46f06e9bb4a1ef879e6433cabb4996c9726df2edd4"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_22/uniform/routing.npz",
+      "sha256": "f90f82ae27a47124c313fcf179f2f3c7a4a4333c0944ba69ae1c647ddaecfdc4"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_22/uniform/test.npz",
+      "sha256": "d702419010be18366d03db595a48342b1dae8c2d1620839eea5e21b441ef38b1"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_22/zero/result.json",
+      "sha256": "fc863c980555eef543b72e2a9e7f5e37e42f09743ff65e2edcf66fa836bc191c"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_22/zero/routing.npz",
+      "sha256": "f90f82ae27a47124c313fcf179f2f3c7a4a4333c0944ba69ae1c647ddaecfdc4"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_22/zero/test.npz",
+      "sha256": "d702419010be18366d03db595a48342b1dae8c2d1620839eea5e21b441ef38b1"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_33/canonical_test.npz",
+      "sha256": "017337948a36c3020d9b4736028ac350e5d978b63a9db58eb0c20a5d72b97142"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_33/full/result.json",
+      "sha256": "589ed913d41f2dae21c3396f15866438a5bcbe259043565f590e9df1fe775269"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_33/full/routing.npz",
+      "sha256": "f90f82ae27a47124c313fcf179f2f3c7a4a4333c0944ba69ae1c647ddaecfdc4"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_33/full/test.npz",
+      "sha256": "017337948a36c3020d9b4736028ac350e5d978b63a9db58eb0c20a5d72b97142"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_33/model.npz",
+      "sha256": "4255bd0790bf3387beef86929c3cf4ce2a8835bb74563d3867df31313a57a9a3"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_33/semantic/result.json",
+      "sha256": "83a0abe571532b2a679f2a0ccd7b7c5917f5cc4bf7fd25bebb22d951716fa97e"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_33/semantic/routing.npz",
+      "sha256": "f90f82ae27a47124c313fcf179f2f3c7a4a4333c0944ba69ae1c647ddaecfdc4"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_33/semantic/test.npz",
+      "sha256": "017337948a36c3020d9b4736028ac350e5d978b63a9db58eb0c20a5d72b97142"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_33/source_activity.npz",
+      "sha256": "94a271428a90bc3c5d3ae3288d07fe5d7620e0951b07da0f1ebb57581fc640e8"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_33/training.json",
+      "sha256": "22e0117113221a460e90ea57923efb2e54b81563d4550948997bcd179f63dce4"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_33/uniform/result.json",
+      "sha256": "d47d6029534e4462610dd90ec283dc6171d38e3f731f89b95a1ee6218de4caa1"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_33/uniform/routing.npz",
+      "sha256": "f90f82ae27a47124c313fcf179f2f3c7a4a4333c0944ba69ae1c647ddaecfdc4"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_33/uniform/test.npz",
+      "sha256": "017337948a36c3020d9b4736028ac350e5d978b63a9db58eb0c20a5d72b97142"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_33/zero/result.json",
+      "sha256": "744ff5e5ddb92067a0c122520fd44583049f37764faf57550c06b16a4e88c75b"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_33/zero/routing.npz",
+      "sha256": "f90f82ae27a47124c313fcf179f2f3c7a4a4333c0944ba69ae1c647ddaecfdc4"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_33/zero/test.npz",
+      "sha256": "017337948a36c3020d9b4736028ac350e5d978b63a9db58eb0c20a5d72b97142"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_44/canonical_test.npz",
+      "sha256": "c431152328f5823cd8ddc4c72d93d8d46c911b5f9b7742eed7377c6ec0b0ba6a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_44/full/result.json",
+      "sha256": "be629b896cea4bab5afb1c7d874899619346c57dab2e88ddce920c5ace3d1b14"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_44/full/routing.npz",
+      "sha256": "f90f82ae27a47124c313fcf179f2f3c7a4a4333c0944ba69ae1c647ddaecfdc4"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_44/full/test.npz",
+      "sha256": "c431152328f5823cd8ddc4c72d93d8d46c911b5f9b7742eed7377c6ec0b0ba6a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_44/model.npz",
+      "sha256": "67e3df6768c6ad0135d842afc26d8ac0a9f2720fbdd9d6b72e322de5d05c811d"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_44/semantic/result.json",
+      "sha256": "92e6abd8ad6aedd022c09828e1e6f6b8cc251d6e5a1f319337468c4aec4bf95c"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_44/semantic/routing.npz",
+      "sha256": "f90f82ae27a47124c313fcf179f2f3c7a4a4333c0944ba69ae1c647ddaecfdc4"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_44/semantic/test.npz",
+      "sha256": "c431152328f5823cd8ddc4c72d93d8d46c911b5f9b7742eed7377c6ec0b0ba6a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_44/source_activity.npz",
+      "sha256": "ab4aea926c6c6fdaf1c499b9e928de578784a67aec47711dbfa8d27a94b60c26"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_44/training.json",
+      "sha256": "38526c29f8d69adfca3bd770d1bfbf2f86bcfe987758e3923a5c2f691019fe6b"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_44/uniform/result.json",
+      "sha256": "232b7635ae057d5c2ad2b82b06b73736fe2e83ee332aec153fc9d663f9d1dacd"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_44/uniform/routing.npz",
+      "sha256": "f90f82ae27a47124c313fcf179f2f3c7a4a4333c0944ba69ae1c647ddaecfdc4"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_44/uniform/test.npz",
+      "sha256": "c431152328f5823cd8ddc4c72d93d8d46c911b5f9b7742eed7377c6ec0b0ba6a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_44/zero/result.json",
+      "sha256": "8a438dbbdba26eddc0bba25035e06aa882ee330374d7d87f5aba0697c5798b3e"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_44/zero/routing.npz",
+      "sha256": "f90f82ae27a47124c313fcf179f2f3c7a4a4333c0944ba69ae1c647ddaecfdc4"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_44/zero/test.npz",
+      "sha256": "c431152328f5823cd8ddc4c72d93d8d46c911b5f9b7742eed7377c6ec0b0ba6a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_55/canonical_test.npz",
+      "sha256": "60d18d3e6fc4d26c76fff52ae408cabffb7b21fd26d312874685a70d88f7b87e"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_55/full/result.json",
+      "sha256": "4e0f1582f1f08832609a9249af64555c003a838892bad4d52472168ab58c02c4"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_55/full/routing.npz",
+      "sha256": "f90f82ae27a47124c313fcf179f2f3c7a4a4333c0944ba69ae1c647ddaecfdc4"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_55/full/test.npz",
+      "sha256": "60d18d3e6fc4d26c76fff52ae408cabffb7b21fd26d312874685a70d88f7b87e"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_55/model.npz",
+      "sha256": "6904a763c065440e9310a6a7c1ca85e78d052b69fbec2fc4377a42b2a2c496a5"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_55/semantic/result.json",
+      "sha256": "f438091361a43799d3c220cf324f00c5801d9a66ef4ee7f33150efbed5955ae7"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_55/semantic/routing.npz",
+      "sha256": "f90f82ae27a47124c313fcf179f2f3c7a4a4333c0944ba69ae1c647ddaecfdc4"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_55/semantic/test.npz",
+      "sha256": "60d18d3e6fc4d26c76fff52ae408cabffb7b21fd26d312874685a70d88f7b87e"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_55/source_activity.npz",
+      "sha256": "4575da3438443417d26a5a63146cbc5c3ab7595d2d93cb3ee093556e219bc0cb"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_55/training.json",
+      "sha256": "ed3d73665edf1fe611fb9e68a36f07bc8aac9ad4241d031aab26f6793972f8cb"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_55/uniform/result.json",
+      "sha256": "d0ac69626741887bdfb93d05980c2c3fb3fa238299308ec2a8eb9ed910ebc453"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_55/uniform/routing.npz",
+      "sha256": "f90f82ae27a47124c313fcf179f2f3c7a4a4333c0944ba69ae1c647ddaecfdc4"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_55/uniform/test.npz",
+      "sha256": "60d18d3e6fc4d26c76fff52ae408cabffb7b21fd26d312874685a70d88f7b87e"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_55/zero/result.json",
+      "sha256": "c05f3981e8b8a70a3eeeb4fdac2cca797ccb9653575f25386646bada20276d5e"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_55/zero/routing.npz",
+      "sha256": "f90f82ae27a47124c313fcf179f2f3c7a4a4333c0944ba69ae1c647ddaecfdc4"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2018_d0/seed_55/zero/test.npz",
+      "sha256": "60d18d3e6fc4d26c76fff52ae408cabffb7b21fd26d312874685a70d88f7b87e"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_11/canonical_test.npz",
+      "sha256": "5db8508d3d62546710ea6a3a12166f70ee123614215bb97e4b1097f3b3186b0b"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_11/full/result.json",
+      "sha256": "c49a4ec773fab27282c24dd774172a7ffd58e9a6b28a6de1f8dc06cb458a058e"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_11/full/routing.npz",
+      "sha256": "7984d9d539857dd787a8868dd38ed7c199edafaacc929558a548a0e0e73f2dde"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_11/full/test.npz",
+      "sha256": "5db8508d3d62546710ea6a3a12166f70ee123614215bb97e4b1097f3b3186b0b"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_11/model.npz",
+      "sha256": "bf77f4604a2e459706d81daf08566b992b2baf3b3724b4960fa1b5884769a098"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_11/semantic/result.json",
+      "sha256": "dec1b7061d487687c82ce1c3df1365f988a6b683e17aeb368271c74eaacdfd88"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_11/semantic/routing.npz",
+      "sha256": "7984d9d539857dd787a8868dd38ed7c199edafaacc929558a548a0e0e73f2dde"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_11/semantic/test.npz",
+      "sha256": "5db8508d3d62546710ea6a3a12166f70ee123614215bb97e4b1097f3b3186b0b"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_11/source_activity.npz",
+      "sha256": "27d0b39c0fc92e04e6f9a2c57f0d62dd005edf1d153fce38fbff25a640ac885f"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_11/training.json",
+      "sha256": "87745a05a8b058192ae9ec0456a23ae7f233efd2363b5f9766b0eb4e203fce45"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_11/uniform/result.json",
+      "sha256": "73af48f20f8f7934d867b7ffa05103e969606f18841baf4d9851b56780128e03"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_11/uniform/routing.npz",
+      "sha256": "7984d9d539857dd787a8868dd38ed7c199edafaacc929558a548a0e0e73f2dde"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_11/uniform/test.npz",
+      "sha256": "5db8508d3d62546710ea6a3a12166f70ee123614215bb97e4b1097f3b3186b0b"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_11/zero/result.json",
+      "sha256": "842b3ea445a295b3288fd5ef8b787c8e1538e51663bdc6de0bc2a93a152a52ef"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_11/zero/routing.npz",
+      "sha256": "7984d9d539857dd787a8868dd38ed7c199edafaacc929558a548a0e0e73f2dde"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_11/zero/test.npz",
+      "sha256": "5db8508d3d62546710ea6a3a12166f70ee123614215bb97e4b1097f3b3186b0b"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_22/canonical_test.npz",
+      "sha256": "c16007f0f3179f0cc6fbea3486642ea58e2a0163f565b7f5857fdcdaa5f3d1fa"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_22/full/result.json",
+      "sha256": "c9e32fd233afbc8808b6610b1dc80104287745808377c0c64545f39e3e56b8d7"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_22/full/routing.npz",
+      "sha256": "7984d9d539857dd787a8868dd38ed7c199edafaacc929558a548a0e0e73f2dde"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_22/full/test.npz",
+      "sha256": "c16007f0f3179f0cc6fbea3486642ea58e2a0163f565b7f5857fdcdaa5f3d1fa"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_22/model.npz",
+      "sha256": "7eebc1eef71c7604c25ed91873bb85b8aa8c73066ee280a8a22e93137ec0800e"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_22/semantic/result.json",
+      "sha256": "fd227064d5611868e1e6b9952795cceb5bcdaa3bde5c97ff8fc918934ba39893"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_22/semantic/routing.npz",
+      "sha256": "7984d9d539857dd787a8868dd38ed7c199edafaacc929558a548a0e0e73f2dde"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_22/semantic/test.npz",
+      "sha256": "c16007f0f3179f0cc6fbea3486642ea58e2a0163f565b7f5857fdcdaa5f3d1fa"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_22/source_activity.npz",
+      "sha256": "4e4e0860741295cab99b5431905995fe5d67ec4cdbeda02f943505e5a912b6aa"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_22/training.json",
+      "sha256": "791d2e333270003e7a5cf4116919cbabc95a01f932674870ff30d157da2ffbf9"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_22/uniform/result.json",
+      "sha256": "5f8933b295434e86cba6b806a0d1d384b23c1d4ba235ae314f707487569ee384"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_22/uniform/routing.npz",
+      "sha256": "7984d9d539857dd787a8868dd38ed7c199edafaacc929558a548a0e0e73f2dde"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_22/uniform/test.npz",
+      "sha256": "c16007f0f3179f0cc6fbea3486642ea58e2a0163f565b7f5857fdcdaa5f3d1fa"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_22/zero/result.json",
+      "sha256": "e3039e5eeb8a983591bae252da4bd2ceab38769a4a59b0fa4f1a88ad8a4b4bdc"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_22/zero/routing.npz",
+      "sha256": "7984d9d539857dd787a8868dd38ed7c199edafaacc929558a548a0e0e73f2dde"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_22/zero/test.npz",
+      "sha256": "c16007f0f3179f0cc6fbea3486642ea58e2a0163f565b7f5857fdcdaa5f3d1fa"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_33/canonical_test.npz",
+      "sha256": "c312083c3db3ba56d4de609c7de9c1106d7cbbb99f5527eac26da89bac906ce5"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_33/full/result.json",
+      "sha256": "0ee21a92047358884315a049040233e511f4c2345b6ecab5c6e2485be6e85cb6"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_33/full/routing.npz",
+      "sha256": "7984d9d539857dd787a8868dd38ed7c199edafaacc929558a548a0e0e73f2dde"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_33/full/test.npz",
+      "sha256": "c312083c3db3ba56d4de609c7de9c1106d7cbbb99f5527eac26da89bac906ce5"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_33/model.npz",
+      "sha256": "70b6808b6d171a359f6ac01eec491ba4becce26bbfaa27793252b651fd5e86c8"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_33/semantic/result.json",
+      "sha256": "79c5822b8138b1f582b79de6eccbceb4377b25c6fc3de8dfac03a27c7c3782d3"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_33/semantic/routing.npz",
+      "sha256": "7984d9d539857dd787a8868dd38ed7c199edafaacc929558a548a0e0e73f2dde"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_33/semantic/test.npz",
+      "sha256": "c312083c3db3ba56d4de609c7de9c1106d7cbbb99f5527eac26da89bac906ce5"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_33/source_activity.npz",
+      "sha256": "203743d312c0ea863b3faa01a230009de10b921a4b68573850073f181d220ab0"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_33/training.json",
+      "sha256": "2a5809919f0c3e57a47878aef0f84ad0bd843e4255ef4d7233ca5c8751e8bce8"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_33/uniform/result.json",
+      "sha256": "eda79a32f8481059febf18616b3cef592485b2d42a1cc2a91feee0e4e935b5de"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_33/uniform/routing.npz",
+      "sha256": "7984d9d539857dd787a8868dd38ed7c199edafaacc929558a548a0e0e73f2dde"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_33/uniform/test.npz",
+      "sha256": "c312083c3db3ba56d4de609c7de9c1106d7cbbb99f5527eac26da89bac906ce5"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_33/zero/result.json",
+      "sha256": "60989ffcc09483cd4026edccc29b072e14aa9c6cd17671b0a024a1f41f571e21"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_33/zero/routing.npz",
+      "sha256": "7984d9d539857dd787a8868dd38ed7c199edafaacc929558a548a0e0e73f2dde"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_33/zero/test.npz",
+      "sha256": "c312083c3db3ba56d4de609c7de9c1106d7cbbb99f5527eac26da89bac906ce5"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_44/canonical_test.npz",
+      "sha256": "82a7f29aeba52279215c10b13fb6ac08a36aedc7d0fc3cfaa27a95223f333db8"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_44/full/result.json",
+      "sha256": "0eee26cecf6a77d35c1393fb0d51422a9d065e289d0333527a93418bd84c4c11"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_44/full/routing.npz",
+      "sha256": "7984d9d539857dd787a8868dd38ed7c199edafaacc929558a548a0e0e73f2dde"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_44/full/test.npz",
+      "sha256": "82a7f29aeba52279215c10b13fb6ac08a36aedc7d0fc3cfaa27a95223f333db8"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_44/model.npz",
+      "sha256": "57ca5a64ad1060db208eb1aeeab2428ff352a31735ca3c6e4f59927dc7f7dc1c"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_44/semantic/result.json",
+      "sha256": "450e1c7f957ee104fd1c59b71b7853e6a9b379b448e6e995e17b592fc27d1e87"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_44/semantic/routing.npz",
+      "sha256": "7984d9d539857dd787a8868dd38ed7c199edafaacc929558a548a0e0e73f2dde"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_44/semantic/test.npz",
+      "sha256": "82a7f29aeba52279215c10b13fb6ac08a36aedc7d0fc3cfaa27a95223f333db8"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_44/source_activity.npz",
+      "sha256": "d4e86fa6415d9c81e0796233ae302fac34bfb0105533e7e2cbb0c55e3881339d"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_44/training.json",
+      "sha256": "049b39e548bc164f6e8d307c6e44983e629b3943432be3b0d22657f2a3f46b73"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_44/uniform/result.json",
+      "sha256": "bf725ec7a5bfb33be197a70ac51b131eb1a0fee162951d808079fe04c20a8fcb"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_44/uniform/routing.npz",
+      "sha256": "7984d9d539857dd787a8868dd38ed7c199edafaacc929558a548a0e0e73f2dde"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_44/uniform/test.npz",
+      "sha256": "82a7f29aeba52279215c10b13fb6ac08a36aedc7d0fc3cfaa27a95223f333db8"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_44/zero/result.json",
+      "sha256": "df5eb0a34064f72089ecfd3a7242801151df877add112ff063704a9de407b28c"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_44/zero/routing.npz",
+      "sha256": "7984d9d539857dd787a8868dd38ed7c199edafaacc929558a548a0e0e73f2dde"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_44/zero/test.npz",
+      "sha256": "82a7f29aeba52279215c10b13fb6ac08a36aedc7d0fc3cfaa27a95223f333db8"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_55/canonical_test.npz",
+      "sha256": "d4cb9bd0d51b4e66f2ceb2d66d6551c66a5fe1a049f6b9f911def80d0814ef24"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_55/full/result.json",
+      "sha256": "81e49b1f0bbce43bbf126e0b1fc35727884e957e574ceb8b3f8acd71e93ce8fe"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_55/full/routing.npz",
+      "sha256": "7984d9d539857dd787a8868dd38ed7c199edafaacc929558a548a0e0e73f2dde"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_55/full/test.npz",
+      "sha256": "d4cb9bd0d51b4e66f2ceb2d66d6551c66a5fe1a049f6b9f911def80d0814ef24"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_55/model.npz",
+      "sha256": "f419366f55119740a8357cce454030f14b8fe253c110f45f90088f12bb1d7ce4"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_55/semantic/result.json",
+      "sha256": "fa1dcc35580d5b4b64bb2f7e741610624993391677ff410a9752d4a5007c2f91"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_55/semantic/routing.npz",
+      "sha256": "7984d9d539857dd787a8868dd38ed7c199edafaacc929558a548a0e0e73f2dde"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_55/semantic/test.npz",
+      "sha256": "d4cb9bd0d51b4e66f2ceb2d66d6551c66a5fe1a049f6b9f911def80d0814ef24"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_55/source_activity.npz",
+      "sha256": "75d10d65ab9fbaf88cb248bb0d26fe838d638dae5dc008d0cb0c60b53c9bc19f"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_55/training.json",
+      "sha256": "a4676227b31fe3349545b38c2eb6bae76557c7eaacc68b74fdaeeb93fb93ba63"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_55/uniform/result.json",
+      "sha256": "b9153779d5026c97e35e8756aa2b5022704afa18261d42702c807636e69a2c80"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_55/uniform/routing.npz",
+      "sha256": "7984d9d539857dd787a8868dd38ed7c199edafaacc929558a548a0e0e73f2dde"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_55/uniform/test.npz",
+      "sha256": "d4cb9bd0d51b4e66f2ceb2d66d6551c66a5fe1a049f6b9f911def80d0814ef24"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_55/zero/result.json",
+      "sha256": "235180c944a1fa189f3b9e94f68ad7d6a918a7bc8ee25665484110ff931d9b79"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_55/zero/routing.npz",
+      "sha256": "7984d9d539857dd787a8868dd38ed7c199edafaacc929558a548a0e0e73f2dde"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2019_d0/seed_55/zero/test.npz",
+      "sha256": "d4cb9bd0d51b4e66f2ceb2d66d6551c66a5fe1a049f6b9f911def80d0814ef24"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_11/canonical_test.npz",
+      "sha256": "15d2ee318ecae3ddaccd8822400ac0f101ba5a850c69459b9437508bae476ba0"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_11/full/result.json",
+      "sha256": "27de5f0eda0949c25e1ec071c6b5f11ce4f4a747d03f41feecc151150ed314c1"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_11/full/routing.npz",
+      "sha256": "ff2d79310c911ab71686ee000d63a7ffffb9e5ce6048f10402cd4f34b04fc76a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_11/full/test.npz",
+      "sha256": "15d2ee318ecae3ddaccd8822400ac0f101ba5a850c69459b9437508bae476ba0"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_11/model.npz",
+      "sha256": "766ad3bea76d49c093049798d78722506b3e8033e2f96da767ac275de237c422"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_11/semantic/result.json",
+      "sha256": "6f3f3fb2063bf9148ca274f179381901d1759d797cf8afca47403b8ee558ac7f"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_11/semantic/routing.npz",
+      "sha256": "ff2d79310c911ab71686ee000d63a7ffffb9e5ce6048f10402cd4f34b04fc76a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_11/semantic/test.npz",
+      "sha256": "15d2ee318ecae3ddaccd8822400ac0f101ba5a850c69459b9437508bae476ba0"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_11/source_activity.npz",
+      "sha256": "03724a7ea72a0152185cc4b428acd301c424991f248d2950a4973a42af3ad625"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_11/training.json",
+      "sha256": "009f6d1013f141aa56e7b36e5a769cc8e0c584f189880a3f5888ad9572a94b4f"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_11/uniform/result.json",
+      "sha256": "507ee1204885b4f3d5e97e61050022d296f4c4f2ab3e6da3b9d33b63d1349556"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_11/uniform/routing.npz",
+      "sha256": "ff2d79310c911ab71686ee000d63a7ffffb9e5ce6048f10402cd4f34b04fc76a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_11/uniform/test.npz",
+      "sha256": "15d2ee318ecae3ddaccd8822400ac0f101ba5a850c69459b9437508bae476ba0"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_11/zero/result.json",
+      "sha256": "9c93ad1a5d1a2ef9c8e2fdb48e28e6a52d572b30c2b2c75be21aa961316af5ef"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_11/zero/routing.npz",
+      "sha256": "ff2d79310c911ab71686ee000d63a7ffffb9e5ce6048f10402cd4f34b04fc76a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_11/zero/test.npz",
+      "sha256": "15d2ee318ecae3ddaccd8822400ac0f101ba5a850c69459b9437508bae476ba0"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_22/canonical_test.npz",
+      "sha256": "fad376998b70316f136b60d05f03ea86b9e54f1b6ebc144d66d4d01e6f7a600e"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_22/full/result.json",
+      "sha256": "d1f0132dd1f2e4d14eb08897076c1e15b9afade859ac7baccdf9448be02d22eb"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_22/full/routing.npz",
+      "sha256": "ff2d79310c911ab71686ee000d63a7ffffb9e5ce6048f10402cd4f34b04fc76a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_22/full/test.npz",
+      "sha256": "fad376998b70316f136b60d05f03ea86b9e54f1b6ebc144d66d4d01e6f7a600e"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_22/model.npz",
+      "sha256": "3d7e65b542f8f16a11d9d60078d21d1dc3add652d3733120ea1ad515fdb8bf2f"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_22/semantic/result.json",
+      "sha256": "9af2b57d1c37786760676fe0481151745ced3e002c44765e7ed5200024ef2ac0"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_22/semantic/routing.npz",
+      "sha256": "ff2d79310c911ab71686ee000d63a7ffffb9e5ce6048f10402cd4f34b04fc76a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_22/semantic/test.npz",
+      "sha256": "fad376998b70316f136b60d05f03ea86b9e54f1b6ebc144d66d4d01e6f7a600e"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_22/source_activity.npz",
+      "sha256": "a1366faec086c6d223f16bea927525a0a6ceff74d23e3a7c3df28d06c71426cb"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_22/training.json",
+      "sha256": "54c9f6e54d3968ec8595030168f9c2171a1571584393f6a8bee3583d8c6dadef"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_22/uniform/result.json",
+      "sha256": "663a51631a7c2b8c6d6997c89ccbbc9d880de4d0b3793794035a829bf29f1e98"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_22/uniform/routing.npz",
+      "sha256": "ff2d79310c911ab71686ee000d63a7ffffb9e5ce6048f10402cd4f34b04fc76a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_22/uniform/test.npz",
+      "sha256": "fad376998b70316f136b60d05f03ea86b9e54f1b6ebc144d66d4d01e6f7a600e"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_22/zero/result.json",
+      "sha256": "ca4880bf01e394089c840e626b30b008dd69f0b308594272bdc6e05f98c1d15d"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_22/zero/routing.npz",
+      "sha256": "ff2d79310c911ab71686ee000d63a7ffffb9e5ce6048f10402cd4f34b04fc76a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_22/zero/test.npz",
+      "sha256": "fad376998b70316f136b60d05f03ea86b9e54f1b6ebc144d66d4d01e6f7a600e"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_33/canonical_test.npz",
+      "sha256": "3b8decb1c096388c9df20f8597521c000390841b93c49f6711422d24e322d8de"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_33/full/result.json",
+      "sha256": "ea6df6744aaa15a0b28eb68162aecd18571c5f9ca2003ce8653d076b16d1f86b"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_33/full/routing.npz",
+      "sha256": "ff2d79310c911ab71686ee000d63a7ffffb9e5ce6048f10402cd4f34b04fc76a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_33/full/test.npz",
+      "sha256": "3b8decb1c096388c9df20f8597521c000390841b93c49f6711422d24e322d8de"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_33/model.npz",
+      "sha256": "c05094466c8d02c0b4cb2cabd93c2395caa27fe780a285fe7d4793c112fe8855"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_33/semantic/result.json",
+      "sha256": "f262169ccd5c0fed80f6202f1399f284522f77e8624c2181be9d37b2dfe6676f"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_33/semantic/routing.npz",
+      "sha256": "ff2d79310c911ab71686ee000d63a7ffffb9e5ce6048f10402cd4f34b04fc76a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_33/semantic/test.npz",
+      "sha256": "3b8decb1c096388c9df20f8597521c000390841b93c49f6711422d24e322d8de"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_33/source_activity.npz",
+      "sha256": "01a6dd1fd692110f052dc3d1515d4d94014167c36b147b644f656f686eb84b0d"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_33/training.json",
+      "sha256": "080d4892f46fbf7cf211e1967a7b3347691640e79a87c3942e07ec40becf4090"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_33/uniform/result.json",
+      "sha256": "c5956d40477c27e68e7578a086fd68d6d082763f160e48a86a1cfb1a40f5ae35"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_33/uniform/routing.npz",
+      "sha256": "ff2d79310c911ab71686ee000d63a7ffffb9e5ce6048f10402cd4f34b04fc76a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_33/uniform/test.npz",
+      "sha256": "3b8decb1c096388c9df20f8597521c000390841b93c49f6711422d24e322d8de"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_33/zero/result.json",
+      "sha256": "e152752eda85b2f5cf6833cd84f343d7fdc4d70b092d3921c1a79da2a553c4ff"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_33/zero/routing.npz",
+      "sha256": "ff2d79310c911ab71686ee000d63a7ffffb9e5ce6048f10402cd4f34b04fc76a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_33/zero/test.npz",
+      "sha256": "3b8decb1c096388c9df20f8597521c000390841b93c49f6711422d24e322d8de"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_44/canonical_test.npz",
+      "sha256": "dbc826e133325dbfc804238f2d1b3a2bf623d5ee6d884961ddb12d1c0a8a8f0f"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_44/full/result.json",
+      "sha256": "c6942c317675ae76a55947e9cf19651805f81dd5614dab176ad55d2a1081e82b"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_44/full/routing.npz",
+      "sha256": "ff2d79310c911ab71686ee000d63a7ffffb9e5ce6048f10402cd4f34b04fc76a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_44/full/test.npz",
+      "sha256": "dbc826e133325dbfc804238f2d1b3a2bf623d5ee6d884961ddb12d1c0a8a8f0f"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_44/model.npz",
+      "sha256": "842aa0314c875c5a1640c48670612501ba05e495cd0a317984ebe023a59e405b"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_44/semantic/result.json",
+      "sha256": "bd52c098ff75304d63d765fa7d2929391b0540df74936171af2a4970fba1ed2d"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_44/semantic/routing.npz",
+      "sha256": "ff2d79310c911ab71686ee000d63a7ffffb9e5ce6048f10402cd4f34b04fc76a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_44/semantic/test.npz",
+      "sha256": "dbc826e133325dbfc804238f2d1b3a2bf623d5ee6d884961ddb12d1c0a8a8f0f"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_44/source_activity.npz",
+      "sha256": "6403af76a6ee11d6a3daee784bd5ca30df71a6cf97c1390c0ee0784600785001"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_44/training.json",
+      "sha256": "eb6feb0cc61954f946e5ba119aae7a265fed4d10167f0f56421aa5f000f6ed4f"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_44/uniform/result.json",
+      "sha256": "19516c1e7ece4a723a9b7af9d9ad05c7ea5b9a0ba1cbd261b00dc9bc7e402135"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_44/uniform/routing.npz",
+      "sha256": "ff2d79310c911ab71686ee000d63a7ffffb9e5ce6048f10402cd4f34b04fc76a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_44/uniform/test.npz",
+      "sha256": "dbc826e133325dbfc804238f2d1b3a2bf623d5ee6d884961ddb12d1c0a8a8f0f"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_44/zero/result.json",
+      "sha256": "2b5aa03df07d18dd642e0fa0e98baea33b2a7e53596164b7a39d256a71128f80"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_44/zero/routing.npz",
+      "sha256": "ff2d79310c911ab71686ee000d63a7ffffb9e5ce6048f10402cd4f34b04fc76a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_44/zero/test.npz",
+      "sha256": "dbc826e133325dbfc804238f2d1b3a2bf623d5ee6d884961ddb12d1c0a8a8f0f"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_55/canonical_test.npz",
+      "sha256": "2b03d3d516bcfb87138a92d982d09be8265194679cc42fa749b8ddf0096f4f0e"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_55/full/result.json",
+      "sha256": "89a3de50bf017c16ec03b4068fd4fd3e15464298cd388c5134159ae3f38cc0cc"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_55/full/routing.npz",
+      "sha256": "ff2d79310c911ab71686ee000d63a7ffffb9e5ce6048f10402cd4f34b04fc76a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_55/full/test.npz",
+      "sha256": "2b03d3d516bcfb87138a92d982d09be8265194679cc42fa749b8ddf0096f4f0e"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_55/model.npz",
+      "sha256": "ea95e6f763e4a27071bc8cd95c0dda72abc70f673bc49bfdb045954f833c6305"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_55/semantic/result.json",
+      "sha256": "16ed4653376c16995973dca34259d4b72d80dcb85c78ddefa13760f4d3f0a61c"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_55/semantic/routing.npz",
+      "sha256": "ff2d79310c911ab71686ee000d63a7ffffb9e5ce6048f10402cd4f34b04fc76a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_55/semantic/test.npz",
+      "sha256": "2b03d3d516bcfb87138a92d982d09be8265194679cc42fa749b8ddf0096f4f0e"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_55/source_activity.npz",
+      "sha256": "9b71139b359bff7a91a7a9b0f7801b7a9f20130ec1bcf82d292091e5cc073d74"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_55/training.json",
+      "sha256": "b18d17da2920f2f3ed55d116af1e3ece0d9464c3a65ac08e96329c5393c43b3c"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_55/uniform/result.json",
+      "sha256": "1dd66562261f9d8bd034e0a3c478a2a8847ab6e63a369d7ecc3f3eaf5ed1d85f"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_55/uniform/routing.npz",
+      "sha256": "ff2d79310c911ab71686ee000d63a7ffffb9e5ce6048f10402cd4f34b04fc76a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_55/uniform/test.npz",
+      "sha256": "2b03d3d516bcfb87138a92d982d09be8265194679cc42fa749b8ddf0096f4f0e"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_55/zero/result.json",
+      "sha256": "94e4656f4c445f5966737657c3be0071dbf9deb40fa9b01bd00cde02817ed3cc"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_55/zero/routing.npz",
+      "sha256": "ff2d79310c911ab71686ee000d63a7ffffb9e5ce6048f10402cd4f34b04fc76a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/final/cds_2020_d0/seed_55/zero/test.npz",
+      "sha256": "2b03d3d516bcfb87138a92d982d09be8265194679cc42fa749b8ddf0096f4f0e"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2018/d180/labels.npz",
+      "sha256": "b7be6fca87f427955721d3e7c9b60cec66e3527952342632d3d2e0c3feab92b7"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2018/d180/model.npz",
+      "sha256": "4fcf56bbb59a9cd0e2b699b9b46af2fdaa74bfbc1be7dd6d4985c26c57a20b93"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2018/d180/source_activity.npz",
+      "sha256": "4b4d37d3f127f13c2b239008da095b66150aa6f54d303997565ea03dac8740f1"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2018/d180/training.json",
+      "sha256": "0ec6034d2c1b80873fdb740d68be01b00bee1a6602ad0aee1adb6506148de83b"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2018/d270/labels.npz",
+      "sha256": "5f97c494f958c271b74cd52fcec64cf6381203b1b9f9cbb044e2439be91aac4d"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2018/d270/model.npz",
+      "sha256": "b55a2bb39a9b4c97bf9a90fff34a4b24e17cc91f3abe8ecffa8674b7312364d4"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2018/d270/source_activity.npz",
+      "sha256": "baa319a491469c1b29b40fd6e79b0c59484e175c18ffcfbdb688034a4a50b36b"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2018/d270/training.json",
+      "sha256": "770ee151736707f1bd57ff32e2aa527a8d48e2bf4aa87b87573f78de010d625c"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2018/d60/labels.npz",
+      "sha256": "99a347f854debf986eba90af9f5503a96baec34f0746fff851a7c53c9e07b9f0"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2018/d60/model.npz",
+      "sha256": "ab2240d7ef37c7699a1f5f2d9dd90c9aaeee13eac1c25154d61afba479811b57"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2018/d60/source_activity.npz",
+      "sha256": "907a4eba58c105a4d5414ff1a1ef5601e5da4c4dc6c7ffe9b05959860394f351"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2018/d60/training.json",
+      "sha256": "537aedf40c44b565a8a81cb4c78964e3f1393e4d470aecea903537b678ed0561"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2018/d90/labels.npz",
+      "sha256": "05bd50a7b896271357740f16663e51463bbceda968dc1e0f63b9b1d83dae51d3"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2018/d90/model.npz",
+      "sha256": "563ee93e0b38dab6b4f19ba4596b701db453c4aa9ed4bea12134fbf39dabb0bc"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2018/d90/source_activity.npz",
+      "sha256": "ebb37be19e6dd0ac399086f80e79488cddb2a6bdde6c3e08f3570876dc2522ac"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2018/d90/training.json",
+      "sha256": "245e18a60a56d126b1bec524b9663cd92510b484e0fe9ef1545440541c5b1042"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2018/ridges/behavior.npz",
+      "sha256": "ad8946e4a1f53ccf871023cb00992ab6bd0f11d6582bbfbeb359d22ba0f81531"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2018/ridges/full.npz",
+      "sha256": "29f3c32db977e5abfcc837b142c5385aed2a65c94b96824a61e4337f4b7d2daa"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2018/ridges/global.npz",
+      "sha256": "6e005aa9563264a1bd38d0ed81dd2eaabdc7c87e8933ebc278a901307289bebf"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2018/ridges/selected.json",
+      "sha256": "5c49fd81ea1c7b59665d7504f3d919e28152c655de53101e5a118b665bd9b111"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2018/ridges/semantic.npz",
+      "sha256": "66e88212dfb00d2cc93cc11978a9da6a944b1c48931717d8c5131776d4e90a92"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2019/d180/labels.npz",
+      "sha256": "b201043b505042995d8fd750c945e4f73909860c3937bc9770581801ec127a46"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2019/d180/model.npz",
+      "sha256": "b4e9ecc5d2ba696f82bb27112f9db02df7036124ab6753f02cb001f69e678f2a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2019/d180/source_activity.npz",
+      "sha256": "dab554b5dc616c7068d0cb1d49d538ac3bf415eae8b7130efb4b2f120432470d"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2019/d180/training.json",
+      "sha256": "bf1f5cf4f03ed2ede4553aac9309a7460a336fdbc7aabf8cf65ded0da5ab0397"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2019/d270/labels.npz",
+      "sha256": "ecb227dbd4215ac3ba2fc1269834039e49e75ad31510fe037fb82a27a876af7e"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2019/d270/model.npz",
+      "sha256": "1160298b1446aa97916b43c12891bb439c7074b1ecb86f9140061ee05051208c"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2019/d270/source_activity.npz",
+      "sha256": "282d78e075966bbf0096233024bbd8705270285793d4e5e39c82c77242c9c660"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2019/d270/training.json",
+      "sha256": "5ec572da80d899f3f99f440839eb9cd5a6708621b09b543fed906ce6d9d95914"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2019/d60/labels.npz",
+      "sha256": "50f29f7fddada254bd26598838712790d77a2f4fc0d5f2993bb4f2906090c2d1"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2019/d60/model.npz",
+      "sha256": "9133e9d85c6d756f29f6c90a6a551e3f81b6cb380c5451ed7580dc00406ee99e"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2019/d60/source_activity.npz",
+      "sha256": "40c755f3bfdbc4a0f6262a891d25e38f4187f167f47fa1c7567f8c4570a04dff"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2019/d60/training.json",
+      "sha256": "4813a3bc72c07c887e0b596eac60b227c49f171673007e1abbf01bc8cb5aee05"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2019/d90/labels.npz",
+      "sha256": "317a0f9fd1be47bc14d2142ad8e1852b04195485fafb57e0d61e707140d311c3"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2019/d90/model.npz",
+      "sha256": "f57d85fa4a280be42497b6b676b00bcc3ea6696494ebd8436dca095a4845de4c"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2019/d90/source_activity.npz",
+      "sha256": "823ded52a404fc96e39f8d90593efd83bf6b9bbcf616a60ab90442fadef55219"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2019/d90/training.json",
+      "sha256": "ced58fd0287e3895249435f95d2e06d7dee1c42be4dba2faeb2e9698e49ec38a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2019/ridges/behavior.npz",
+      "sha256": "d193d246d7b9754f0424afbe30bec31423b0b5e9becdc74a0fda860a530483d0"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2019/ridges/full.npz",
+      "sha256": "d4f15ffdcfe35d0a6f00d8c3b44fc4fd7d848b8101dc6d7583aae1ec62d98a8d"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2019/ridges/global.npz",
+      "sha256": "87ecf4c862ec3d3eec2126bbca6df11124b397d7a6680b21d8e541c7cc3135df"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2019/ridges/selected.json",
+      "sha256": "2709caba9ab55949947e6e777f7a766f730811cf5ae5978285d240d50d4e4d60"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2019/ridges/semantic.npz",
+      "sha256": "b2b084ba78ea3110768c5e18fa99265020555627d97ff6c66842051746053ea0"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2020/d180/labels.npz",
+      "sha256": "a62f046f6b87c8fcb3d4651cabe287b7757c297457e99d1188c8c2dc4715ca37"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2020/d180/model.npz",
+      "sha256": "e82add0b23eac9a6022f06b8e51a2c3e5f07acddc0a14a1c93b46cafdd22f402"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2020/d180/source_activity.npz",
+      "sha256": "a6f3bb2813acdff1582e2ec444fea76e1ded108e529ef4e64a3773bf9afe850c"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2020/d180/training.json",
+      "sha256": "eb5ae9bf777594b0071c4d5b36e9d40adbd20cee18c26985229f46fd7cfe9fea"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2020/d270/labels.npz",
+      "sha256": "928e4d3ef7fc291de9f0aade5bf09c51bf9abb0e18a7349e82acb1c29a86ce04"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2020/d270/model.npz",
+      "sha256": "98fc3e1bfb737328968cec8ec04bdc757e4ae27748c551e973ef9ecd9e5a3db1"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2020/d270/source_activity.npz",
+      "sha256": "5e4703beeaa7be3f12aee4a91d3fe751c7277ac2aceac4870117970b4560bbd7"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2020/d270/training.json",
+      "sha256": "2eb9362272758a4fedcdf24f89ca58966a5a7d8779d11d7177649a49c0cb3c67"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2020/d60/labels.npz",
+      "sha256": "35a4b49e204c147233f01fde2a09d7add57548d647842c0fd7173ea24b6c2ccd"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2020/d60/model.npz",
+      "sha256": "6a55a03110944b1e600f3e1161c7251e82a541dbf7b769ee2b5cca4dd84aceb2"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2020/d60/source_activity.npz",
+      "sha256": "86f0f76ce5eead1425fd2a8c8117113e02708d56b7446f0dec1169cdb14b050a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2020/d60/training.json",
+      "sha256": "428b1792c4fd9d80a8317501fd6bdc0ae40343ff852eb96feb06edb12e9883d1"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2020/d90/labels.npz",
+      "sha256": "37abf3fc4e885f1cdb737eefe91014fd21f35aa879da236a2d36d09f012aaa56"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2020/d90/model.npz",
+      "sha256": "1f03e3e63bc73a2810d88cc1cd976a1f5f6a90c2a75aa50d5c91f2468524e569"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2020/d90/source_activity.npz",
+      "sha256": "80ee278bb345f885082c9487bc9dd6678952ab9819fa8624472fb4a0636bd2f3"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2020/d90/training.json",
+      "sha256": "c790374b2ed09435dc00fa7257a9e58c4f08ec4505c8b3f7b4e3a794e83c38da"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2020/ridges/behavior.npz",
+      "sha256": "7bc9647d885a6808fe58e14b172f110c092463f4cb7d4ab6c0e5b74eee56861e"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2020/ridges/full.npz",
+      "sha256": "1ac58fe7da202f3eb7da2d216805cf8d2a482e9cf513b36184fad9b126eef031"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2020/ridges/global.npz",
+      "sha256": "28be6abfc14c6a6b96ae3a86d31f8598be03d8f858311f08ee272ea38850dadb"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2020/ridges/selected.json",
+      "sha256": "dca3ea48c512bc23684660055ed2c33402b57fcc2f05c4af4f162bf49f9a89b3"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/historical/cds_2020/ridges/semantic.npz",
+      "sha256": "d2c2f00e5dae0c7cc9fad7008fb390aba99e66e7fea8df631ab8dfc337270262"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/full_00.json",
+      "sha256": "043ce1cdfb77abde2d779d66f92c745232977e3a7f54834db16c97b9cb7468fa"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/full_00.npz",
+      "sha256": "635dc2184c8849af9db422a75d50f870346b5f9db9c6670f8db6d0526fd79b14"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/full_00.routing.npz",
+      "sha256": "d45eac64be763c0d87c7b753f636afda8b41f5d303232cbf279330b5ff21ea43"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/full_01.json",
+      "sha256": "f0b84732149b10e556fb4cc8bfdcc489eb924e4c029d505c0d3410e71a29fa03"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/full_01.npz",
+      "sha256": "635dc2184c8849af9db422a75d50f870346b5f9db9c6670f8db6d0526fd79b14"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/full_01.routing.npz",
+      "sha256": "d45eac64be763c0d87c7b753f636afda8b41f5d303232cbf279330b5ff21ea43"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/full_02.json",
+      "sha256": "14c7b66e5ecb89cc4fd083702899eeca5e6ebb8bfd6d42993b5b27e8c9cee34f"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/full_02.npz",
+      "sha256": "635dc2184c8849af9db422a75d50f870346b5f9db9c6670f8db6d0526fd79b14"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/full_02.routing.npz",
+      "sha256": "d45eac64be763c0d87c7b753f636afda8b41f5d303232cbf279330b5ff21ea43"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/full_03.json",
+      "sha256": "691f9453f5d13bce3fea334c4110b36e1fb924def24faff80d9fbff0706f7254"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/full_03.npz",
+      "sha256": "836ff31b9d72d09a001e6e24554ef6edf767f0a78e953ffd8ca6c3fe386be78b"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/full_03.routing.npz",
+      "sha256": "c4d31edbbd960fef7af6ec6ac7945c4c3d917d7907334d1b554a7695145eab07"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/full_04.json",
+      "sha256": "7dab9d95820421dfbdbf9669ac182b5447047d6cea978b1fe8fcd3e4ff2b8e28"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/full_04.npz",
+      "sha256": "716d1dc2d7181bc62f75b41e9a2ecb6f532f131972d6c625a32d8e6e65bb4536"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/full_04.routing.npz",
+      "sha256": "b02d59a397e2624943efa5f58749f3c372e9c271f73d08b5695a1633274f853d"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/full_05.json",
+      "sha256": "1560b49fc58ecd37867463983e9cdb3e32a80a367b9b1625f5bddcf68f6ef63a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/full_05.npz",
+      "sha256": "8cfb87b9bc44bec086dff9e878c960fb9fc42817a0b983ee62ebcea5d05a664d"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/full_05.routing.npz",
+      "sha256": "0adee762472372826f06c6b94cc5e9d5ccc06425153cb90796d241c252aae2e7"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/full_06.json",
+      "sha256": "3c193e925abc829f5fdfdaf9d570d6ce7e624fcfed955dbbdc5bc7fe9ec0a7ef"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/full_06.npz",
+      "sha256": "00c8b77cd259317a2b261759f86fc2dcdca4a339abccd44eec0a07d82767165b"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/full_06.routing.npz",
+      "sha256": "b05830b80267bc637114c605946ecde2764ca93c632be93b36c9c3e2e143fc58"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/full_07.json",
+      "sha256": "f9925511ce766e0a45df9f04b9575ecc056788b35c410311d71296be1db1b63f"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/full_07.npz",
+      "sha256": "ea8dbd98096a5ebb8fce82ddc048c483d32acdb2680e31d1f18cc202d504ec49"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/full_07.routing.npz",
+      "sha256": "d7bb96d74899dbca856eeba823a79029dd46e63463ff3a1cde0ed00d50eeaf20"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/full_08.json",
+      "sha256": "0e117ffcbc71bc47b99d0ad8adbfe4c7bd62062482b7556716d597e6d6f69a7b"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/full_08.npz",
+      "sha256": "b0ba8115212d5d896d67628a01aae5ad3482582431e508ee0d81c35605024ac2"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/full_08.routing.npz",
+      "sha256": "ccbbf5be2ef1e03341e30ccc0ad271a8c6fd2846ac27ae39764c06eafa1b2c1d"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/full_09.json",
+      "sha256": "b5cf2a4204a15c057c3fca57cde028a1ffdfd6df5b7e9dd4b5ac07231ee561c1"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/full_09.npz",
+      "sha256": "588bb56087c141e6a439b3165269cbe35b0756109ca8a80a14f9832c4a350db4"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/full_09.routing.npz",
+      "sha256": "773c97d9ad7a783aa24b5a7db7f19672b0f6232397c3ccef5cee36332f2678e0"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/full_10.json",
+      "sha256": "9ba3061a9fe3f870287e5956c9406707917472d233300357ff340dc67f84578d"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/full_10.npz",
+      "sha256": "467083e0f0650c4bf26bab10e506c12e24225bb3dfa365936f5d75fec88921e9"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/full_10.routing.npz",
+      "sha256": "ffa8fa7a77a245f24d2f6a2cd05d061c6b42e8e6038b06d608b84d582fb12486"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/full_11.json",
+      "sha256": "9fa3799907212ef0d1e15fd94f8b7f72fb1f6ebb62d19ef43e39924cfa8dd08f"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/full_11.npz",
+      "sha256": "a0e801b4eb5cb29f0ff4bb0b2454c2e94d1bc5fa56274bbb33187d15959245ab"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/full_11.routing.npz",
+      "sha256": "225d811507a472e85e98d34247da5213b095e190fccc88e089e71776f87ec7d2"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/semantic_00.json",
+      "sha256": "d8386fe15c77a577bc6ea084cdacf9de90ca43150044ffb500042f365e77660d"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/semantic_00.npz",
+      "sha256": "635dc2184c8849af9db422a75d50f870346b5f9db9c6670f8db6d0526fd79b14"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/semantic_00.routing.npz",
+      "sha256": "d45eac64be763c0d87c7b753f636afda8b41f5d303232cbf279330b5ff21ea43"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/semantic_01.json",
+      "sha256": "5c82005ad94414419a885e3fa4fe5b85dbe6b1e0ba707f4f113103fa58c1ba41"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/semantic_01.npz",
+      "sha256": "635dc2184c8849af9db422a75d50f870346b5f9db9c6670f8db6d0526fd79b14"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/semantic_01.routing.npz",
+      "sha256": "d45eac64be763c0d87c7b753f636afda8b41f5d303232cbf279330b5ff21ea43"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/semantic_02.json",
+      "sha256": "3e81db20e29844010fe4e66b991808119eacf2557c811982918be4871016af02"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/semantic_02.npz",
+      "sha256": "635dc2184c8849af9db422a75d50f870346b5f9db9c6670f8db6d0526fd79b14"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/semantic_02.routing.npz",
+      "sha256": "d45eac64be763c0d87c7b753f636afda8b41f5d303232cbf279330b5ff21ea43"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/semantic_03.json",
+      "sha256": "ce7f51f37f4c2dd5ebfa08714e1c3fe6fa530c2302c24b2d40609d05a30e36f6"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/semantic_03.npz",
+      "sha256": "635dc2184c8849af9db422a75d50f870346b5f9db9c6670f8db6d0526fd79b14"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/semantic_03.routing.npz",
+      "sha256": "d45eac64be763c0d87c7b753f636afda8b41f5d303232cbf279330b5ff21ea43"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/semantic_04.json",
+      "sha256": "039e0a19c41eb1736570972c2e040caa6876657f7858f5392a73b5476b4f0fac"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/semantic_04.npz",
+      "sha256": "635dc2184c8849af9db422a75d50f870346b5f9db9c6670f8db6d0526fd79b14"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/semantic_04.routing.npz",
+      "sha256": "d45eac64be763c0d87c7b753f636afda8b41f5d303232cbf279330b5ff21ea43"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/semantic_05.json",
+      "sha256": "25070eebf22a56f0e14e671214c3217c421afe18b1bd7f062ba3cfe45b7b0df4"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/semantic_05.npz",
+      "sha256": "635dc2184c8849af9db422a75d50f870346b5f9db9c6670f8db6d0526fd79b14"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/semantic_05.routing.npz",
+      "sha256": "d45eac64be763c0d87c7b753f636afda8b41f5d303232cbf279330b5ff21ea43"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/semantic_06.json",
+      "sha256": "a07f5ea5b497ff07fc33a44f21383fa40dde612f36866ea288cc6f36f9f8dc87"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/semantic_06.npz",
+      "sha256": "635dc2184c8849af9db422a75d50f870346b5f9db9c6670f8db6d0526fd79b14"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/semantic_06.routing.npz",
+      "sha256": "d45eac64be763c0d87c7b753f636afda8b41f5d303232cbf279330b5ff21ea43"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/semantic_07.json",
+      "sha256": "e998786445800cb1959641ceb5d964288387e0fe7a69b09ec290a90acbd4ee85"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/semantic_07.npz",
+      "sha256": "635dc2184c8849af9db422a75d50f870346b5f9db9c6670f8db6d0526fd79b14"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/semantic_07.routing.npz",
+      "sha256": "d45eac64be763c0d87c7b753f636afda8b41f5d303232cbf279330b5ff21ea43"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/semantic_08.json",
+      "sha256": "464a9c6384afedac4eed7b653de9964a6e7fe622fa19209ed13e115f93da2be0"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/semantic_08.npz",
+      "sha256": "635dc2184c8849af9db422a75d50f870346b5f9db9c6670f8db6d0526fd79b14"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/semantic_08.routing.npz",
+      "sha256": "d45eac64be763c0d87c7b753f636afda8b41f5d303232cbf279330b5ff21ea43"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/semantic_09.json",
+      "sha256": "9c69c6d7d85f0feaffe0e06bd1d7e514934f2351df99e3ac3489a7468d24362f"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/semantic_09.npz",
+      "sha256": "635dc2184c8849af9db422a75d50f870346b5f9db9c6670f8db6d0526fd79b14"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/semantic_09.routing.npz",
+      "sha256": "d45eac64be763c0d87c7b753f636afda8b41f5d303232cbf279330b5ff21ea43"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/semantic_10.json",
+      "sha256": "2de02aa60c178000634aed8ff060f4fc2da3453f17d2f39d4476e4c4d6fa6367"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/semantic_10.npz",
+      "sha256": "635dc2184c8849af9db422a75d50f870346b5f9db9c6670f8db6d0526fd79b14"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/semantic_10.routing.npz",
+      "sha256": "d45eac64be763c0d87c7b753f636afda8b41f5d303232cbf279330b5ff21ea43"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/semantic_11.json",
+      "sha256": "7f15bbd1dc9db4d9570bb6f899cbbd7e26cb679190090de534a8e895415f9071"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/semantic_11.npz",
+      "sha256": "635dc2184c8849af9db422a75d50f870346b5f9db9c6670f8db6d0526fd79b14"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/semantic_11.routing.npz",
+      "sha256": "d45eac64be763c0d87c7b753f636afda8b41f5d303232cbf279330b5ff21ea43"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/uniform_00.json",
+      "sha256": "975e4e60c524b2f4aa93ca165ade7485d10b54c1393f242d9aed172960ea8c17"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/uniform_00.npz",
+      "sha256": "635dc2184c8849af9db422a75d50f870346b5f9db9c6670f8db6d0526fd79b14"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/uniform_00.routing.npz",
+      "sha256": "d45eac64be763c0d87c7b753f636afda8b41f5d303232cbf279330b5ff21ea43"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/uniform_01.json",
+      "sha256": "830e956132c206a7530c9f39ddb0d8b1c6045e8d908da63df2eb4f7163e66343"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/uniform_01.npz",
+      "sha256": "635dc2184c8849af9db422a75d50f870346b5f9db9c6670f8db6d0526fd79b14"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/uniform_01.routing.npz",
+      "sha256": "d45eac64be763c0d87c7b753f636afda8b41f5d303232cbf279330b5ff21ea43"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/uniform_02.json",
+      "sha256": "03fbe34f6879e95795f3fa3e669927491b4999d7bdd61a883ac0e743845be5ec"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/uniform_02.npz",
+      "sha256": "635dc2184c8849af9db422a75d50f870346b5f9db9c6670f8db6d0526fd79b14"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/uniform_02.routing.npz",
+      "sha256": "d45eac64be763c0d87c7b753f636afda8b41f5d303232cbf279330b5ff21ea43"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/uniform_03.json",
+      "sha256": "899f7ce7ce5dc0b682a7f96d573b2fbd1bd37c017fd6708e74a71e637ac18ada"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/uniform_03.npz",
+      "sha256": "689fa6c772229805f6a75a4068204c6840accb3b1086a266486db51399c2e48c"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/uniform_03.routing.npz",
+      "sha256": "bbcd7a7cb20b628ceb67478666c3f43846cde8c994f7fb20154bfd598a6291f5"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/uniform_04.json",
+      "sha256": "cff96b3fbee8f36e8557e3476c4360b9d6666e54fa1e0970cfff28d22e366de9"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/uniform_04.npz",
+      "sha256": "689fa6c772229805f6a75a4068204c6840accb3b1086a266486db51399c2e48c"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/uniform_04.routing.npz",
+      "sha256": "bbcd7a7cb20b628ceb67478666c3f43846cde8c994f7fb20154bfd598a6291f5"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/uniform_05.json",
+      "sha256": "0a5bd9558c332274b1c331ae6e723611cee2d83868e0ea68034d782df8c9691a"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/uniform_05.npz",
+      "sha256": "689fa6c772229805f6a75a4068204c6840accb3b1086a266486db51399c2e48c"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/uniform_05.routing.npz",
+      "sha256": "bbcd7a7cb20b628ceb67478666c3f43846cde8c994f7fb20154bfd598a6291f5"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/uniform_06.json",
+      "sha256": "86b94b155a4989bc7fff3bf493ab72af7d2398cd2815a36db5c7baa5c865f9aa"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/uniform_06.npz",
+      "sha256": "bb4f75df4528737923a88702d8a762a7c035cb20aee4f6bb8fd317f7dcb1575f"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/uniform_06.routing.npz",
+      "sha256": "238fa9b43c63288f73afcafa6502ea049147316ae5a6bbf5a5bc0d800ab20295"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/uniform_07.json",
+      "sha256": "8b4faa0ad3e75bbccd79679b0510accfa51d1fb3d2c528fbc0de4a58e6b972c7"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/uniform_07.npz",
+      "sha256": "bb4f75df4528737923a88702d8a762a7c035cb20aee4f6bb8fd317f7dcb1575f"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/uniform_07.routing.npz",
+      "sha256": "238fa9b43c63288f73afcafa6502ea049147316ae5a6bbf5a5bc0d800ab20295"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/uniform_08.json",
+      "sha256": "6397ba458b01f6a99376e8d1276e934f1b0cce56e7c7fae5fd664aad179507b4"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/uniform_08.npz",
+      "sha256": "bb4f75df4528737923a88702d8a762a7c035cb20aee4f6bb8fd317f7dcb1575f"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/uniform_08.routing.npz",
+      "sha256": "238fa9b43c63288f73afcafa6502ea049147316ae5a6bbf5a5bc0d800ab20295"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/uniform_09.json",
+      "sha256": "26f6bbe43856816c2eabd1b99002bfcad01982aa3cd7ff026cd92744e956b433"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/uniform_09.npz",
+      "sha256": "f31aab60493c88293cfb277594677dfee3ed16522adaa987a3e91669d4363ae4"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/uniform_09.routing.npz",
+      "sha256": "f0c6b91f6ec714610bb987c9cfe17b0bec3a8b4aff72b81efbae0da97b43b3bc"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/uniform_10.json",
+      "sha256": "49866f5c6bedfa220c41697531bf55720e4ebb55fed1423e96bf6191102c7c4e"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/uniform_10.npz",
+      "sha256": "f31aab60493c88293cfb277594677dfee3ed16522adaa987a3e91669d4363ae4"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/uniform_10.routing.npz",
+      "sha256": "f0c6b91f6ec714610bb987c9cfe17b0bec3a8b4aff72b81efbae0da97b43b3bc"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/uniform_11.json",
+      "sha256": "23fa1c77e65a0dfeb72d3efef8fbc7c9429dbd633ac74d8089b909c5a07852b8"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/uniform_11.npz",
+      "sha256": "f31aab60493c88293cfb277594677dfee3ed16522adaa987a3e91669d4363ae4"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/uniform_11.routing.npz",
+      "sha256": "f0c6b91f6ec714610bb987c9cfe17b0bec3a8b4aff72b81efbae0da97b43b3bc"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/zero.json",
+      "sha256": "f60baaf25ebf7952122cbe448065019f762a171c4e8ab9dd22c1ee01d9a85ae5"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/zero.npz",
+      "sha256": "635dc2184c8849af9db422a75d50f870346b5f9db9c6670f8db6d0526fd79b14"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/search/zero.routing.npz",
+      "sha256": "d45eac64be763c0d87c7b753f636afda8b41f5d303232cbf279330b5ff21ea43"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/activity_mean/hpo/cds_2018_d30/selected.json",
+      "sha256": "e92e36ad6164cd31698df393446ad961c336456320c7bf93dcccc56fb5e0da47"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/final_query_opened.json",
+      "sha256": "7babd1f1d2d02612343acccf5959ae3ff19325e92dd3ee96ca42927690210d9c"
+    },
+    {
+      "path": "results_extensions/v1/stage_c_music/protocol.frozen.json",
+      "sha256": "627e0003a541bbc0290645b0efe472ed9fe07adfbd5f0f8de377ef362d99b840"
+    }
+  ],
+  "complete": true,
+  "dependencies": {
+    "numpy": "2.3.5",
+    "python": "3.12.14"
+  },
+  "no_raw_user_or_item_ids": true,
+  "protocol_sha256": "919bf4e2e4ac627a6aa4decef83a56220794758fbe5ca707bc4d395c3d77717b",
+  "reporting_code_sha256": "10d583f37c33a675ef00696411be9c7ff699bffa70c68d8cb23139395a302ca9",
+  "requested_stages": [
+    "c"
+  ]
+}

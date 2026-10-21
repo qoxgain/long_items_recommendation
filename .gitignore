@@ -26,3 +26,4 @@ docs/extension_input_manifest.json
 data_extensions/
 results_extensions/
 logs_extensions/
+reports/local_reproduction/

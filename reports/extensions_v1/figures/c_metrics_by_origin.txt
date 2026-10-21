@@ -1,0 +1,1 @@
+Each point is the mean of five optimization seeds (activity is deterministic). Lines join prespecified origins for visibility, not interpolation. Overlapping curves are retained, including exact zero-radius ties. These are same-domain new-time results, not independent-domain validation. See paired intervals instead of inferring significance from point-estimate separation.

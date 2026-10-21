@@ -1,0 +1,1 @@
+Paired seed means within origin, then equal origin weighting. Bars show 95% descriptive bootstrap intervals (2,000 draws, seed 2026). Shared-user and time dependence are not fully removed. Intervals crossing zero do not establish an advantage.

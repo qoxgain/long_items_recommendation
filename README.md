@@ -4,9 +4,30 @@ SAET 第三轮商品检索用户实验的独立 Python 重建工程。研究方�
 
 原实验代码、模型和逐商品输出已无法恢复。本工程根据三份用户提供的论文/报告及协议记录重新实现，不是原代码镜像。旧报告的数值仅记录于 [historical_reference.csv](reports/historical_reference.csv)，不能作为本次运行结果。具体重建假设见 [RECONSTRUCTION_SCOPE.md](docs/RECONSTRUCTION_SCOPE.md)。
 
-本次真实数据实验已完成：18 个时间前缀、3 个正式起点、5 个优化种子，411 个正式评估单元，另有 169 个历史选参评估和 12 个收益标注模型。完整结果见 [重建实验报告](reports/REPRODUCTION_REPORT.md)，完成清单见 [run_status.json](reports/run_status.json)。58 项测试通过。
+原重建实验已完成：18 个时间前缀、3 个正式起点、5 个优化种子，411 个正式评估单元，另有 169 个历史选参评估和 12 个收益标注模型。原结果见 [重建实验报告](reports/REPRODUCTION_REPORT.md)，完成清单见 [run_status.json](reports/run_status.json)。该轮 58 项测试通过；后续补充实验单独记录如下。
 
 新运行 Tail80 I-NDCG@20 的跨起点均值：活动基线 0.033162，活动＋平均历史 0.032206，时间衰减＋商品条件化历史 0.036150，LightGCN 0.024061。历史选参为全部主迁移策略选中零修正，完整收益策略与冻结底座同为 0.032206；本轮未测得主迁移策略增益。固定非零强度的机制对照单独报告，不能代替主结果。
+
+## 补充实验 extensions_v1
+
+本轮使用[冻结协议](configs/extensions_v1.json)，保留原重建结果。A 已完成旧材料统计与机制复核；C 已完成 2018–2020 新时间验证；B 的六模型收敛与任务方向对照正在完成最后一个模型族。未完成矩阵不会生成正式联合报告。完整代码测试已通过 261 项（2026-10-21）。
+
+- [A 阶段严格报告](reports/extensions_v1/stage_a_summary/REPORT_ZH.md)：复核 411 个旧评价，五项目标配对的两种描述性 95% 区间均跨零。
+- [C 阶段严格报告](reports/extensions_v1/stage_c_summary/REPORT_ZH.md)：24 个历史收益折、74 个历史部署选择记录、120 个策略评价和 3 个活动评价全部核验。组合历史底座的完整收益修正为 0.024223，零修正为 0.024021；主差值 0.000202 的区间跨零，尚未建立稳定迁移收益。
+- [执行范围](docs/EXTENSIONS_V1_PLAN.md)、[CF 收敛对照](docs/extensions_cf.md)、[目标模型收敛](docs/extensions_target.md)、[新时间迁移](docs/extensions_transfer.md)、[严格汇总](docs/extensions_reporting.md)。
+
+先完成下面“从公开数据完整运行”的原重建流程，再在仓库根目录执行：
+
+```bash
+python scripts/prepare_extensions.py
+python scripts/run_extensions.py --stage a
+python scripts/run_extensions.py --stage b --pilot
+python scripts/run_extensions.py --stage b
+python scripts/run_extensions.py --stage c
+python scripts/summarize_extensions.py
+```
+
+各入口支持断点恢复；独立阶段可分别执行。B 在 12 配置、3 个历史种子上比较 6/20/50 轮，并按预先固定规则决定是否将全族延长到 100 轮。C 使用旧开发阶段冻结的底座，不随 B 的最终结果调整。A/B 是旧开发起点上的探索；C 是同领域新时间验证。Movies and TV → Books 尚未运行，不提供独立领域结论。未完成时仅可用 `--allow-partial --output-dir reports/extensions_v1/progress` 生成标明状态的进度快照。
 
 ## 模型与协议
 
@@ -45,10 +66,10 @@ python scripts/prepare_data.py
 python scripts/run_targets.py
 python scripts/run_baselines.py
 python scripts/run_utility.py
-python scripts/summarize_results.py
+python scripts/summarize_results.py --output-dir reports/local_reproduction
 ```
 
-默认运行全部 18 个时间前缀、3 个正式起点和 5 个种子。目标模型、CF 基线和迁移策略分别保存独立目录，可在数据准备完成后并行运行；迁移入口使用 `--wait-inputs` 时会等待目标检查点。脚本保留已完成工件，适合中断后重启；目标入口的复用检查未覆盖所有工件字节哈希，详见 [独立审计](docs/ARTIFACT_AUDIT.md)。正式汇总要求实验矩阵完整并核验来源、配置、检查点与指标，`--allow-partial` 只用于监测进度。
+默认运行全部 18 个时间前缀、3 个正式起点和 5 个种子。上面的汇总命令写入独立目录，保留仓库中被补充协议引用的原报告；不要用新生成时间戳覆盖其身份。目标模型、CF 基线和迁移策略分别保存独立目录，可在数据准备完成后并行运行；迁移入口使用 `--wait-inputs` 时会等待目标检查点。脚本保留已完成工件，适合中断后重启；目标入口的复用检查未覆盖所有工件字节哈希，详见 [独立审计](docs/ARTIFACT_AUDIT.md)。正式汇总要求实验矩阵完整并核验来源、配置、检查点与指标，`--allow-partial` 只用于监测进度。
 
 原始压缩评分和元数据约 1.3 GB；评分投影、前缀和临时特征缓存还需要额外空间。正式实验不依赖 GPU。耗时取决于 CPU 和磁盘，首次运行包含全部历史选参与机制对照。
 
